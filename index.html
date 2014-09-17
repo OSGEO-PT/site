@@ -29,7 +29,7 @@ permalink: /
     </div><! --/container -->
 </div><! --/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
+{% include portfolio.html title="PROJETOS DA OSGEO-PT" limit=10 %}
 
 <div class="container mtb">
     <div class="row">
@@ -48,7 +48,7 @@ permalink: /
         </div>
 
         <div class="col-lg-3">
-            <h4>Latest Posts</h4>
+            <h4>Últimos posts</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:5 %} 
                 <p><a href="{{ post.url }}">{{ post.title }}.</a></p>
