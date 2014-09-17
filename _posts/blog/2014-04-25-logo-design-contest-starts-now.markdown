@@ -7,6 +7,7 @@ categories:
 - blog
 - Tips&Tricks
 - Code-Snippets
+- teste
 img: post03.jpg
 thumb: thumb03.jpg
 ---
