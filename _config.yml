@@ -1,10 +1,10 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: OSGEO-PT
+description: "Uma bússola para o guiar no mundo do open source."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://osgeopt.org"
 
 # Build settings
 markdown: kramdown
