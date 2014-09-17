@@ -1,10 +1,10 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: OSGEO-PT
-description: "Uma bússola para o guiar no mundo do open source."
+title: SOLID.
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 baseurl: ""
-url: "http://osgeopt.org"
+url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
@@ -19,8 +19,8 @@ colors:  #in hex code if not noted else
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-
-
+  
+  
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -35,7 +35,7 @@ social:
     url: 
   - title: tumblr
     url: 
-
+    
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
@@ -47,7 +47,7 @@ tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
+    
 # Members information. Shown on About page.
 members:
   - name: Mark Webber
@@ -59,15 +59,6 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-- name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
   - name: Paul Jameson
     position: Lead Designer
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -77,8 +68,6 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-      - title: linkedin
-        url: http://linkedin.com/handle
   - name: Laura Sommers
     position: Lead Developer
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -97,36 +86,7 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-      - title: linkedin
-        url: http://linkedin.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-
+    
 # Clients information. Shown on Home and About pages.
 clients:
   - name: dribbble
@@ -137,7 +97,7 @@ clients:
     img: client03.png
   - name: VimeoPro
     img: client04.png
-
+    
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 
