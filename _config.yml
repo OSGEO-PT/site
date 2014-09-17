@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
+title: OSGEO-PT
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 baseurl: ""
 url: "http://yourdomain.com"
@@ -12,11 +12,11 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" 
-  primary_rgb: "0,179,254" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#00B16A" 
+  primary_rgb: "0,177,106" #rgb of the primary. Needed in some places for the transparency effect.  
   secondary: "#384452"
   link: "#428bca"
-  link_hover: "#01b2fe"
+  link_hover: "#C8F7C5"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
   
