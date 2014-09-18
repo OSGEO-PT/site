@@ -15,17 +15,11 @@ O OSGeo-pt é filiado na associação OSGEO, com sede em ........, estando os pr
 * **Artigo Segundo** - O OSGeo-pt é uma associação sem fins lucrativos cujo objectivo é promover o Software Aberto para Sistemas de Informação Geográfica em Portugal, em coordenação com as actividades da associação OSGEO.
 
 * **Artigo Terceiro** - Para prosseguir este objectivo, o OSGeo-pt:
-
 * a) promoverá um forum para a discussão de assuntos de interesse comum;
-
 * b) promoverá os meios de actuação legal em matérias que se considere desejável tratar a nível nacional ou através da associação OSGEO a nível internacional;
-
 * c) estabelecerá relações com outras associações similares a nível nacional e internacional;
-
 * d) difundirá em Portugal informação proveniente da associação OSGEO e utilizará as publicações daquela associação para divulgar informação de interesse internacional;
-
 * e) promoverá a participação da OSGeo-pt nos trabalhos da associação OSGEO;
-
 * f) colherá e difundirá informação sobre actividades na área Software Aberto para Sistemas de Informação Geográfica e suas aplicações.
 
 **Artigo Quarto** - A sede social do OSGeo-pt é na ....
