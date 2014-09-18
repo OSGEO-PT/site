@@ -16,8 +16,8 @@ O OSGeo-pt é filiado na associação OSGEO, com sede em ........, estando os pr
 
 **Artigo Terceiro** - Para prosseguir este objectivo, o OSGeo-pt:
 
-** a) promoverá um forum para a discussão de assuntos de interesse comum;
-** b) promoverá os meios de actuação legal em matérias que se considere desejável tratar a nível nacional ou através da associação OSGEO a nível internacional;
+    * a) promoverá um forum para a discussão de assuntos de interesse comum;
+    * b) promoverá os meios de actuação legal em matérias que se considere desejável tratar a nível nacional ou através da associação OSGEO a nível internacional;
 > * c) estabelecerá relações com outras associações similares a nível nacional e internacional;
 > * d) difundirá em Portugal informação proveniente da associação OSGEO e utilizará as publicações daquela associação para divulgar informação de interesse internacional;
 > * e) promoverá a participação da OSGeo-pt nos trabalhos da associação OSGEO;
