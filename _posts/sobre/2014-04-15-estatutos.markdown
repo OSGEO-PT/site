@@ -15,7 +15,6 @@ O OSGeo-pt é filiado na associação OSGEO, com sede em ........, estando os pr
 **Artigo Segundo** - O OSGeo-pt é uma associação sem fins lucrativos cujo objectivo é promover o Software Aberto para Sistemas de Informação Geográfica em Portugal, em coordenação com as actividades da associação OSGEO.
 
 **Artigo Terceiro** - Para prosseguir este objectivo, o OSGeo-pt:
-: ^
 
   * a) promoverá um forum para a discussão de assuntos de interesse comum;
   * b) promoverá os meios de actuação legal em matérias que se considere desejável tratar a nível nacional ou através da associação OSGEO a nível internacional;
@@ -35,12 +34,14 @@ O OSGeo-pt é filiado na associação OSGEO, com sede em ........, estando os pr
 **Artigo Sétimo** - O título de membro honorário pode ser concedido pela Assembleia Geral a pessoas que se tenham distinguido por serviços prestados ou pela sua actividade na área da Software Aberto para Sistemas de Informação Geográfica.
 
 **Artigo Oitavo** - Aos membros ordinários e institucionais do OSGeo-pt cabem os direitos de:
+
 * a) votar nas Assembleias Gerais;
 * b) requerer a convocação de Assembleias Gerais extraordinárias;
 * c) examinar as contas, documentos e outros elementos relativos às actividades do OSGeo-pt, nos oito dias precedentes a qualquer Assembleia Geral;
 * d) eleger e ser eleito para os órgãos sociais;
 
 **Artigo Nono** - Constituem deveres dos membros do OSGeo-pt:
+
 * a) cumprir as obrigações estatutárias e regulamentares bem como as deliberações dos órgãos sociais;
 * b) pagar as quotas que sejam fixadas pela AG;
 * c) exercer os cargos sociais para que sejam eleitos;
@@ -53,6 +54,7 @@ O OSGeo-pt é filiado na associação OSGEO, com sede em ........, estando os pr
 ####III – DOS ÓRGÃOS
 
 **Artigo Décimo Segundo** – São órgãos do OSGeo-pt:
+
 * a) a Assembleia Geral;
 * b) a Direcção;
 * c) o Conselho Fiscal;
@@ -69,6 +71,7 @@ do OSGeo-pt no pleno gozo dos seus direitos, é a autoridade máxima do OSGeo-pt
 **Artigo Décimo Sexto** – As Assembleias Gerais são convocadas por correio electrónico, enviado a todos os membros do OSGeo-pt, com um mínimo de quinze dias de antecedência para as assembleias ordinárias e de oito dias para as assembleias extraordinárias. As convocatórias indicarão o dia, hora e local da reunião e a respectiva ordem de trabalhos.
 
 **Artigo Décimo Sétimo** – Compete à Assembleia Geral, designadamente:
+
 * a) eleger a respectiva Mesa, a Direcção e o Conselho Fiscal;
 * b) deliberar sobre as alterações dos estatutos e sobre a dissolução do OSGeo-pt;
 * c) definir as grandes linhas de actuação do OSGeo-pt;
@@ -87,6 +90,7 @@ A deliberação sobre a dissolução do OSGeo-pt requer o voto favorável de tr�
 **Artigo Décimo Nono** – A Direcção é composta por três membros, sendo um Presidente, um Vice-Presidente e um Tesoureiro.
 
 **Artigo Vigésimo** – À Direcção compete exercer todos os poderes necessários à prossecução das actividades que se enquadrem nos objectivos do OSGEO-PT e designadamente:
+
 * a) representar o OSGeo-pt em juízo e fora dele, nomeadamente em reuniões da Associação OSGEO, função em que qualquer dos membros da Direcção poderá substituir o Presidente, por delegação deste;
 * b) administrar os bens do OSGeo-pt e dirigir a sua actividade de acordo com o(s) Plano(s) de Actividade(s) e Orçamento(s) aprovado(s);
 * c) elaborar o relatório anual e as contas do exercício, programa anual de acção e realizar as diligências necessárias à boa gestão do OSGeo-pt;
@@ -100,6 +104,7 @@ A deliberação sobre a dissolução do OSGeo-pt requer o voto favorável de tr�
 **Artigo Vigésimo Terceiro** – O Conselho Fiscal é constituído por um Presidente e dois Vogais.
 
 **Artigo Vigésimo Quarto** – Compete ao Conselho Fiscal, designadamente:
+
 * a) examinar a escrita do OSGeo-pt;
 * b) elaborar, relativamente a cada exercício, parecer sobre os balanços e contas apresentadas pela Direcção;
 * c) participar nas reuniões da Direcção em que sejam versadas matérias da sua competência e dar parecer sobre qualquer consulta que por aquela lhe seja apresentada.
