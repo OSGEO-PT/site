@@ -8,25 +8,25 @@ layout: estatutos
 I – DAS FUNÇÕES E OBJECTIVOS
 ------
 
-**Artigo Primeiro** - A associação adopta a designação de Capítulo Português da Foundation Open Source Geospatial (OSGeo), de ora em diante designada por OSGeo-pt.
+* **Artigo Primeiro** - A associação adopta a designação de Capítulo Português da Foundation Open Source Geospatial (OSGeo), de ora em diante designada por OSGeo-pt.
 
 O OSGeo-pt é filiado na associação OSGEO, com sede em ........, estando os presentes estatutos conformes com os desta associação em tudo o que diz respeito aos capítulos nacionais.
 
-**Artigo Segundo** - O OSGeo-pt é uma associação sem fins lucrativos cujo objectivo é promover o Software Aberto para Sistemas de Informação Geográfica em Portugal, em coordenação com as actividades da associação OSGEO.
+* **Artigo Segundo** - O OSGeo-pt é uma associação sem fins lucrativos cujo objectivo é promover o Software Aberto para Sistemas de Informação Geográfica em Portugal, em coordenação com as actividades da associação OSGEO.
 
-**Artigo Terceiro** - Para prosseguir este objectivo, o OSGeo-pt:
+* **Artigo Terceiro** - Para prosseguir este objectivo, o OSGeo-pt:
 
-    * a) promoverá um forum para a discussão de assuntos de interesse comum;
+* a) promoverá um forum para a discussão de assuntos de interesse comum;
 
-    * b) promoverá os meios de actuação legal em matérias que se considere desejável tratar a nível nacional ou através da associação OSGEO a nível internacional;
+* b) promoverá os meios de actuação legal em matérias que se considere desejável tratar a nível nacional ou através da associação OSGEO a nível internacional;
 
-    * c) estabelecerá relações com outras associações similares a nível nacional e internacional;
+* c) estabelecerá relações com outras associações similares a nível nacional e internacional;
 
-    * d) difundirá em Portugal informação proveniente da associação OSGEO e utilizará as publicações daquela associação para divulgar informação de interesse internacional;
+* d) difundirá em Portugal informação proveniente da associação OSGEO e utilizará as publicações daquela associação para divulgar informação de interesse internacional;
 
-    * e) promoverá a participação da OSGeo-pt nos trabalhos da associação OSGEO;
+* e) promoverá a participação da OSGeo-pt nos trabalhos da associação OSGEO;
 
-    * f) colherá e difundirá informação sobre actividades na área Software Aberto para Sistemas de Informação Geográfica e suas aplicações.
+* f) colherá e difundirá informação sobre actividades na área Software Aberto para Sistemas de Informação Geográfica e suas aplicações.
 
 **Artigo Quarto** - A sede social do OSGeo-pt é na ....
 
