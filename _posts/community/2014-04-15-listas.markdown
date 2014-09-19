@@ -3,5 +3,5 @@ layout: listas
 ---
 
 ####YOUR PROJECT NAME
-<a id="nabblelink" href="http://osgeo-org.1560.x6.nabble.com/OSGeo-Portuguese-Local-Chapter-f3731409.html/">OSGeo-PT</a>
-<script src="http://osgeo-org.1560.x6.nabble.com/OSGeo-Portuguese-Local-Chapter-f3731409.html/embed/f1"></script>
+<a id="nabblelink" href="http://osgeo-org.1560.x6.nabble.com/OSGeo-Portuguese-Local-Chapter-f3731409.html">OSGeo-PT</a>
+<script src="http://osgeo-org.1560.x6.nabble.com/OSGeo-Portuguese-Local-Chapter-f3731409.html/embed/f3731409"></script>
