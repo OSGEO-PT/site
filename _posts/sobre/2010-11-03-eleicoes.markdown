@@ -1,5 +1,5 @@
 ---
-layout: acta
+layout: ata
 title:  "2010-11-03 Fundação"
 date:   2010-11-03 18:30:00
 author: OSGeo-PT
