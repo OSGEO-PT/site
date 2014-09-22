@@ -26,13 +26,13 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: facebook
-    url:http://twitter.com/handle
+    url:
   - title: twitter
-    url: http://twitter.com/handle
+    url: http://facebook.com/geocamp
   - title: google-plus
-    url: http://twitter.com/handle
+    url: 
   - title: youtube
-    url: http://twitter.com/handle
+    url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
