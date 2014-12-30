@@ -1,4 +1,5 @@
 ---
 layout: listas
 ---
-<iframe src="https://www.biostars.org/" width="1024" height="1200" frameborder="0" >&nbsp;</iframe>
+<a class="embedly-card" href="https://www.biostars.org/">Latest Posts</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
