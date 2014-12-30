@@ -1,4 +1,5 @@
 ---
 layout: listas
 ---
-<iframe src=https://www.biostars.org/ width="1204" height="1200"> </iframe>
+<a id="nabblelink" href="https://www.biostars.org/">OSGeo-PT</a>
+<script src="https://www.biostars.org/"></script>
