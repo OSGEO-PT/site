@@ -1,4 +1,4 @@
 ---
 layout: listas
 ---
-<object data=http://www.cnn.com width=”650″ height=”500″> <embed src=http://www.cnn.com width=”650″ height=”500″> </embed></object>
+<iframe src="http://showterm.io/someurl" width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe>
