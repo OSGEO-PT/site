@@ -1,5 +1,4 @@
 ---
 layout: listas
 ---
-<a id="nabblelink" href="https://www.biostars.org/">OSGeo-PT</a>
-<script src="https://www.biostars.org/"></script>
+<object data=http://www.cnn.com width=”650″ height=”500″> <embed src=http://www.cnn.com width=”650″ height=”500″> </embed></object>
