@@ -5,12 +5,12 @@ date:   2014-04-25 16:54:46
 author: Fernando Ferreira
 categories:
 - project
-img: portfolio_10.jpg
-thumb: thumb02.jpg
+img: osm-extract.jpg
+thumb: osm-extract.jpg
 carousel:
-- single01.jpg
-- single02.jpg
-- single03.jpg
+- osm01.jpg
+- osm02.jpg
+- osm03.jpg
 client: Wonder Corp.
 website: http://thegeocrafter.github.io/osmpt.html
 ---
