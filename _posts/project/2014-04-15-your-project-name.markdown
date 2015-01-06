@@ -7,7 +7,7 @@ categories:
 - project
 img: osm-extract.png
 thumb: osm-extract.png
-osm:
+carousel:
 - osm01.png
 - osm02.png
 - osm03.png
