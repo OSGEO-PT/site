@@ -1,16 +1,16 @@
 ---
 layout: project
 title:  "Extractos OSM por Municípios de Portugal"
-date:   2014-04-25 16:54:46
+date:   2015-01-06 16:54:46
 author: Fernando Ferreira
 categories:
 - project
-img: osm-extract.png
-thumb: osm-extract.png
+img: osm-extract.jpg
+thumb: osm-extract.jpg
 carousel:
-- osm01.png
-- osm02.png
-- osm03.png
+- osm01.jpg
+- osm02.jpg
+- osm03.jpg
 website: http://thegeocrafter.github.io/osmpt.html
 ---
 ####Extractos OSM por Municípios de Portugal
