@@ -133,7 +133,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "A OSGeo-PT é uma associação sem fins lucrativos com o objectivo de suportar e promover o desenvolvimento e a utilização de tecnologias, padrões e dados Livres."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
