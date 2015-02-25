@@ -8,9 +8,7 @@ categories:
 img: osm-extract.jpg
 thumb: osm-extract.jpg
 carousel:
-- osm01.jpg
-- osm02.jpg
-- osm03.jpg
+
 client: Wonder Corp.
 website: http://thegeocrafter.github.io/osmpt.html
 ---
