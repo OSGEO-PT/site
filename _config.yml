@@ -64,7 +64,10 @@ about: "A OSGeo-PT é uma associação sem fins lucrativos com o objectivo de su
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "In open source, we feel strongly that to really do something well, you have to get a lot of people involved."
+    message: "“In open source, we feel strongly that to really do something well, you have to get a lot of people involved.”"
     author: Linus Trovalds
     position: ...
+    message: "“Open source isn’t about saving money, it’s about doing more stuff, and getting incremental innovation with the finite budget you have.”"
+    author:  Jim Whitehurst,
+    position: CEO, Red Hat
   
