@@ -52,14 +52,14 @@ tel:
     
 # Clients information. Shown on Home and About pages.
 clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+  - name: O seu logo
+    img: parceiro01.png
+  - name: O seu logo
+    img: parceiro01.png
+  - name: O seu logo
+    img: parceiro01.png
+  - name: O seu logo
+    img: parceiro01.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "A OSGeo-PT é uma associação sem fins lucrativos com o objectivo de suportar e promover o desenvolvimento e a utilização de tecnologias, padrões e dados Livres."
