@@ -5,7 +5,7 @@ date:   2014-04-25 16:54:46
 author: Marcel Newman
 categories:
 - project
-img: portfolio_10.jpg
+img: add_project.png
 thumb: thumb02.jpg
 carousel:
 - single01.jpg
