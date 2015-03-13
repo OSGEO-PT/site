@@ -27,6 +27,8 @@ colors:  #in hex code if not noted else
 social:
   - title: facebook
     url:
+  - title: github
+    url: http://github.com/osgeo-pt
   - title: twitter
     url: http://facebook.com/geocamp
   - title: google-plus
