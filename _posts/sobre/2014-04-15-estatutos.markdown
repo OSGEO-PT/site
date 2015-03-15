@@ -23,7 +23,7 @@ A OSGeo-pt pretende ser o Capítulo Local Português da Open Source Geospatial F
   * e) promoverá a participação da OSGeo-pt nos trabalhos da associação OSGEO;
   * f) colherá e difundirá informação sobre actividades na área Software Aberto para Sistemas de Informação Geográfica e suas aplicações.
 
-**Artigo Quarto** - A sede social do OSGeo-pt é em Departamento de Informática, sn, Universidade do Minho, Braga, freguesia de Gualtar, concelho de Braga.
+**Artigo Quarto** - A sede social da OSGeo-pt é em Departamento de Informática, sn, Universidade do Minho, Braga, freguesia de Gualtar, concelho de Braga.
 
 ####II- DOS MEMBROS
 
@@ -37,7 +37,7 @@ A OSGeo-pt pretende ser o Capítulo Local Português da Open Source Geospatial F
 
 * a) votar nas Assembleias Gerais;
 * b) requerer a convocação de Assembleias Gerais extraordinárias;
-* c) examinar as contas, documentos e outros elementos relativos às actividades do OSGeo-pt, nos oito dias precedentes a qualquer Assembleia Geral;
+* c) examinar as contas, documentos e outros elementos relativos às actividades da OSGeo-pt, nos oito dias precedentes a qualquer Assembleia Geral;
 * d) eleger e ser eleito para os órgãos sociais;
 
 **Artigo Nono** - Constituem deveres dos membros da OSGeo-pt:
@@ -68,7 +68,7 @@ da OSGeo-pt no pleno gozo dos seus direitos, é a autoridade máxima da OSGeo-pt
 
 **Artigo Décimo Quinto** – A Assembleia Geral deverá reunir em sessão ordinária uma vez por ano.
 
-**Artigo Décimo Sexto** – As Assembleias Gerais são convocadas por correio electrónico, enviado a todos os membros do OSGeo-pt, com um mínimo de quinze dias de antecedência para as assembleias ordinárias e de oito dias para as assembleias extraordinárias. As convocatórias indicarão o dia, hora e local da reunião e a respectiva ordem de trabalhos.
+**Artigo Décimo Sexto** – As Assembleias Gerais são convocadas por correio electrónico, enviado a todos os membros da OSGeo-pt, com um mínimo de quinze dias de antecedência para as assembleias ordinárias e de oito dias para as assembleias extraordinárias. As convocatórias indicarão o dia, hora e local da reunião e a respectiva ordem de trabalhos.
 
 **Artigo Décimo Sétimo** – Compete à Assembleia Geral, designadamente:
 
