@@ -10,7 +10,7 @@ I – DAS FUNÇÕES E OBJECTIVOS
 
 **Artigo Primeiro** - A associação adopta a designação de OSGEOPT - ASSOCIAÇÃO SOFTWARE ABERTO PARA SISTEMAS DE INFORMAÇÃO GEOGRÁFICA, de ora em diante designada por OSGeo-pt.
 
-A OSGeo-pt pretende ser o Capítulo Local Português da Open Source Geospatial Foundation (OSGeo), com sede em Departamento de Informática, sn, Universidade do Minho, Braga, freguesia de Gualtar, concelho de Braga, estando os presentes estatutos conformes com os desta associação em tudo o que diz respeito aos capítulos locais.
+A OSGeo-pt pretende ser o Capítulo Local Português da Open Source Geospatial Foundation (OSGeo), estando os presentes estatutos conformes com os desta associação em tudo o que diz respeito aos capítulos locais.
 
 **Artigo Segundo** - A OSGeo-pt é uma associação sem fins lucrativos cujo objectivo é a promoção do software e dados abertos para Sistemas de Informação Geográfica em Portugal, em coordenação com as actividades da associação OSGEO.
 
