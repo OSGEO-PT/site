@@ -7,16 +7,15 @@ categories:
 - atas
 ---
 ####Fundação
-Aos três dias do mês de Novembro de 2010 pelas 18 horas e 30 minutos, teve lugar a reunião da Associação OSGeoPT, na Reitoria da
+Aos três dias do mês de Novembro de 2010 pelas 18 horas e 30 minutos, teve lugar a reunião da Associação OSGeoPT, na Reitoria da Universidade Nova de Lisboa, com a seguinte ordem de trabalhos:
 
-Universidade Nova de Lisboa, com a seguinte ordem de trabalhos:
-1.Informações
-2.Espaço de Discussão
-3.Apresentação de listas
-4.Espaço para interpelar os membros da lista
-5.Votação
-6.Apresentação de propostas para os estatutos
-7.Votação dos estatutos
+1. Informações
+2. Espaço de Discussão
+3. Apresentação de listas
+4. Espaço para interpelar os membros da lista
+5. Votação
+6. Apresentação de propostas para os estatutos
+7. Votação dos estatutos
 
 Na reunião estiveram presentes os seguintes participantes:
 
@@ -54,20 +53,20 @@ Colocada à votação a proposta foi aprovada por unanimidade, ficando os órgã
 
 De seguida o Jorge Rocha propôs uma lista para o conselho composta pelos seguintes elementos:
 
-*Mário Rui Gomes
-*Danilo Furtado
-*Victor Ferreira
-*Jorge Gustavo
-*Teresa Batista
-*Miguel Tavares
-*Ana Rita Calvão
-*Pedro Perreira
-*Duarte Carreira
-*André Barriguinha
-*Giovanni Manghi
-*Nelson Mileu
-*Rui Alves
-*Leonardo Andrade
+* Mário Rui Gomes
+* Danilo Furtado
+* Victor Ferreira
+* Jorge Gustavo
+* Teresa Batista
+* Miguel Tavares
+* Ana Rita Calvão
+* Pedro Perreira
+* Duarte Carreira
+* André Barriguinha
+* Giovanni Manghi
+* Nelson Mileu
+* Rui Alves
+* Leonardo Andrade
 
 Seguidamente e por sugestão do Luís de Sousa houve uma breve apresentação pessoal da cada um dos elementos que a compõe.
 
