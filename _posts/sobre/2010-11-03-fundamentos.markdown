@@ -81,13 +81,9 @@ Colocada à votação a proposta foi aprovada por unanimidade.
 O Jorge Rocha mencionou, em termos gerais, as actividades a desenvolver no próximo ano. Esta incluem:
 
 - Protocolos de dados;
-
 - Contribuir para o Open Street Map;
-
 - Estabelecer contactos com o IGP no sentido de criarem um repositório de dados aberto que inclua por exemplo ortofotomapas, MDT, etc;
-
 - Criar IDE OSGEOPT;
-
 - Duplicar os membros do conselho no prazo de um ano;
 
 Foram apresentadas duas propostas de acolhimento ao SASIG 2011: Câmara Municipal de Guimarães, apresentada pelo Pedro Pereira, presente, e Faculdade de Ciências da Universidade do Porto, por indicação do Ricardo Pinho, em nome do Prof. José Alberto Gonçalves.
@@ -96,6 +92,8 @@ E nada mais havendo a tratar, deu-se por encerrada a reunião, da qual se lavrou
 
 Lisboa, 03 de Novembro de 2010
 
-A(O) Secretária(o)                                  A(O) Secretária(o) ajudante
+A(O) Secretária(o)
+Ana Rita Calvão
 
-Ana Rita Calvão                                     Marta Alarcão Bastos
+A(O) Secretária(o) ajudante
+Marta Alarcão Bastos
