@@ -23,7 +23,7 @@ A OSGeo-pt pretende ser o Capítulo Local Português da Open Source Geospatial F
   * e) promoverá a participação da OSGeo-pt nos trabalhos da associação OSGEO;
   * f) colherá e difundirá informação sobre actividades na área Software Aberto para Sistemas de Informação Geográfica e suas aplicações.
 
-**Artigo Quarto** - A sede social do OSGeo-pt é na em Departamento de Informática, sn, Universidade do Minho, Braga, freguesia de Gualtar, concelho de Braga.
+**Artigo Quarto** - A sede social do OSGeo-pt é em Departamento de Informática, sn, Universidade do Minho, Braga, freguesia de Gualtar, concelho de Braga.
 
 ####II- DOS MEMBROS
 
