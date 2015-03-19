@@ -12,8 +12,8 @@ carousel:
 client: 
 website:
 ---
-####YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+####E isto serve para??
+Esta área está destinada aos projetos da OSGeo-PT e aos teus projetos que queiras partilhar com a comunidade. Quais são os projetos que irão aparecer aqui, são os que aqueles que irão de uma forma ou de outra facilitar a vida aos membros da comunidade, como por exemplo, a conversão de coordenadas online para o nosso país, o acesso fácil a dados do OpenStreetMap, simbologia, pequenos scripts para processar datos, ou seja, de tudo um pouco!!
 
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+####Tenho um projeto e agora?
+Se tens um projeto que enquadra na descrição acima, então envia um mail para geral [at] osgeopt.pt, com a descrição do projeto, a motivação e como o podemos utilizar ;)
