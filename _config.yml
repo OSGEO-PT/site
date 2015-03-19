@@ -26,11 +26,11 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: facebook
-    url:
+    url: http://facebook.com/osgeopt
   - title: github
     url: http://github.com/osgeo-pt
   - title: twitter
-    url: http://facebook.com/geocamp
+    url: 
   - title: google-plus
     url: 
   - title: youtube
