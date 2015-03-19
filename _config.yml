@@ -3,7 +3,7 @@
 # Site settings
 title: OSGeo-PT
 description: "Uma bússola para o guiar no mundo do open source."
-baseurl: "/siteosgeopt"
+baseurl: ""
 url: "http://osgeopt.pt"
 
 # Build settings
