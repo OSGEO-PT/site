@@ -16,7 +16,7 @@ Aos dezoito dias do mês de Setembro de 2014 pelas 14:30 horas, de acordo com co
 3. Outros assuntos
 
 Houve lugar à participação presencial e via online (lista de presenças em anexo).
-
+<!--more-->
 ##### Ponto 1 – Apresentaram-se resultados das votações eletrónicas para eleição dos Corpos Sociais da Osgeo-pt.
 Foram enviados convites para votação aos 453 inscritos na lista de email (até à véspera de início da votação).
 Foram registados 124 votos, sendo 114 a favor da lista A, e 10 "sem resposta" (sendo equivalente a votar "em branco").
