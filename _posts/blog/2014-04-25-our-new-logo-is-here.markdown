@@ -1,31 +1,26 @@
 ---
 layout: post
-title:  "Our new logo is here"
+title:  "O nosso site"
 date:   2014-04-25 16:54:46
 author: Admin
 categories: 
 - blog
 - site
 - osgeo
-img: post02.jpg
-thumb: thumb02.jpg
+img: lancamento.jpg
+thumb: thumb_lancamento.jpg
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+É como muito prazer e gosto que revelámos o novo site da OSGeo - PT, está à vontade para dar um “voltinha” por ele.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+O nosso novo site, surgiu numa tentativa de aproximar a associação da comunidade, sendo esteticamente mais agradável -  depende sempre do ponto vista -, dar uma maior agilidade no acesso à informação, permitir uma maior interação com a comunidade, com as mailing list integradas, o que poderá facilitar a interação entre os membros da comunidade, bem como “o sítio” a ir para receber as novidades sobre os sistema de informação geográfica em portugal.<!--more-->
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
+Já agora o site funciona praticamente em tudo, “smartphones”, “tabeletes”, “TVs”, torradeiras e as vezes até em computadores. E até tem o código de todo o site disponível para usarem e abusarem no [github da associação.][github]
 
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Ainda não foram adicionados todos os conteúdos ao site, estando este ainda na sua “beta version”, esperamos melhorar e completar o conteúdo….
 
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+As próximas novidade sobre o SASIG, vão surgir por aqui, por isso estejam atentos.
 
+Obrigado por fazer parte da comunidade.
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll
+[github]: https://github.com/osgeo-pt
