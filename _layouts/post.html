@@ -19,7 +19,7 @@ layout: default
             <h6>SHARE:</h6>
             <p class="share">
                 <a href="http://twitter.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}&via=OSGeoPT" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ page.url | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ page.url | prepend: site.baseurl | prepend: site.url }}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://plus.google.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fa fa-google-plus"></i></a>		 		
             </p>
         </div><! --/col-lg-8 -->
