@@ -4,7 +4,7 @@
 title: OSGeo-PT
 description: "Uma bússola para o guiar no mundo do open source."
 baseurl: "/siteosgeopt"
-#url: "http://osgeopt.pt"
+url: "http://dncpax.github.io" #"http://osgeopt.pt"
 
 # Build settings
 markdown: kramdown
