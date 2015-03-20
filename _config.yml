@@ -3,8 +3,8 @@
 # Site settings
 title: OSGeo-PT
 description: "Uma bússola para o guiar no mundo do open source."
-baseurl: ""
-url: "http://osgeopt.pt"
+baseurl: "" #"/siteosgeopt"
+url: "http://osgeopt.pt"  #"http://dncpax.github.io" #
 
 # Build settings
 markdown: kramdown
