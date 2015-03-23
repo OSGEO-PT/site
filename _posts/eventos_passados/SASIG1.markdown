@@ -4,7 +4,7 @@ title:  "SASIG I  - 1ªs Jornadas de Software Aberto para Sistemas de Informaç�
 date:   2010-11-03 18:30:00
 author: OSGeo-PT
 categories:
-- ???
+- eventos
 ---
 
 [logo]: https://drive.google.com/open?id=0B495G9xDT1s9TkhXbkhWMEc1STg&authuser=0 "Logo SASIG 1"
