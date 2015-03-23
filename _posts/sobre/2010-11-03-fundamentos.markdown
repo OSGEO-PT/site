@@ -15,7 +15,7 @@ Aos três dias do mês de Novembro de 2010 pelas 18 horas e 30 minutos, teve lug
 4. Espaço para interpelar os membros da lista
 5. Votação
 6. Apresentação de propostas para os estatutos
-7. Votação dos estatutos
+7. Votação dos estatutos <!--more-->.
 
 Na reunião estiveram presentes os seguintes participantes:
 
