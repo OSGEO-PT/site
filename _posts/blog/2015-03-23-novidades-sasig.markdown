@@ -8,7 +8,7 @@ categories:
 - site
 - SASIG
 - osgeo
-img: logo_sasig.jpg
+img: logo_sasig.png
 thumb: thumb_sasig.jpg
 ---
 
