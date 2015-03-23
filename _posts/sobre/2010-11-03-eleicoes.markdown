@@ -11,7 +11,11 @@ Aos três dias do mês de Novembro de 2010 pelas 19 horas e 30 minutos, teve lug
 
 1. Eleição dos membros para os órgãos sociais da associação OSGEOPT
 
+<<<<<<< HEAD
 Não havendo outros pontos da ordem de trabalho, tratou-se imediatamente o único ponto da mesma, que era a nomeação dos membros para os órgãos sociais, para os quais foi apresentada uma lista única. <!--more-->
+=======
+Não havendo outros pontos da ordem de trabalho, tratou-se imediatamente o único ponto da mesma, que era a nomeação dos membros para os órgãos sociais, para os quais foi apresentada uma lista única.<!--more-->
+>>>>>>> gh-pages
 
 #####Direcção
 
