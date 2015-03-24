@@ -238,7 +238,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 #tf-team .item .thumbnail:hover>img.img-circle.team-img{
-	border: 4px solid #FCAC45;
+	border: 4px solid #9FC1AB;
 }
 #tf-team .thumbnail {
 	background: transparent;
