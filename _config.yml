@@ -3,8 +3,8 @@
 # Site settings
 title: OSGeo-PT
 description: "Uma bússola para o guiar no mundo do open source."
-baseurl: ""
-url: "http://osgeopt.org"
+baseurl: "" #"/siteosgeopt"
+url: "http://osgeopt.pt"  #"http://dncpax.github.io" #
 
 # Build settings
 markdown: kramdown
@@ -26,14 +26,14 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: facebook
-    url:
+    url: http://facebook.com/osgeopt
   - title: github
     url: http://github.com/osgeo-pt
   - title: twitter
-    url: http://facebook.com/geocamp
+    url: https://twitter.com/OSGeoPT
   - title: google-plus
-    url: 
-  - title: youtube
+    url: http://google.com/+OsgeoptPt1
+  - title: 
     url: 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
