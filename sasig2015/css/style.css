@@ -159,9 +159,9 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #fcac45;
+	background: #9FC1AB;
 	color: #ffffff;
-	border: 2px solid #fcac45;
+	border: 2px solid #9FC1AB;
 }
 /* About Section */
 #tf-about{
