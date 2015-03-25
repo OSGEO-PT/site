@@ -17,16 +17,16 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 
 
 | Conjunto de temas que podem propor |
-|--------|--------|
-|• Novos desenvolvimentos em software aberto para SIG|    • Interoperabilidade e standards|
-| | |
-|• Transição de software SIG proprietário para aberto|    •   Formação e suporte em software SIG aberto|
-| | |
-|• Modelos de negócio para software SIG aberto|    •   Dados, conteúdos e arquiteturas abertas|
-| | |
-|• Casos de estudo de software aberto aplicados às mais diversas áreas|    •    Informação geográfica voluntária na produção de cartografia|
-| | |
-|• Infraestruturas de dados espaciais suportadas por software aberto|    • Outros temas multidisciplinares transversais à temática do software aberto para SIG|
+|--------|--------|--------|
+|• Novos desenvolvimentos em software aberto para SIG| |• Interoperabilidade e standards|
+| | | |
+|• Transição de software SIG proprietário para aberto| |• Formação e suporte em software SIG aberto|
+| | | |
+|• Modelos de negócio para software SIG aberto| |• Dados, conteúdos e arquiteturas abertas|
+| | | |
+|• Casos de estudo de software aberto aplicados às mais diversas áreas| |• Informação geográfica voluntária na produção de cartografia|
+| | | |
+|• Infraestruturas de dados espaciais suportadas por software aberto| |• Outros temas multidisciplinares transversais à temática do software aberto para SIG|
 
 
 ###Tipo de Trabalhos
