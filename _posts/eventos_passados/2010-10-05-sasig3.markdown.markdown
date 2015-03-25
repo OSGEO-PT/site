@@ -44,7 +44,7 @@ Paulo Ribeiro, TTerra
 Pedro Cabral, ISEGI – Universidade Nova de Lisboa
 
 ####Site:
-http://lisboa.osgeopt.pt
+[http://lisboa.osgeopt.pt](http://lisboa.osgeopt.pt){:target="_blank"}
 
 ####Oradores Convidados:
 Arnulf Christl (Presidente da OSGEO)
