@@ -17,7 +17,7 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 
 
 | Conjunto de temas que podem propor |
-|--------|--------|
+|--------|--------:|
 |• Novos desenvolvimentos em software aberto para SIG| • Interoperabilidade e standards|
 | | |
 |• Transição de software SIG proprietário para aberto| •   Formação e suporte em software SIG aberto|
@@ -27,6 +27,7 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 |• Casos de estudo de software aberto aplicados às mais diversas áreas| •    Informação geográfica voluntária na produção de cartografia|
 | | |
 |• Infraestruturas de dados espaciais suportadas por software aberto| • Outros temas multidisciplinares transversais à temática do software aberto para SIG|
+
 
 ###Tipo de Trabalhos
 
@@ -38,7 +39,8 @@ Os autores terão de assinalar no respetivo modelo devidamente preenchido com os
 
 O formato dos posters a apresentar no SASIG 2015 é livre havendo apenas como restrição o seu tamanho máximo: A1 com orientação vertical (tipo “retrato”).
 
-####Envio das comunicações
+
+###Envio das comunicações
 
 A submissão das propostas é feita unicamente por e-mail para artigos.sasig2015@osgeopt.pt até ao dia 31 de Maio (inclusive), com as seguintes características:
 
@@ -47,10 +49,12 @@ A submissão das propostas é feita unicamente por e-mail para artigos.sasig2015
 
 **As propostas para apresentação de comunicação oral e póster serão selecionadas pela Comissão Científica da Jornadas SASIG 2015. Os autores serão informados dessa seleção até ao dia 30 de Junho (inclusive).**
 
-####Apresentação das comunicações orais
+
+###Apresentação das comunicações orais
 A duração de cada apresentação oral deve-se ajustar a um tempo máximo de 15 minutos, que será rigorosamente controlado pelo moderador de cada sessão temática.
 
-####Apresentação dos posters
+
+###Apresentação dos posters
 O programa oficial das "Jornadas SASIG 2015" incluirá períodos nos quais será sugerido a todos os conferencistas a consulta dos posters exibidos, com a possibilidade de contacto direto com os autores dos mesmos.
 
 
