@@ -31,5 +31,5 @@ Openlayers
 ####Patrocinadores:
 Instituto Geográfico Português, Municípia, Novageo, MediaPrimer
 
-#####Media partner:
+####Media Partner:
 sapo.pt
