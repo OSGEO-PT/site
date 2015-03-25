@@ -10,6 +10,7 @@ thumb: jornadas-software-sig.jpg
 ---
 ####Local:
 Lisboa - ISEGI
+
 ####Datas:
 3 a 5 de Novembro de 2010
 
@@ -43,7 +44,7 @@ Paulo Ribeiro, TTerra
 Pedro Cabral, ISEGI – Universidade Nova de Lisboa
 
 ####Site:
-http://lisboa.osgeopt.pt/
+http://lisboa.osgeopt.pt/- automatic!
 
 ####Oradores Convidados:
 Arnulf Christl (Presidente da OSGEO)
