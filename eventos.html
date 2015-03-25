@@ -12,7 +12,7 @@ permalink: /eventos/
 
             {% for post in site.categories['eventos'] %}
                 <! -- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                <a href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ "/assets/img/eventos_passados/" | prepend: site.baseurl }}{{ post.img }}">
                 </a> 
                 <a><h3 class="ctitle">{{ post.title }}</h3></a>
                 <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
