@@ -6,7 +6,7 @@ author: OSGeo-PT
 categories:
 - eventos
 img: jornadas-software-sig.jpg
-thumb: jornadas-software-sig.jpg
+thumb: _jornadas-software-sig.jpg
 ---
 
 [logo]: https://drive.google.com/open?id=0B495G9xDT1s9TkhXbkhWMEc1STg&authuser=0 "Logo SASIG 1"
