@@ -17,16 +17,16 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 
 
 | Conjunto de temas que podem propor |
-|--------|:--------:|
-|• Novos desenvolvimentos em software aberto para SIG| • Interoperabilidade e standards|
+|--------|--------|
+|• Novos desenvolvimentos em software aberto para SIG|    • Interoperabilidade e standards|
 | | |
-|• Transição de software SIG proprietário para aberto| •   Formação e suporte em software SIG aberto|
+|• Transição de software SIG proprietário para aberto|    •   Formação e suporte em software SIG aberto|
 | | |
-|• Modelos de negócio para software SIG aberto| •   Dados, conteúdos e arquiteturas abertas|
+|• Modelos de negócio para software SIG aberto|    •   Dados, conteúdos e arquiteturas abertas|
 | | |
-|• Casos de estudo de software aberto aplicados às mais diversas áreas| •    Informação geográfica voluntária na produção de cartografia|
+|• Casos de estudo de software aberto aplicados às mais diversas áreas|    •    Informação geográfica voluntária na produção de cartografia|
 | | |
-|• Infraestruturas de dados espaciais suportadas por software aberto| • Outros temas multidisciplinares transversais à temática do software aberto para SIG|
+|• Infraestruturas de dados espaciais suportadas por software aberto|    • Outros temas multidisciplinares transversais à temática do software aberto para SIG|
 
 
 ###Tipo de Trabalhos
@@ -45,6 +45,7 @@ O formato dos posters a apresentar no SASIG 2015 é livre havendo apenas como re
 A submissão das propostas é feita unicamente por e-mail para <artigos.sasig2015@osgeopt.pt> até ao dia 31 de Maio (inclusive), com as seguintes características:
 
 - Assunto: “Submissão de Resumo SASIG 2015 – Nome e Apelido do 1º Autor” (exemplo: Submissão de Resumo SASIG 2015 – Maria Matos);
+
 - Anexo: Artigo científico em formato word usando o modelo fornecido em [site](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing) devidamente preenchido e que cumpra escrupulosamente as regras para autores previamente definidas. O nome ficheiro word enviado deverá obedecer à seguinte configuração: Nome_Apelido_SASIG2015.doc (exemplo: Maria_Matos_SASIG2015.doc).
 
 **As propostas para apresentação de comunicação oral e póster serão selecionadas pela Comissão Científica da Jornadas SASIG 2015. Os autores serão informados dessa seleção até ao dia 30 de Junho (inclusive).**
