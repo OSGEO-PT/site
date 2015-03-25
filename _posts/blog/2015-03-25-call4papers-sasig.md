@@ -17,7 +17,7 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 
 
 | Conjunto de temas que podem propor |
-|--------|--------:|
+|--------|:--------:|
 |• Novos desenvolvimentos em software aberto para SIG| • Interoperabilidade e standards|
 | | |
 |• Transição de software SIG proprietário para aberto| •   Formação e suporte em software SIG aberto|
@@ -42,7 +42,7 @@ O formato dos posters a apresentar no SASIG 2015 é livre havendo apenas como re
 
 ###Envio das comunicações
 
-A submissão das propostas é feita unicamente por e-mail para artigos.sasig2015@osgeopt.pt até ao dia 31 de Maio (inclusive), com as seguintes características:
+A submissão das propostas é feita unicamente por e-mail para <artigos.sasig2015@osgeopt.pt> até ao dia 31 de Maio (inclusive), com as seguintes características:
 
 - Assunto: “Submissão de Resumo SASIG 2015 – Nome e Apelido do 1º Autor” (exemplo: Submissão de Resumo SASIG 2015 – Maria Matos);
 - Anexo: Artigo científico em formato word usando o modelo fornecido em [site](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing) devidamente preenchido e que cumpra escrupulosamente as regras para autores previamente definidas. O nome ficheiro word enviado deverá obedecer à seguinte configuração: Nome_Apelido_SASIG2015.doc (exemplo: Maria_Matos_SASIG2015.doc).
