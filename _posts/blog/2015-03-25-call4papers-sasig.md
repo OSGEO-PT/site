@@ -18,6 +18,7 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 
 | Conjunto de temas que podem propor |
 |--------|--------|--------|
+| | | |
 |• Novos desenvolvimentos em software aberto para SIG| |• Interoperabilidade e standards|
 | | | |
 |• Transição de software SIG proprietário para aberto| |• Formação e suporte em software SIG aberto|
@@ -31,9 +32,9 @@ O sucesso das Jornadas SASIG 2015 depende muito da participação dos membros de
 
 ###Tipo de Trabalhos
 
-Todos os trabalhos aceites para serem apresentados no SASIG 2015, quer sob a forma de comunicação oral quer sob a forma de póster, serão publicados no “Livro de Atas do SASIG 2015” (com ISBN próprio solicitado para o efeito e licença [Creative Commons](http://creativecommons.pt/cms/view/id/28/)).
+Todos os trabalhos aceites para serem apresentados no SASIG 2015, quer sob a forma de comunicação oral quer sob a forma de póster, serão publicados no “Livro de Atas do SASIG 2015” (com ISBN próprio solicitado para o efeito e licença [Creative Commons](http://creativecommons.pt/cms/view/id/28/){:target="_blank"}.
 
-Consequentemente, todos os trabalhos (poster ou comunicação oral) propostos para serem apresentados publicamente no SASIG 2015 e posteriormente publicados no “Livro de Atas do SASIG 2015” terão de ser previamente submetidos à apreciação da Comissão Científica na forma de “artigo”, cumprindo escrupulosamente as regras para autores que constam do modelo em word disponível no [link](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing).
+Consequentemente, todos os trabalhos (poster ou comunicação oral) propostos para serem apresentados publicamente no SASIG 2015 e posteriormente publicados no “Livro de Atas do SASIG 2015” terão de ser previamente submetidos à apreciação da Comissão Científica na forma de “artigo”, cumprindo escrupulosamente as regras para autores que constam do modelo em word disponível no [link](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing){:target="_blank"}.
 
 Os autores terão de assinalar no respetivo modelo devidamente preenchido com os conteúdos referentes à sua apresentação qual a modalidade preferencial para a mesma (unicamente comunicação oral, unicamente póster, comunicação oral ou póster ao critério da comissão científica do SASIG 2015).
 
@@ -46,7 +47,7 @@ A submissão das propostas é feita unicamente por e-mail para <artigos.sasig201
 
 - Assunto: “Submissão de Resumo SASIG 2015 – Nome e Apelido do 1º Autor” (exemplo: Submissão de Resumo SASIG 2015 – Maria Matos);
 
-- Anexo: Artigo científico em formato word usando o modelo fornecido em [site](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing) devidamente preenchido e que cumpra escrupulosamente as regras para autores previamente definidas. O nome ficheiro word enviado deverá obedecer à seguinte configuração: Nome_Apelido_SASIG2015.doc (exemplo: Maria_Matos_SASIG2015.doc).
+- Anexo: Artigo científico em formato word usando o modelo fornecido em [site](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing){:target="_blank"} devidamente preenchido e que cumpra escrupulosamente as regras para autores previamente definidas. O nome ficheiro word enviado deverá obedecer à seguinte configuração: Nome_Apelido_SASIG2015.doc (exemplo: Maria_Matos_SASIG2015.doc).
 
 **As propostas para apresentação de comunicação oral e póster serão selecionadas pela Comissão Científica da Jornadas SASIG 2015. Os autores serão informados dessa seleção até ao dia 30 de Junho (inclusive).**
 
