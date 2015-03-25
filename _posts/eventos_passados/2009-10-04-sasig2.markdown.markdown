@@ -1,5 +1,5 @@
 ---
-layout: evento
+layout: sasigs
 title:  "SASIG II  - 2ªs Jornadas de Software Aberto para Sistemas de Informação Geográfica"
 date:   2010-11-03 18:30:00
 author: OSGeo-PT
