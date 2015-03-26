@@ -52,4 +52,4 @@ Publicação de mapas on-line com QGIS, QGIS-Server e QGIS-web client
 Implementação e visualização de Geo WebServices com software Open Source
 
 ####Patrocinadores:
-Novageo, XLM, EDISoft
+Novageo, XLM, EDISoft 
