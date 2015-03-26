@@ -6,7 +6,7 @@ author: OSGeo-PT
 categories:
 - eventos
 img: sasig_3.png
-thumb: thumb_sasig_3.png
+thumb: thumb_sasig3.png
 ---
 ####Local:
 Lisboa - ISEGI
