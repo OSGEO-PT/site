@@ -5,8 +5,8 @@ date:   2010-11-03 18:30:00
 author: OSGeo-PT
 categories:
 - eventos
-img: jornadas-software-sig.jpg
-thumb: jornadas-software-sig.jpg
+img: sasig_2.png
+thumb: thumb_sasig_2.png
 ---
 
 ####Local:
