@@ -100,7 +100,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #586F6C !important;
+	color: #F5D76E !important;
 	background-color: #83A598;
 	font-weight: 700;
 }
@@ -208,7 +208,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line{
-	border-top: 4px solid #9FC1AB;
+	border-top: 4px solid #F5D76E;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -217,7 +217,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-	border-top: 4px solid rgba(159, 193, 171, 0.34);
+	border-top: 4px solid rgba(245, 215, 110, 0.34);
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;

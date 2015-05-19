@@ -149,7 +149,7 @@ li.active:after {
     margin: 0 auto;
     bottom: 0px;
     border: 10px solid transparent;
-    border-bottom-color: #ddd;
+    border-bottom-color: #F5D76E;
     
 }
 .nav-tabs > li a{
