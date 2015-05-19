@@ -166,7 +166,7 @@ a.fa.fa-angle-down:hover{
 }
 /* About Section */
 #tf-about{
-	padding: 13px 0;
+	padding: 0px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -181,7 +181,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(../img/want.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -222,7 +222,7 @@ ul.about-list li span{
 	text-align: center;
 	margin-top: 10px;
 	position: relative;
-	left: 75%;
+	left: 18%;
 }
 #team{ margin: 0 auto}
 #team .item{
