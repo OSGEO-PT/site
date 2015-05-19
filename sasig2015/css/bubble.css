@@ -168,7 +168,7 @@ li.active:after {
 }
 .tab-pane{
    position: relative;
-padding-top: 50px;
+padding-top: 110px;
 }
 .tab-content .head{
     font-family: 'Roboto Condensed', sans-serif;
