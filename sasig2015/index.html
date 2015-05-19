@@ -1,86 +1,1018 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>SASIG 2015 a caminho</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/soon.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-  </head>
-  <!-- START BODY -->
-  <body class="nomobile">
-
-    <!-- START HEADER -->
-    <section id="header">
-        <div class="container">
-            <header>
-                <!-- HEADLINE -->
-                <h1 data-animated="GoIn"><b>SASIG 2015</b>...novidades fresquinhas sobre o evento...</h1>
-            </header>
-            <!-- START TIMER -->
-            <div id="timer" data-animated="FadeIn">
-                <p id="message"></p>
-                <div id="days" class="timer_box"></div>
-                <div id="hours" class="timer_box"></div>
-                <div id="minutes" class="timer_box"></div>
-                <div id="seconds" class="timer_box"></div>
-            </div>
-            <!-- END TIMER -->
-            <div class="col-lg-4 col-lg-offset-4 mt centered">
-            	<h4>Queres saber quando é que o site vai ficar live, adiciona o teu mail</h4>
-				<form class="form-inline" role="form">
-				  <div class="form-group">
-				    <label class="sr-only" for="exampleInputEmail2">Email</label>
-				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
-				  </div>
-				  <button type="submit" class="btn btn-info">Submeter</button>
-				</form>            
-			</div>
-            
-        </div>
-        <!-- LAYER OVER THE SLIDER TO MAKE THE WHITE TEXTE READABLE -->
-        <div id="layer"></div>
-        <!-- END LAYER -->
-        <!-- START SLIDER -->
-        <div id="slider" class="rev_slider">
-            <ul>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/compass-on-map.jpg">
-                <img src="assets/img/slider/compass-on-map.jpg">
-            </ul>
-        </div>
-        <!-- END SLIDER -->
-    </section>
-    <!-- END HEADER -->
-
-    <!-- Bootstrap core JavaScript
+    <!-- Basic Page Needs
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/soon/plugins.js"></script>
-    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/soon/custom.js"></script>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OSGEO-PT - SASIG 2015, Setembro Lisboa </title>
+    <meta name="description" content="O SASIG é um evento português, sobre software aberto para sistemas de informação geográfica">
+    <meta name="keywords" content="evento, geo, geografia, foss4g, 2015, SIG, sistemas de informação geográfica, SASIG, osgeo, osgeopt, osgeo-pt, software aberto, opensource, qgis, grass, qgispt">
+    <meta name="author" content="osgeopt.pt">
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"  href="css/bubble.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SASIG 2015</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll">Página Principal</a></li>
+            <li><a href="#tf-about" class="page-scroll">Sobre o evento</a></li>
+            <li><a href="#tf-team" class="page-scroll">Speakers</a></li>
+            <li><a href="#tf-services" class="page-scroll">Programa do evento</a></li>
+            <li><a href="#tf-works" class="page-scroll">Blog</a></li>
+            <li><a href="#tf-clients" class="page-scroll">Patrocinadores</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Inscrição</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Inicio
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+              <div class="row">
+                <div class="col-md-6"><h1><strong><span class="color">SIG </span></strong>open-source</h1>
+                <p class="lead"><strong>De onde vimos e para onde vamos<strong>?</strong></p></div>
+                  <div class="col-md-6"><h1><strong><span class="color">SASIG </span></strong>2015</h1>
+                <p class="lead"><strong>24 e 25 de Setembro</strong> em <strong> Lisboa</strong></p></div>
+              </div>
+                
+                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre o evento
+    ==========================================-->
+<div id="tf-about">
+    <section style="background:#efefe9;">
+        <div class="container">
+            <div class="row">
+                <div class="board">
+                    <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
+                    <div class="board-inner">
+                    <ul class="nav nav-tabs" id="myTab">
+                    <div class="liner"></div>
+                     <li class="active">
+                     <a href="#tab_home" data-toggle="tab" title="welcome">
+                      <span class="round-tabs one">
+                              <i class="fa fa-question"></i>
+                      </span> 
+                  </a></li>
+
+                  <li><a href="#tab_onde" data-toggle="tab" title="profile">
+                     <span class="round-tabs two">
+                         <i class="fa fa-map-marker"></i>
+                     </span> 
+           </a>
+                 </li>
+                 <li><a href="#tab_participar" data-toggle="tab" title="bootsnipp goodies">
+                     <span class="round-tabs three">
+                          <i class="fa fa-quote-right"></i>
+                     </span> </a>
+                     </li>
+
+                     <li><a href="#tab_sponsor" data-toggle="tab" title="blah blah">
+                         <span class="round-tabs four">
+                              <i class="fa fa-group"></i>
+                         </span> 
+                     </a></li>
+
+                     <li><a href="#tab_help" data-toggle="tab" title="completed">
+                         <span class="round-tabs five">
+                              <i class="fa fa-support"></i>
+                         </span> </a>
+                     </li>
+                     
+                     </ul></div>
+
+                     <div class="tab-content">
+                      <div class="tab-pane fade in active" id="tab_home">
+
+                          <h3 class="head text-center">O nosso SASIG<span style="color:#f48260;">♥</span> está de volta</h3>
+                          <p class="narrow text-center">
+                              Em 2015 acontece a 6ª edição da SASIG - conferência nacional de software aberto para Sistemas de informação geográfica - organizada pelo capítulo português da OSGeo - Open Source Geospatial Foundation.
+                              </p><p class="narrow text-center">O SASIG e essencialmente um espaco de partilha de experiencias onde todos - mais ou menos experientes - os que querem conhecer e aprender mais sobre software aberto para Sistemas de Informacao Geografica sao bem vindos.
+                          </p>
+                          
+                          <p class="text-center">
+                    <a href="" class="btn btn-success btn-outline-rounded green"> start using bootsnipp <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                </p>
+                      </div>
+                      <div class="tab-pane fade" id="tab_onde">
+                          <h3 class="head text-center">O SASIG deste ano é em Lisboa, mas onde?</h3>
+                          <p class="narrow text-center">
+                              Muito em breve vamos revelar a localização do evento, do local em concreto, com coordenadas e tudo, por isso fiquem atentos
+                          </p>
+                          
+                                                
+                      </div>
+                      <div class="tab-pane fade" id="tab_participar">
+                          <h3 class="head text-center">Como posso participar?</h3>
+                          <p class="narrow text-center">
+                              Participa com uma comunicação e/ou poster do trabalho que desenvolveste em software aberto, para isso basta descarregar os templates para a submissão de comunicações no link em baixo.
+                          </p>
+                          
+                          <p class="text-center">
+                    <a href="" class="btn btn-success btn-outline-rounded green">Templates para a submissão de comunicações.</a>
+                </p>
+                      </div>
+                      <div class="tab-pane fade" id="tab_sponsor">
+                          <h3 class="head text-center">Drop comments!</h3>
+                          <p class="narrow text-center">
+                              Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                          </p>
+                          
+                          <p class="text-center">
+                    <a href="" class="btn btn-success btn-outline-rounded green"> start using bootsnipp <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                </p>
+                      </div>
+                      <div class="tab-pane fade" id="tab_help">
+  <div class="text-center">
+    <i class="img-intro icon-checkmark-circle"></i>
+</div>
+<h3 class="head text-center">thanks for staying tuned! <span style="color:#f48260;">♥</span> Bootstrap</h3>
+<p class="narrow text-center">
+  Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+</p>
+</div>
+<div class="clearfix"></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+    <!-- Speaker section
+    ==========================================-->
+    <div id="tf-team" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Oradores <strong>convidados</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="team" class="owl-carousel owl-theme row">
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Jenn Gwapa</h3>
+                                <p>CEO / Founder</p>
+                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Jenn Gwapa</h3>
+                                <p>CEO / Founder</p>
+                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Jenn Gwapa</h3>
+                                <p>CEO / Founder</p>
+                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
+                            <div class="caption">
+                                <h3>Jenn Gwapa</h3>
+                                <p>CEO / Founder</p>
+                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programa do evento
+    ==========================================-->
+    <div id="tf-services" class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Programa do <strong>SASIG</strong></h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <p>Fica atento, estamos a "cozinhar" um SASIG especial para ti!</p>
+            </div>
+                                    <div class="row">
+    <div>
+        <ul class="nav nav-tabs" id="tabela_programa">
+            <li class="active">
+                <a data-toggle="pill" href="#1">Dia 24</a></li>
+            <li>
+                <a data-toggle="pill" href="#2">Dia 25</a></li>
+            <li>
+                <a data-toggle="pill" href="#3">Workshops</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active fade in" id="1">
+                <ul class="nav nav-pills sub">
+                    <li class="active">
+                        <a data-toggle="pill" href="#tab_a">Auditório a designar</a></li>
+                    <li class="">
+                        <a data-toggle="pill" href="#tab_b">Auditório a designar</a></li>
+                    </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="tab_a">
+                        <table class="table table-bordered table-striped prog">
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horário</th>
+                                    <th width="57%">
+                                        Comunicação</th>
+                                    <th width="17%">
+                                        Oradore(s)</th>
+                                    <th width="15%">
+                                        Organização</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr data-target="#ws1" data-toggle="collapse">
+                                    <td>
+                                        9h00- 10h00</td>
+                                    <td>
+                                        <span class="titl">A designar</span><a href="" target="_blank"></a>
+                                        <div class="panel collapse" id="ws1">
+                                            <p class="abs">
+                                                ...</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        ...</td>
+                                    <td>
+                                        <a href="http://3liz.com" target="_blank">...</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12h30 - 13h30</td>
+                                    <td colspan="3" height="60px" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSE<br>
+                                        REPAS</td>
+                                </tr>
+                                <tr data-target="#ws2" data-toggle="collapse">
+                                    <td>
+                                        13h30 - 15h00</td>
+                                    <td>
+                                        <span class="titl">Créez votre propre fond de plan à partir de données OSM en utilisant TileMill</span><a href="http://makina-corpus.com/blog/metier/2014/foss4g-fr-2014-workshop-tilemill" target="_blank"><img class="web-page" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMeKFSMAh0AAAUCSURBVEjHdZXbbxRVHMc/5zIzO7M7u113LaWC1KCIyXJpUMQH9cVbohEeePBNXvSPMCY++OC/4LvGF58wiC9iosYUgbTQNGJIoNDK0stuC93uZWZ25vjQzrAty0kmc86ZOb/b9/v7HsH2uHv3btFxnPE4jkmSBIA4jgEwxqR7JkmSwTXGGACRJMnDWq22xJCh00kcx59prb8RQhDHceYgnW87N+m83++TJEnqTLiu271+/foRY8zC5OTkcCfGGK21ttK1EOKJiNI9YwxKqWy9HZDluu7fKysrNaA5eE4OGJCWZWFZFkoplFJordFao5TC0hqEJDECIxQIBUKilELKLTPFYnFPtVr9+/Lly85QJ2mNtdbYtp05So1cml1leiFiuuFws2NTx2dNVbnfdtkMDEpKXNcVvu8f9H1/BuDChQs7yzUAIlJuRaikYL7R5rfZ+1T2VPmPeYRs4BpF33iU7DLV/WN0W+MESQcpBPlCwQghDs/NzZ2v1WqnZ2dnd2CSvYUQSCm5U3/EVz/c4OXaBJ2NZZ6tdplvNSjnbBxjuHnvX8rFPewrPsdI+Sh366tYJhTJlrGPZ2Zmfj169Og7+mng2lry9Y+XWC/MsRxViItV1hrLyKjLeHE/880FPjjxOWubMcurK9wIQ6wgYZ+1QcERYpuNtScwMcZsZQL8/Ndtph/+ymq4Ti8pE1BgdOxdLLfM95d/otkvMLe4wT+NDnfiClceXGF+Y5GFlpURRkqZ7HASx3HG2X4/4rs/Z8FpUnLfIDbQjWB64SKbayvY5VEOTXxE7BWJtEc7DOmEh5lemeJW8x6GnawbxESkeDTXN2l0V8A25NWLnJt8huPPFbg4V2B5rYxfOkMrtAn6fVq9mDDoE/YNi+stgvWrnD58ANfRjxk7AEeSNla720MgiRN462CXD2t7aHc6nHnlFM3mS6y32vzysMmmLBAEIb1eRBhG+LxKd71DFMcUlDM0kwwbSYIxinKuwJfvv8Nqo0EYhjSbTVzXxYQ93OU6D0rH6AchvV5Ar9fHjkey5lNKYVnWk07Sx7Ulo7lxPn31CzphgBACIQSe51Gv1zHGsBQX6Wxu0O22iEJJPwyQYZecJbCsLZUYVq6sERGCD46UeO/483S7XYIgIAgCwjDEcRwebrRZDm/T7CzSDQNIDFVOkiQOe0sa19mSp1RkBykss27XFm8f24dnC6IoIoqiTImVgKv/tfG8iInyCL6WeKpNWdmEQcQnp8ZwXXeHgOph+p/L5XBdl8G7JW3UenOTTVXhUGE/OSU4aEXcW32ACPOce9NhfLRMPp/fwnYbeDlMVlLQUiyklDiOw0ipxMzSdYrl+4zYULItXni2iC89Xn9e89qhUUql0g4lH8qu1OijR48ol8tZbYMg4NLvf6DsA3g2WLqFlVRYXKxz9rhPqVQiX/ApFApZ9k9QOEmSrONTZkxNTTE2NsbS0hLXrl1jYmKCk3vHSAwoJfG8FpN7K+RcD9/3yefzGGOQUmbZ7MZEDGZVqVSo1WrcunUL27Y5e/YsSimiKMqi1FrjOA6e52HbNoM6uH3piaHlSktmjMH3fU6cOLGjj+I4znBLI03/331eSimeyq6n3fFSyqzOuw0O3v+7z+vHytuPjTF9MxjSrvG0T4OZDDo1xoQ7nExNTX3barXOSykRQpjdRlLWDUa5vW8ALMvCcRyTZpskCblcrgPwPw9WkpVBFyDbAAAAAElFTkSuQmCC"></a>
+                                        <div class="panel collapse" id="ws2">
+                                            <p class="abs">
+                                                Utiliser TileMill pour personnaliser vos fonds de plan.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Sylvain BEORCHIA</td>
+                                    <td>
+                                        <a href="http://makina-corpus.com" target="_blank">Makina Corpus</a></td>
+                                </tr>
+                                <tr data-target="#ws3" data-toggle="collapse">
+                                    <td>
+                                        15h00 - 19h30</td>
+                                    <td>
+                                        <span class="titl">QGIS: développement de plugin étape par étape</span><a href="https://github.com/Oslandia/Workshops/tree/master/FOSS4GFR_2014_QGIS_plugins" target="_blank"><img class="web-page" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMeKFSMAh0AAAUCSURBVEjHdZXbbxRVHMc/5zIzO7M7u113LaWC1KCIyXJpUMQH9cVbohEeePBNXvSPMCY++OC/4LvGF58wiC9iosYUgbTQNGJIoNDK0stuC93uZWZ25vjQzrAty0kmc86ZOb/b9/v7HsH2uHv3btFxnPE4jkmSBIA4jgEwxqR7JkmSwTXGGACRJMnDWq22xJCh00kcx59prb8RQhDHceYgnW87N+m83++TJEnqTLiu271+/foRY8zC5OTkcCfGGK21ttK1EOKJiNI9YwxKqWy9HZDluu7fKysrNaA5eE4OGJCWZWFZFkoplFJordFao5TC0hqEJDECIxQIBUKilELKLTPFYnFPtVr9+/Lly85QJ2mNtdbYtp05So1cml1leiFiuuFws2NTx2dNVbnfdtkMDEpKXNcVvu8f9H1/BuDChQs7yzUAIlJuRaikYL7R5rfZ+1T2VPmPeYRs4BpF33iU7DLV/WN0W+MESQcpBPlCwQghDs/NzZ2v1WqnZ2dnd2CSvYUQSCm5U3/EVz/c4OXaBJ2NZZ6tdplvNSjnbBxjuHnvX8rFPewrPsdI+Sh366tYJhTJlrGPZ2Zmfj169Og7+mng2lry9Y+XWC/MsRxViItV1hrLyKjLeHE/880FPjjxOWubMcurK9wIQ6wgYZ+1QcERYpuNtScwMcZsZQL8/Ndtph/+ymq4Ti8pE1BgdOxdLLfM95d/otkvMLe4wT+NDnfiClceXGF+Y5GFlpURRkqZ7HASx3HG2X4/4rs/Z8FpUnLfIDbQjWB64SKbayvY5VEOTXxE7BWJtEc7DOmEh5lemeJW8x6GnawbxESkeDTXN2l0V8A25NWLnJt8huPPFbg4V2B5rYxfOkMrtAn6fVq9mDDoE/YNi+stgvWrnD58ANfRjxk7AEeSNla720MgiRN462CXD2t7aHc6nHnlFM3mS6y32vzysMmmLBAEIb1eRBhG+LxKd71DFMcUlDM0kwwbSYIxinKuwJfvv8Nqo0EYhjSbTVzXxYQ93OU6D0rH6AchvV5Ar9fHjkey5lNKYVnWk07Sx7Ulo7lxPn31CzphgBACIQSe51Gv1zHGsBQX6Wxu0O22iEJJPwyQYZecJbCsLZUYVq6sERGCD46UeO/483S7XYIgIAgCwjDEcRwebrRZDm/T7CzSDQNIDFVOkiQOe0sa19mSp1RkBykss27XFm8f24dnC6IoIoqiTImVgKv/tfG8iInyCL6WeKpNWdmEQcQnp8ZwXXeHgOph+p/L5XBdl8G7JW3UenOTTVXhUGE/OSU4aEXcW32ACPOce9NhfLRMPp/fwnYbeDlMVlLQUiyklDiOw0ipxMzSdYrl+4zYULItXni2iC89Xn9e89qhUUql0g4lH8qu1OijR48ol8tZbYMg4NLvf6DsA3g2WLqFlVRYXKxz9rhPqVQiX/ApFApZ9k9QOEmSrONTZkxNTTE2NsbS0hLXrl1jYmKCk3vHSAwoJfG8FpN7K+RcD9/3yefzGGOQUmbZ7MZEDGZVqVSo1WrcunUL27Y5e/YsSimiKMqi1FrjOA6e52HbNoM6uH3piaHlSktmjMH3fU6cOLGjj+I4znBLI03/331eSimeyq6n3fFSyqzOuw0O3v+7z+vHytuPjTF9MxjSrvG0T4OZDDo1xoQ7nExNTX3barXOSykRQpjdRlLWDUa5vW8ALMvCcRyTZpskCblcrgPwPw9WkpVBFyDbAAAAAElFTkSuQmCC"></a>
+                                        <div class="panel collapse" id="ws3">
+                                            <p class="abs">
+                                                Développer un plugin QGIS étape par étape, depuis la conception initiale, la connaissance des APIs, les méthodes de développement, le déploiement.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Hugo MERCIER</td>
+                                    <td>
+                                        <a href="http://oslandia.com" target="_blank">Oslandia</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="tab_b">
+                        <table class="table table-bordered table-striped prog">
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horaire</th>
+                                    <th width="57%">
+                                        Intitulé</th>
+                                    <th width="17%">
+                                        Auteur(s)</th>
+                                    <th width="15%">
+                                        Organisation(s)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr data-target="#ws4" data-toggle="collapse">
+                                    <td>
+                                        9h30 - 12h30</td>
+                                    <td>
+                                        <span class="titl">Automatiser avec QGIS</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J0_WS_AUTOMATISER_QGIS_OSGEOFR/foss4gfr_2014_workshop_automatiser_qgis.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a><a href="https://github.com/Jean-Roc/qgis_master_class/" target="_blank"><img class="web-page" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMeKFSMAh0AAAUCSURBVEjHdZXbbxRVHMc/5zIzO7M7u113LaWC1KCIyXJpUMQH9cVbohEeePBNXvSPMCY++OC/4LvGF58wiC9iosYUgbTQNGJIoNDK0stuC93uZWZ25vjQzrAty0kmc86ZOb/b9/v7HsH2uHv3btFxnPE4jkmSBIA4jgEwxqR7JkmSwTXGGACRJMnDWq22xJCh00kcx59prb8RQhDHceYgnW87N+m83++TJEnqTLiu271+/foRY8zC5OTkcCfGGK21ttK1EOKJiNI9YwxKqWy9HZDluu7fKysrNaA5eE4OGJCWZWFZFkoplFJordFao5TC0hqEJDECIxQIBUKilELKLTPFYnFPtVr9+/Lly85QJ2mNtdbYtp05So1cml1leiFiuuFws2NTx2dNVbnfdtkMDEpKXNcVvu8f9H1/BuDChQs7yzUAIlJuRaikYL7R5rfZ+1T2VPmPeYRs4BpF33iU7DLV/WN0W+MESQcpBPlCwQghDs/NzZ2v1WqnZ2dnd2CSvYUQSCm5U3/EVz/c4OXaBJ2NZZ6tdplvNSjnbBxjuHnvX8rFPewrPsdI+Sh366tYJhTJlrGPZ2Zmfj169Og7+mng2lry9Y+XWC/MsRxViItV1hrLyKjLeHE/880FPjjxOWubMcurK9wIQ6wgYZ+1QcERYpuNtScwMcZsZQL8/Ndtph/+ymq4Ti8pE1BgdOxdLLfM95d/otkvMLe4wT+NDnfiClceXGF+Y5GFlpURRkqZ7HASx3HG2X4/4rs/Z8FpUnLfIDbQjWB64SKbayvY5VEOTXxE7BWJtEc7DOmEh5lemeJW8x6GnawbxESkeDTXN2l0V8A25NWLnJt8huPPFbg4V2B5rYxfOkMrtAn6fVq9mDDoE/YNi+stgvWrnD58ANfRjxk7AEeSNla720MgiRN462CXD2t7aHc6nHnlFM3mS6y32vzysMmmLBAEIb1eRBhG+LxKd71DFMcUlDM0kwwbSYIxinKuwJfvv8Nqo0EYhjSbTVzXxYQ93OU6D0rH6AchvV5Ar9fHjkey5lNKYVnWk07Sx7Ulo7lxPn31CzphgBACIQSe51Gv1zHGsBQX6Wxu0O22iEJJPwyQYZecJbCsLZUYVq6sERGCD46UeO/483S7XYIgIAgCwjDEcRwebrRZDm/T7CzSDQNIDFVOkiQOe0sa19mSp1RkBykss27XFm8f24dnC6IoIoqiTImVgKv/tfG8iInyCL6WeKpNWdmEQcQnp8ZwXXeHgOph+p/L5XBdl8G7JW3UenOTTVXhUGE/OSU4aEXcW32ACPOce9NhfLRMPp/fwnYbeDlMVlLQUiyklDiOw0ipxMzSdYrl+4zYULItXni2iC89Xn9e89qhUUql0g4lH8qu1OijR48ol8tZbYMg4NLvf6DsA3g2WLqFlVRYXKxz9rhPqVQiX/ApFApZ9k9QOEmSrONTZkxNTTE2NsbS0hLXrl1jYmKCk3vHSAwoJfG8FpN7K+RcD9/3yefzGGOQUmbZ7MZEDGZVqVSo1WrcunUL27Y5e/YsSimiKMqi1FrjOA6e52HbNoM6uH3piaHlSktmjMH3fU6cOLGjj+I4znBLI03/331eSimeyq6n3fFSyqzOuw0O3v+7z+vHytuPjTF9MxjSrvG0T4OZDDo1xoQ7nExNTX3barXOSykRQpjdRlLWDUa5vW8ALMvCcRyTZpskCblcrgPwPw9WkpVBFyDbAAAAAElFTkSuQmCC"></a>
+                                        <div class="panel collapse" id="ws4">
+                                            <p class="abs">
+                                                Atelier présentant les fonctionnalités d'automatisation des traitements et de la cartographie sous QGIS.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Jean-Roc MORREALE</td>
+                                    <td>
+                                        OSGeo-fr</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12h30 - 13h30</td>
+                                    <td colspan="3" height="60px" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSE<br>
+                                        REPAS</td>
+                                </tr>
+
+<tr class="accordion-toggle" data-target="#ws8" data-toggle="collapse">
+                                    <td>
+                                        13h30 - 15h00</td>
+                                    <td>
+                                        <span class="titl">Constellation SDI : plateforme de gestion de données geospatiales</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J0_WS_CONSTELLATION_SDI_PLATEFORME_GESTION_DONNEES_GEOSPATIALES/foss4gfr_2014_workshop_constellation_sdi.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="ws8">
+                                            <p class="abs">
+                                                Du vecteur au raster en passant par les capteurs et les processus, découvrez la gestion et la publication de données géospatiales selon les standards OGC et ISO grâce à Constellation SDI</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Fredéric HOUBIE, Christophe MOURETTE, Vincent HEURTEAUX</td>
+                                    <td>
+                                        <a href="http://geomatys.com" target="_blank">Geomatys</a></td>
+                                </tr>
+                                
+                                <tr class="accordion-toggle" data-target="#ws6" data-toggle="collapse">
+                                    <td>
+                                        15h00 - 19h30</td>
+                                    <td>
+                                        <span class="titl">Création d'une application web de recherche de plus courts chemins basée sur la norme WPS</span><a href="http://zoo-project.org/ws2014-fr/_build/html/" target="_blank"><img class="web-page" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMeKFSMAh0AAAUCSURBVEjHdZXbbxRVHMc/5zIzO7M7u113LaWC1KCIyXJpUMQH9cVbohEeePBNXvSPMCY++OC/4LvGF58wiC9iosYUgbTQNGJIoNDK0stuC93uZWZ25vjQzrAty0kmc86ZOb/b9/v7HsH2uHv3btFxnPE4jkmSBIA4jgEwxqR7JkmSwTXGGACRJMnDWq22xJCh00kcx59prb8RQhDHceYgnW87N+m83++TJEnqTLiu271+/foRY8zC5OTkcCfGGK21ttK1EOKJiNI9YwxKqWy9HZDluu7fKysrNaA5eE4OGJCWZWFZFkoplFJordFao5TC0hqEJDECIxQIBUKilELKLTPFYnFPtVr9+/Lly85QJ2mNtdbYtp05So1cml1leiFiuuFws2NTx2dNVbnfdtkMDEpKXNcVvu8f9H1/BuDChQs7yzUAIlJuRaikYL7R5rfZ+1T2VPmPeYRs4BpF33iU7DLV/WN0W+MESQcpBPlCwQghDs/NzZ2v1WqnZ2dnd2CSvYUQSCm5U3/EVz/c4OXaBJ2NZZ6tdplvNSjnbBxjuHnvX8rFPewrPsdI+Sh366tYJhTJlrGPZ2Zmfj169Og7+mng2lry9Y+XWC/MsRxViItV1hrLyKjLeHE/880FPjjxOWubMcurK9wIQ6wgYZ+1QcERYpuNtScwMcZsZQL8/Ndtph/+ymq4Ti8pE1BgdOxdLLfM95d/otkvMLe4wT+NDnfiClceXGF+Y5GFlpURRkqZ7HASx3HG2X4/4rs/Z8FpUnLfIDbQjWB64SKbayvY5VEOTXxE7BWJtEc7DOmEh5lemeJW8x6GnawbxESkeDTXN2l0V8A25NWLnJt8huPPFbg4V2B5rYxfOkMrtAn6fVq9mDDoE/YNi+stgvWrnD58ANfRjxk7AEeSNla720MgiRN462CXD2t7aHc6nHnlFM3mS6y32vzysMmmLBAEIb1eRBhG+LxKd71DFMcUlDM0kwwbSYIxinKuwJfvv8Nqo0EYhjSbTVzXxYQ93OU6D0rH6AchvV5Ar9fHjkey5lNKYVnWk07Sx7Ulo7lxPn31CzphgBACIQSe51Gv1zHGsBQX6Wxu0O22iEJJPwyQYZecJbCsLZUYVq6sERGCD46UeO/483S7XYIgIAgCwjDEcRwebrRZDm/T7CzSDQNIDFVOkiQOe0sa19mSp1RkBykss27XFm8f24dnC6IoIoqiTImVgKv/tfG8iInyCL6WeKpNWdmEQcQnp8ZwXXeHgOph+p/L5XBdl8G7JW3UenOTTVXhUGE/OSU4aEXcW32ACPOce9NhfLRMPp/fwnYbeDlMVlLQUiyklDiOw0ipxMzSdYrl+4zYULItXni2iC89Xn9e89qhUUql0g4lH8qu1OijR48ol8tZbYMg4NLvf6DsA3g2WLqFlVRYXKxz9rhPqVQiX/ApFApZ9k9QOEmSrONTZkxNTTE2NsbS0hLXrl1jYmKCk3vHSAwoJfG8FpN7K+RcD9/3yefzGGOQUmbZ7MZEDGZVqVSo1WrcunUL27Y5e/YsSimiKMqi1FrjOA6e52HbNoM6uH3piaHlSktmjMH3fU6cOLGjj+I4znBLI03/331eSimeyq6n3fFSyqzOuw0O3v+7z+vHytuPjTF9MxjSrvG0T4OZDDo1xoQ7nExNTX3barXOSykRQpjdRlLWDUa5vW8ALMvCcRyTZpskCblcrgPwPw9WkpVBFyDbAAAAAElFTkSuQmCC"></a>
+                                        <div class="panel collapse" id="ws6">
+                                            <p class="abs">
+                                                Ce workshop à pour objectif le développement d'une application web de recherche de plus courts chemins basée sur ZOO-Project, PostGIS/PgRouting et MapServer. Notions de base en Python et Javascript recommandées.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Gérald FENOY, Nicolas BOZON</td>
+                                    <td>
+                                        <a href="http://geolabs.fr" target="_blank">GeoLabs</a>, <a href="http://cartogenic.com" target="_blank">Cartogenic</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="tab_c">
+                        <table class="table table-bordered table-striped prog">
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horaire</th>
+                                    <th width="57%">
+                                        Intitulé</th>
+                                    <th width="17%">
+                                        Auteur(s)</th>
+                                    <th width="15%">
+                                        Organisation(s)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade in" id="3">
+                <ul class="nav nav-pills sub">
+                    <li class="active">
+                        <a data-toggle="pill" href="#tab_g">Salle A</a></li>
+                    <li>
+                        <a data-toggle="pill" href="#tab_h">Salle B</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active fade in" id="tab_g">
+                        <table class="table table-bordered table-striped prog">
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horaire</th>
+                                    <th width="57%">
+                                        Intitulé</th>
+                                    <th width="17%">
+                                        Auteur(s)</th>
+                                    <th width="15%">
+                                        Organisation(s)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        9h00 - 9h30</td>
+                                    <td>
+                                        Accueil des participants</td>
+                                    <td>
+                                        OSGeo-fr</td>
+                                    <td>
+                                        <a href="http://osgeo.asso.fr" target="_blank">OSGeo-fr</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk13" data-toggle="collapse">
+                                    <td>
+                                        9h30 - 10h00</td>
+                                    <td>
+                                        <span class="titl insp">Un GeoNetwork pour les acteurs de l'humanitaire</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_09_30_GEONETWORK_ACTEURS_HUMANITAIRE_CARTONG/foss4gfr_2014_geonetwork_humanitaire_de_laborderie.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk13">
+                                            <p class="abs">
+                                                Présentation du travail réalisé pour la création d'un Map Centre a partir de l'application GeoNetwork pour une ONG internationale. Fonctionnalités et intéret de l'open-source pour l'humanitaire.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Sylvie DE LABORDERIE</td>
+                                    <td>
+                                        <a href="http://www.cartong.org/fr" target="_blank">CartONG</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk14" data-toggle="collapse">
+                                    <td>
+                                        10h00 - 10h30</td>
+                                    <td>
+                                        <span class="titl insp">Plateforme SmartData du GrandLyon</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_10_00_PLATEFORME_SMARTDATA_GRANDLYON_NEOGEO/foss4gfr_2014_smartdata_grandlyon_sueur.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk14">
+                                            <p class="abs">
+                                                Présentation fonctionnelle et technique de la plateforme de diffusion de données du GrandLyon Smartdata.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Guillaume SUEUR</td>
+                                    <td>
+                                        <a href="http://neogeo-online.net" target="_blank">Neogeo Technologies</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        10h30 - 11h00</td>
+                                    <td colspan="3" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSE</td>
+                                </tr>
+                                <tr class="lgt">
+                                    <td>
+                                        11h00 - 11h15</td>
+                                    <td>
+                                        Présentations de Geomatys <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_11_00_PRESENTATION_GEOMATYS/foss4gfr_2014_geomatys.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a></td>
+                                    <td>
+                                        -</td>
+                                    <td>
+                                        <a href="http://www.geomatys.com">Geomatys</a></td>
+                                </tr>
+                                <tr class="lgt">
+                                    <td>
+                                        11h15 - 11h30</td>
+                                    <td>
+                                        Présentations d'Oslandia <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_11_15_PRESENTATION_OSLANDIA/foss4gfr_2014_oslandia.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a></td>
+                                    <td>
+                                        -</td>
+                                    <td>
+                                        <a href="http://www.oslandia.com">Oslandia</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk15" data-toggle="collapse">
+                                    <td>
+                                        11h30 - 12h00</td>
+                                    <td>
+                                        <span class="titl insp">Evolutions européennes en cours sur INSPIRE</span> <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_11_30_EVOLUTIONS_EUROPEENNES_EN_COURS_INSPIRE_MIG_MEDDE/foss4gfr_2014_inspire_leobet.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk15">
+                                            <p class="abs">
+                                                16 groupes de travail européens. Enjeu, améliorer les outils pour INSPIRE.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Marc LEOBET</td>
+                                    <td>
+                                        <a href="http://www.developpement-durable.gouv.fr/" target="_blank">MEDDE</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12h00 - 13h30</td>
+                                    <td colspan="3" height="100px" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        <br>
+                                        PAUSE<br>
+                                        REPAS</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk16" data-toggle="collapse">
+                                    <td>
+                                        13h30 - 14h00</td>
+                                    <td>
+                                        <span class="titl coll">Construction d'un base de données régionale de l'offre théorique en transports en commun [...]</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_13_30_CONSTRUCTION_BASE_DONNEES_REG_OFFRE_THEO_TC_CEREMA/foss4gfr_2014_bd_offre_tc_palmier.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk16">
+                                            <p class="abs">
+                                                Construire de manière pérenne une base données de l'offre théorique de TC dans le NPDC à partir des données brutes des exploitants et d'outils libres pour la construction et l'exploitation des données</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Patrick PALMIER</td>
+                                    <td>
+                                        <a href="http://www.cerema.fr/" target="_blank">CEREMA</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk17" data-toggle="collapse">
+                                    <td>
+                                        14h00 - 14h30</td>
+                                    <td>
+                                        <span class="titl coll">OpenTripPlanner Analyst pour la métropole Marseillaise</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_14_00_OPENTRIPPLANNER_ANALYST_METROPOLE_MARSEILLE_CONVEYAL/foss4gfr_2014_opentripplanner_byrd.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk17">
+                                            <p class="abs">
+                                                La mise en place de OpenTripPlanner Analyst, logiciel libre de calcul des isochrones et des indicateurs d’accessibilité transport, avec les données ouvertes de Marseille Provence Métropole.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Andrew BYRD</td>
+                                    <td>
+                                        <a href="http://www.conveyal.com" target="_blank">Conveyal</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk18" data-toggle="collapse">
+                                    <td>
+                                        14h30 - 15h00</td>
+                                    <td>
+                                        <span class="titl coll">Tempus : calcul d'itinéraires multimodaux pour l'information et l'analyse des réseaux de transport</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_14_30_TEMPUS_CALCUL_ITINERAIRES_MULTIMODAUX_INFORMATION_ANALYSE_RESEAUX_TRANSPORTS_CEREMA/foss4gfr_2014_tempus_bousquet.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk18">
+                                            <p class="abs">
+                                                Présentation d'un moteur de calcul d'itinéraires multimodaux open-source en C++.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Aurélie BOUSQUET</td>
+                                    <td>
+                                        <a href="http://www.cerema.fr/" target="_blank">CEREMA</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15h00 - 15h30</td>
+                                    <td colspan="3" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSE</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk19" data-toggle="collapse">
+                                    <td>
+                                        15h30 - 16h00</td>
+                                    <td>
+                                        <span class="titl coll">Importer et consulter le cadastre avec QGIS</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_15_30_IMPORTER_ET_CONSULTER_CADASTRE_QGIS_ADUGA/foss4gfr_2014_qgis_cadastre_rochard.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk19">
+                                            <p class="abs">
+                                                Présentation du plugin cadastre développé depuis 2013 en partenariat avec l'Europe, le Conseil Régional de Picardie et l'Agence de développement et d'urbanisme du Grand Amiénois.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Nicolas ROCHARD</td>
+                                    <td>
+                                        <a href="http://www.aduga.org/" target="_blank">ADUGA</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk20" data-toggle="collapse">
+                                    <td>
+                                        16h00 - 16h30</td>
+                                    <td>
+                                        <span class="titl coll">Apports de PostGIS topology dans l'implémentation du Référentiel Foncier Unifié [...]</span> <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_16_00_APPORTS_POSTGIS_TOPOLOGY_IMPLEMENTATION_REFERENTIEL_FONCIER_UNIFIE_SOGEFI/foss4gfr_2014_postgis_topology_foncier_touzard.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk20">
+                                            <p class="abs">
+                                                Retours d’expérience sur le passage en stockage topologique du Référentiel Foncier Unifié sous PostGIS topology et analyse des bénéfices apportés aux géomètres-experts.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Pierre TOUZARD</td>
+                                    <td>
+                                        <a href="http://sogefi-sig.com" target="_blank">Sogefi</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk21" data-toggle="collapse">
+                                    <td>
+                                        16h30 - 17h00</td>
+                                    <td>
+                                        <span class="titl coll">Utilisation de technologies Open Source dans l'administration, la qualification et l'exploitation [...]</span> <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_A_16_30_UTILISATION_TECHNOLOGIES_OPEN_SOURCE_DONNES_SYSTEME_INFORMATION_SUR_EAU_ONEMA/foss4gfr_2014_opensource_sie_liccardi_pour_presentation.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk21">
+                                            <p class="abs">
+                                                Pour exploiter les données du SIE, le projet Données pour la décision propose en interne un cadre d’utilisation des technologies Open Source basé sur PostgreSQL, PostGIS, R et JAVA. Exemples.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Alexandre LICCARDI</td>
+                                    <td>
+                                        <a href="http://www.onema.fr/" target="_blank">ONEMA</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade in" id="tab_h">
+                        <table class="table table-bordered table-striped prog">
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horaire</th>
+                                    <th width="57%">
+                                        Intitulé</th>
+                                    <th width="17%">
+                                        Auteur(s)</th>
+                                    <th width="15%">
+                                        Organisation(s)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        9h00 - 9h30</td>
+                                    <td>
+                                        Accueil des participants</td>
+                                    <td>
+                                        OSGeo-fr</td>
+                                    <td>
+                                        <a href="http://osgeo.asso.fr" target="_blank">OSGeo-fr</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk22" data-toggle="collapse">
+                                    <td>
+                                        9h30 - 10h00</td>
+                                    <td>
+                                        <span class="titl solu">Maphub : une plateforme collaborative pour les créateurs de cartes</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_09_30_MAPHUB_PLATEFORME_COLLABORATIVE_CREATEURS_CARTES_UBIMIX/foss4gfr_2014_maphub_lauriere.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk22">
+                                            <p class="abs">
+                                                Maphub est un projet libre visant à simplifier le processus de production de tuiles cartographiques stylées et à fournir une alernative à Mapbox pour la génération et l'hébergement de tuiles</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Stéphane LAURIERE</td>
+                                    <td>
+                                        <a href="http://www.ubimix.com" target="_blank">Ubimix</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk23" data-toggle="collapse">
+                                    <td>
+                                        10h00 - 10h30</td>
+                                    <td>
+                                        <span class="titl solu">Traiter les données spatiales côté serveur avec QGIS Server et la norme WPS</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_10_00_TRAITER_DONNEES_SPATIALES_COTE_SERVEUR_QGIS_SERVER_ET_NORME_WPS_3LIZ/foss4gfr_2014_qgis_server_processing_d_hont.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk23">
+                                            <p class="abs">
+                                                Depuis la version 2, QGIS intègre un module de traitement. Après quelques modifications, il est possible de proposer les traitements présents dans QGIS sous forme de services WPS.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        René-Luc D'HONT</td>
+                                    <td>
+                                        <a href="http://3liz.com" target="_blank">3liz</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        10h30 - 11h00</td>
+                                    <td colspan="3" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSE</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk24" data-toggle="collapse">
+                                    <td>
+                                        11h00 - 11h30</td>
+                                    <td>
+                                        <span class="titl solu">Présentation du serveur WMS/WMTS ROK4</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_11_00_PRESENTATION_SERVEUR_WMS_WMTS_ROK4_IGN/foss4gfr_2014_rok4_satabin.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk24">
+                                            <p class="abs">
+                                                Présentation du serveur de diffusion WMS / WMTS de données raster et de ses outils de préparation du cache unique.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Théo SATABIN</td>
+                                    <td>
+                                        <a href="http://ign.fr" target="_blank">IGN</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk25" data-toggle="collapse">
+                                    <td>
+                                        11h30 - 12h00</td>
+                                    <td>
+                                        <span class="titl solu">Test de charge avec Tsung</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_11_30_TEST_CHARGE_AVEC_TSUNG_QUIEDEVILLE/foss4gfr_2014_tsung_quiedeville.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk25">
+                                            <p class="abs">
+                                                Modules Tsung dédiés au SIG.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Rodolphe QUIEDEVILLE</td>
+                                    <td>
+                                        <a href="http://rodolphe.quiedeville.org/" target="_blank">RQ</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12h00 - 13h30</td>
+                                    <td colspan="3" height="100px" style="background:#e0e0e0;color:#707070;text-align:center;">
+                                        <br>
+                                        PAUSE<br>
+                                        REPAS</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk26" data-toggle="collapse">
+                                    <td>
+                                        13h30 - 14h00</td>
+                                    <td>
+                                        <span class="titl solu">ZOO-Project 1.4: Nouveautés de la plateforme WPS libre</span> <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_13_30_ZOO_PROJECT_1.4_NOUVEAUTES_PLATEFORME_WPS_LIBRE_GEOLABS/foss4gfr_2014_zoo_project_fenoy.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk26">
+                                            <p class="abs">
+                                                ZOO-Project est une platforme WPS libre disponible sous licence MIT/X11. Elle fournie un framework orienté développeur conforme à la norme OGC WPS permettant de créer et de chaîner des services Web WPS. Cette conférence présente les nouveautés du projet dans sa version 1.4.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Gérald FENOY</td>
+                                    <td>
+                                        <a href="http://geolabs.fr/" target="_blank">GeoLabs</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk27" data-toggle="collapse">
+                                    <td>
+                                        14h00 - 14h30</td>
+                                    <td>
+                                        <span class="titl solu">WFS 2.0 dans MapServer</span> <a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_14_00_WFS_2.0_MAPSERVER_BRGM/foss4gfr_2014_mapserver_wfs_2.0_tertre_rouault.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk27">
+                                            <p class="abs">
+                                                Du WFS 1.1 au WFS 2.0 avec MapServer. Les innovations du standard. Sa prise en compte actuelle, ainsi que celle d'INSPIRE Download Services, par MapServer. L'impact sur la configuration (mapfiles).</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        François TERTRE</td>
+                                    <td>
+                                        <a href="http://brgm.fr" target="_blank">BRGM</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk28" data-toggle="collapse">
+                                    <td>
+                                        14h30 - 15h00</td>
+                                    <td>
+                                        <span class="titl geos">SIG 3D</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_14_30_SIG_3D_OSLANDIA/foss4gfr_2014_sig_3d_courtin.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk28">
+                                            <p class="abs">
+                                                On connaît bien les SIG en 2D. On sait tous ce qu'est la 3D. Mais un vrai SIG 3D, qui dépasse la visualisation 'pour faire joli', c'est moins banal. Tant mieux, c'est ce qui sera présenté.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Olivier COURTIN</td>
+                                    <td>
+                                        <a href="http://www.oslandia.com" target="_blank">Oslandia</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15h00 - 15h30</td>
+                                    <td colspan="3" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSE</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk29" data-toggle="collapse">
+                                    <td>
+                                        15h30 - 16h00</td>
+                                    <td>
+                                        <span class="titl geos">Vizitown : De la 2D à la 3D</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_15_30_VISITOWN_2D_A_3D_ESIPE_CAPGEMINI/foss4gfr_2014_visitown_poignant.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk29">
+                                            <p class="abs">
+                                                Vizitown est un projet étudiant ayant pour objectif de développer un plug-in QGIS permettant d’exporter les données ouvertes dans le SIG 2D vers un navigateur web pour les visualiser en 3D.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Louis POIGNANT</td>
+                                    <td>
+                                        <a href="http://esipe.u-pem.fr/" target="_blank">ESIPE</a>, <a href="http://capgemini.com" target="_blank">CapGemini</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk30" data-toggle="collapse">
+                                    <td>
+                                        16h00 - 16h30</td>
+                                    <td>
+                                        <span class="titl geos">Polesat: une innovante géo-plateforme de e-santé pour l'aide à la décision</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_16_00_POLESAT_GEO_PLATEFORME_INNOVANTE_E_SANTE_AIDE_DECISION_CHRU_LILLE/foss4gfr_2014_polesat_quesnel.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk30">
+                                            <p class="abs">
+                                                Grâce à l’approche géographique, le langage VCM associé au pantin PiNoKio et l’architecture géomatique OS : Lizmap, nous présentons une geo-plateforme de e-sante-qui évoluera ensuite avec PostgreSQL-PostGIS.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Anne QUESNEL</td>
+                                    <td>
+                                        <a href="http://www.chru-lille.fr/" target="_blank">CHRU Lille</a>, <a href="http://quesnela.free.fr/" target="_blank">Anne Quesnel</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk31" data-toggle="collapse">
+                                    <td>
+                                        16h30 - 17h00</td>
+                                    <td>
+                                        <span class="titl geos">Développement de Tableaux de bord / Rapports géodécisionnels et Dataviz avec Pentaho</span><a href="https://osgeo-fr.github.io/presentations_foss4gfr/2014/J2_B_16_30_DEVELOPPEMENT_TABLEAUX_BORD_RAPPORTS_GEODECISIONNELS_ET_DATAVIZ_PENTAHO_DECIGEO/foss4gfr_2014_pentaho_chevallot_ben_hmid.pdf" target="_blank"><img class="pdf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94FGxMOHtH0hdUAAAPhSURBVEjH7ZZNSFxXFMd/986b0Td1Zqqj1u9ASWIy4hTHrCwJXXSRRReFIFiySEn20kUX2boMYhY1u0DJogjtIl0EAnXjoqVNKa0BrbYNJNRqrV/jxzDT0ffuPV34nsyMGgJdFXrhcu+5H+d/zvnfc7jwf6toInLqXj6fR73ssrUWrfWJ60opB4gADqB832/zPO894LwxptNaO6CU+j6ZTA47tQoKhQKJRAIArTUiUgf0AhkRuaiUygDdgC2VSrKxsdHvOE59PB6PaK21iKC1RikFME5gRa2Vr+/t7Y2KyAda69bt7e1IQ0NDMhqNqoODg1I+ny/v7OwUSqXSmXQ6TXNz81HIQoBQ1lpvVYEUi0WMMVHgOxG5oJQKw8L09LQ3Nzf349DQ0KVMJuN2dHQ0aa0FUJV8BNYfzX3fTwHVnOzu7r4PfFl5GBCttTLG4DgOxpgqwsOzIVjN+HFjY+NEVbiUUh+ewL8KPaoECK0NwySh4lA+7OcBnE8gEoNhD+yvk5Pd9a2tIHLkYtVYGZoaWawllsuROnu2EugCgPoUXA17Cpy6VIpYMilKRB2srWE8j3g6jROPo3wfb3UVC2gg3tmJ1hqtFN7yMp611E1M8NaNG1jfD0O21t7e3ua4h+z/LZDoHxuja2REFVZXeSOTYbq3l+z9+yT6+tDRKG4iwbdXrmAWF3n72TPyz58jSrF46xZ1T57gKYU1BmstckiKu7KyonUKcIPuOA6/z8ywcPkyCmgeGiISjfLzvXt83dLCn48e8ebdu7ieh+O6LE1Okr9zh/jCAm7AiTEm7Mr3fe37flxHgDjwWpC+fSMjvJPPsz4/z+rUFAqIxmK0AGZuDkmlcAMuItks5VwO33Vxg0pgrcUE3lhrtTGm3mkIlAM4kQi/PHxI/to1IsAZQDsO3VevEunuJn3zJj+MjtIUjR5Wh9u36SkUSANe6EkAFDxhBcScVPBYNFB+/JideJw2EEApoPDgAZw7x/7WFvMDA/Q8fYobi7E0Pk6T75MINHmBJ8YYbPDURUSstb6agtRvsGQgaTnUHgzHiqcKNmJKoSsy3IqwL8KlsTH6r1/HGhN6UjTG9BxTVBQZ3tve/qKyHlVmsQT5YcPEC2QRwS+XMQcH4R0BikDyWIFce/Fiv7Y81M5P26tZUyLyVTablWMgxhinslz8S6CPTiz1InKx4nW8ssIauQh8lsvllmdnZ6tBNjc32djYePcllp06t9YuAjMi8jnwk7W2tLy8TFdXVzXI+vp6j4hEReSbgLh9ESmISBkoiMgesCMi2yKyBvwlIn8MDg4uvdJnYGFh4b/9m/kH1wCiyCgog0UAAAAASUVORK5CYII="></a>
+                                        <div class="panel collapse" id="tlk31">
+                                            <p class="abs">
+                                                Présentation de travaux de développement de tableaux de bord / rapports géodécisionnels avec Pentaho, OpenLayers, PostgreSQL/PostGIS, GeoServer.</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Pascal CHEVALLOT, Hocine BEN HMID</td>
+                                    <td>
+                                        <a href="http://www.decigeo.fr " target="_blank">Decigéo</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section
+    ==========================================-->
+    <div id="tf-works">
+        <div class="container"> <!-- Container -->
+            <div class="section-title text-center center">
+                <h2>as últimas<strong> sobre o SASIG</strong></h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <p>Aqui podes ficar com as últimas sobre o evento, desde de speakers convidados, workshops até aos patrocinadores do SASIG de 2015.</p>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="categories">
+                
+                <ul class="cat">
+                    <li class="pull-left"><h4>filtro:</h4></li>
+                    <li class="pull-right">
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">Todos</a></li>
+                            <li><a href="#" data-filter=".web">Oradores</a></li>
+                            <li><a href="#" data-filter=".photography">Patrocionadores</a></li>
+                            <li><a href="#" data-filter=".app" >Workshops</a></li>
+                            <li><a href="#" data-filter=".branding" >Outros</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="lightbox" class="row">
+
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <!-- Clients Section
+    ==========================================-->
+    <div id="tf-clients" class="text-center">
+        <div class="overlay">
+            <div class="container">
+
+                <div class="section-title center">
+                    <h2>Patrocionadores<strong> do sasig</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="clearfix"></div>
+                <p>Seja um dos nosso patrocinadores, acesse aqui ao guia do patrocionador!</p>
+            </div>
+                </div>
+                <div id="clients" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="img/client/sponsors.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/sponsors.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/sponsors.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/sponsors.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/sponsors.png">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Inscrição
+    ==========================================-->
+    <div id="tf-contact" class="text-center">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="section-title center">
+                        <h2>Inscreve-te<strong> no sasig</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p>As inscrições para o SASIG, serão realizadas aqui, por isso fica atento!</p>            
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav">
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014 OSGEO-PT. Design adapted from <a href="https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template">Robert Berki</a> and Coded by <a href="https://dribbble.com/jennpereira">Jenn Pereira</a></p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+
   </body>
-  <!-- END BODY -->
 </html>
