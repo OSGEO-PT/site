@@ -229,7 +229,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 #tf-team .item .thumbnail:hover>img.img-circle.team-img{
-	border: 4px solid #9FC1AB;
+	border: 4px solid #F5D76E;
 }
 #tf-team .thumbnail {
 	background: transparent;
