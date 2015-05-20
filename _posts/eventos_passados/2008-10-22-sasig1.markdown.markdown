@@ -1,0 +1,27 @@
+---
+layout: sasigs
+title:  "SASIG I  - 1ªs Jornadas de Software Aberto para Sistemas de Informação Geográfica"
+date:   2010-11-03 18:30:00
+author: OSGeo-PT
+categories:
+- eventos
+img: sasig_1.png
+thumb: thumb_sasig_1.png
+---
+####Local:
+Águeda - Escola Superior de Tecnologia e Gestão de Águeda
+
+####Datas:
+20 a 22 de Outubro de 2008
+
+####Organização:
+ Câmara Municipal de Águeda, ESTGA, OSGeo-PT
+
+####Comissão Organizadora:
+ Ana Rita Calvão, Danilo Furtado, Mário Rui Gomes, Miguel Tavares, Jorge Gustavo Rocha, Victor Ferreira
+
+####Workshops:
+Distribuição Linux/ SIG; PostgreSQL/ PostGIS; Mapserver; QGIS/ GRASS; OpenLayers; GVSIG
+
+####Patrocinadores:
+Novageo, Autodesk, Skysoft, Instituto Geográfico Português
