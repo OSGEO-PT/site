@@ -43,7 +43,7 @@ O formato dos posters a apresentar no SASIG 2015 é livre havendo apenas como re
 
 ###Envio das comunicações
 
-A submissão das propostas é feita unicamente por e-mail para <artigos.sasig2015@osgeopt.pt> até ao dia ~~31 de Maio~~ 28 de Junho  (inclusive), com as seguintes características:
+A submissão das propostas é feita unicamente por e-mail para <artigos.sasig2015@osgeopt.pt> até ao dia <del>31 de Maio</del> 28 de Junho  (inclusive), com as seguintes características:
 
 - Assunto: “Submissão de Resumo SASIG 2015 – Nome e Apelido do 1º Autor” (exemplo: Submissão de Resumo SASIG 2015 – Maria Matos);
 
