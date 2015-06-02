@@ -1,17 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 /* written by riliwan balogun http://www.facebook.com/riliwan.rabo*/
 .board{
-    width: 100%;
-margin: 60px auto;
-height: 500px;
+width: 100%;
+margin: -30px auto;
+height: 650px;
 background: #EFEFE9;
 /*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
 }
 .board .nav-tabs {
     position: relative;
-    /* border-bottom: 0; */
-    /* width: 80%; */
-    margin: 40px auto;
+    border-bottom: 0;
+    width: 80%;
+    margin: 30px auto;
     margin-bottom: 0;
     box-sizing: border-box;
 
@@ -168,7 +168,7 @@ li.active:after {
 }
 .tab-pane{
    position: relative;
-padding-top: 110px;
+padding-top: 150px;
 }
 .tab-content .head{
     font-family: 'Roboto Condensed', sans-serif;
