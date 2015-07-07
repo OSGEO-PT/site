@@ -19,9 +19,11 @@ website: http://thegeocrafter.github.io/osmpt.html
 O [OSMPT](http://thegeocrafter.github.io/osmpt.html) foi uma ideia que surgiu a partir da informação disponibilizada a nível mundial pela Geofabrik, com extracts a nível nacional para o mundo inteiro. Com o intuito de reunir condições favoráveis para os municícipios portugueses poderem utilizar o OSM como baselayer para as suas aplicações SIG, tornando transparente todos os métodos necessários para criar datasets OSM a nível dos limites dos municípios, foi idealizado esta aplicação que tem como componente backend implementação em Python, com refactor de performance recente, e uma componente frontend vertido numa pequena página onde é possivel descarregar toda a informação gerada a nível municipal.
 
 Assim de forma simples e intuitiva, para aceder aos dados Open Street Map, de um município, basta:
-- Aceder ao site do [OSM-PT Extrator](http://thegeocrafter.github.io/osmpt.html)
-- Selecionar o município que pretendemos
-- E selecionar o formato de dados que pretendemos
+
+- Aceder ao site do [OSM-PT Extrator](http://thegeocrafter.github.io/osmpt.html) 
+- Selecionar o município que pretendemos 
+- E selecionar o formato de dados que pretendemos 
+
 
 ####Tecnologia utilizada?
 - **Backend:** Python, bash, osmosis, osmium (versão antiga - osmjs)
@@ -33,8 +35,8 @@ Assim de forma simples e intuitiva, para aceder aos dados Open Street Map, de um
 - **V0.2 backend:** Maio 2015 (+-3h de processamento total)
 
 ####URLS:
-- [**Source backend:**](https://github.com/thegeocrafter/OSMPTExtractor)
-- [**Frontend:**](http://thegeocrafter.github.io/osmpt.html)
+- [Código fonte / Source backend](https://github.com/thegeocrafter/OSMPTExtractor)
+- [Aplicação / Frontend](http://thegeocrafter.github.io/osmpt.html)
 
 ####Encontrem o Autor:
 **Fernando Ribeiro**
