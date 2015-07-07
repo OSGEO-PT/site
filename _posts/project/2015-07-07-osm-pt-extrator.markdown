@@ -8,7 +8,6 @@ categories:
 img: osm_extract.png
 thumb: osm_extract_thumb.png
 carousel:
-- osm_pt001.png
 - osm_pt002.png
 - osm_pt003.png
 - osm_pt004.png
