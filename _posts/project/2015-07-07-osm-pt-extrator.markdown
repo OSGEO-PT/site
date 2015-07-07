@@ -20,9 +20,9 @@ O [OSMPT](http://thegeocrafter.github.io/osmpt.html) foi uma ideia que surgiu a 
 
 Assim de forma simples e intuitiva, para aceder aos dados Open Street Map, de um município, basta:
 
-- Aceder ao site do [OSM-PT Extrator](http://thegeocrafter.github.io/osmpt.html) 
-- Selecionar o município que pretendemos 
-- E selecionar o formato de dados que pretendemos 
+1. Aceder ao site do [OSM-PT Extrator](http://thegeocrafter.github.io/osmpt.html) 
+2. Selecionar o município que pretendemos 
+3. E selecionar o formato de dados que pretendemos 
 
 
 ####Tecnologia utilizada?
