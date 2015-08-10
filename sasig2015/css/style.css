@@ -240,6 +240,11 @@ img.img-circle.team-img {
 	padding: 9px;
 	color: #F2F2F2;
 }
+.btn-sponsor {
+  color: #fff;
+  background-color: #AA6708;
+  border-color: #AA6708;
+}
 
 .owl-theme .owl-controls .owl-page span {
 	display: block;
@@ -303,6 +308,9 @@ img.img-circle.team-img {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+}
+#tf-clients2{
+	color: #5A5A5A;
 }
 
 #tf-clients .overlay{
