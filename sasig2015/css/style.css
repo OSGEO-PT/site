@@ -280,11 +280,11 @@ img.img-circle.team-img {
 }
 
 #tf-services i.fa {
-	font-size: 40px;
-	border: 4px solid #FCAC45;
-	width: 100px;
-	height: 100px;
-	padding: 27px 25px;
+	font-size: 25px;
+	/*border: 4px solid #FCAC45;*/
+	width: 30px;
+	height: 30px;
+	padding: 12px 1px;
 	margin-bottom: 10px;
 	border-radius: 75%;
 	transition: all 0.5s;
