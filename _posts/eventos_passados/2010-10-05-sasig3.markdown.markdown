@@ -8,16 +8,16 @@ categories:
 img: sasig_3.png
 thumb: thumb_sasig3.png
 ---
-####Local:
+#### Local:
 Lisboa - ISEGI
 
-####Datas:
+#### Datas:
 3 a 5 de Novembro de 2010
 
-####Organização:
+#### Organização:
 OSGeo-PT, ISEGI, Agriciência
 
-####Comissão Científica: 
+#### Comissão Científica: 
 Pedro Cabral, ISEGI – Universidade Nova de Lisboa, Presidente da Comissão Científica
 Jorge Gustavo Rocha, Universidade do Minho
 Miguel Neto, ISEGI – Universidade Nova de Lisboa
@@ -27,7 +27,7 @@ Marco Painho, ISEGI - Universidade Nova de Lisboa
 José Inácio Rodrigues, Universidade do Algarve
 Rui Pedro Julião, IGP e FCSH - Universidade Nova de Lisboa 
  
-####Comissão Organizadora:
+#### Comissão Organizadora:
 André Barriguinha, Agriciência - Presidente da Comissão Organizadora
 Jorge Gustavo Rocha, Universidade do Minho
 Danilo Furtado, LNEC
@@ -43,16 +43,16 @@ Victor Ferreira, FA-Universidade Técnica de Lisboa
 Paulo Ribeiro, TTerra
 Pedro Cabral, ISEGI – Universidade Nova de Lisboa
 
-####Site:
+#### Site:
 [http://lisboa.osgeopt.pt](http://lisboa.osgeopt.pt){:target="_blank"}
 
-####Oradores Convidados:
+#### Oradores Convidados:
 Arnulf Christl (Presidente da OSGEO)
 Miguel Montesinos (PRODEVELOP)
 Lluís Vicens (SIGTE)
 Rui Alves (XLM)
  
-####Workshops:
+#### Workshops:
 Instalação e configuração Linux + software SIG Open Source; 
 PostgreSQL/Postgis I
 Introdução ao uDig com GeoServer
@@ -67,5 +67,5 @@ WebGIS com Openlayers, PostgreSQL/PostGIS e Mapserver
 14:00-18:00	Geonetwork + MIG Editor
 Implementação de Geo WebServices utilizando software OpenSource
 
-####Patrocinadores:
+#### Patrocinadores:
 Municipia, ESRI, GMV, XLM, Novageo
