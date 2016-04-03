@@ -5,8 +5,8 @@ date:   2015-11-03 18:30:00
 author: OSGeo-PT
 categories:
 - eventos
-img: sasig_3.png
-thumb: thumb_sasig3.png
+img: sasig_2015.png
+thumb: thumb_sasig_2015.png
 ---
 #### Local:
 Lisboa - ISTAR-IUL (ISCTE)
