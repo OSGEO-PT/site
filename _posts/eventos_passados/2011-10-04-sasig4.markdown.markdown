@@ -8,21 +8,21 @@ categories:
 img: sasig_4.png
 thumb: thumb_sasig_4.png
 ---
-####Local:
+#### Local:
 Guimarães - Centro Cultural Vila Flor, Universidade do Minho
 
-####Datas:
+#### Datas:
 2 a 4 de Novembro de 2011
 
-####Organização:
+#### Organização:
 Câmara Municipal de Guimarães, Universidade do Minho e OSGeo-PT
 
-####Comissão Científica: 
+#### Comissão Científica: 
 Jorge Gustavo Rocha, Univ. do Minho (Presidente)
 Pedro Cabral, ISEGI, UNL
 Teresa Batista, Univ. de Évora
  
-####Comissão Organizadora:
+#### Comissão Organizadora:
 Pedro Pereira, CM Guimarães
 Jorge Gustavo Rocha, Univ. do Minho
 Miguel Tavares, CM Águeda
@@ -31,7 +31,7 @@ Duarte Carreira, EDIA
 Giovanni Manghi, Faunália
 Danilo Furtado, IGP
 
-####Oradores Convidados:
+#### Oradores Convidados:
 Kosmo - Plataforma SIG libre corporativa
 XEO-Inquedos (Micho Garcia)
 IDE Otalex - Observatório Territorial Alentejo Extremadura  (Rafael Ramos - Junta de Extremadura - Espanha)
@@ -39,7 +39,7 @@ Plataforma SIARL (Mota Lopes - IGP/EPRL; Ricardo Sena - Advantis)
 José Alberto Gonçalves, Georreferenciação em Portugal e a biblioteca PROJ.4
 Maribel Santos, Moving objects e exemplos de aplicação
  
-####Workshops:
+#### Workshops:
 Postgis I
 Introdução ao MapServer
 Iniciação ao GeoServer
@@ -51,5 +51,5 @@ Postgis II
 Publicação de mapas on-line com QGIS, QGIS-Server e QGIS-web client    
 Implementação e visualização de Geo WebServices com software Open Source
 
-####Patrocinadores:
+#### Patrocinadores:
 Novageo, XLM, EDISoft 
