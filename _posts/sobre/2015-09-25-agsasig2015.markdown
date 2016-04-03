@@ -1,0 +1,87 @@
+---
+layout: ata
+title:  "2014-09-18 Eleição"
+date:   2014-09-18 18:30:00
+author: OSGeo-PT
+categories:
+- atas
+---
+####Eleição 2014
+Aos dezoito dias do mês de Setembro de 2014 pelas 14:30 horas, de acordo com convocatória remetida para a lista portugal@lists.osgeo.org, teve lugar a assembleia da OSGEOPT no Centro de Informática da Faculdade de Arquitetura da Universidade de Lisboa, com a seguinte ordem de trabalhos:
+
+1. Apresentação dos resultados da eleição;
+
+2. Tomada de posse dos novos corpos sociais; 
+
+3. Outros assuntos
+
+Houve lugar à participação presencial e via online (lista de presenças em anexo).
+<!--more-->
+##### Ponto 1 – Apresentaram-se resultados das votações eletrónicas para eleição dos Corpos Sociais da Osgeo-pt.
+Foram enviados convites para votação aos 453 inscritos na lista de email (até à véspera de início da votação).
+Foram registados 124 votos, sendo 114 a favor da lista A, e 10 "sem resposta" (sendo equivalente a votar "em branco").
+
+Os resultados foram:
+
+* Número de registos nesta consulta: 124
+
+* Total de registos no inquérito: 124
+
+* Percentagem do total: 100.00%
+
+<em>Lista A</em>
+
+<table>
+<thead>
+<tr><th>Resposta  </th><th>Contagem  </th><th>Percentagem  </th></tr>
+</thead>
+<tr><td>Lista A</td><td>114</td><td>91.94%</td></tr>
+<tr><td>Sem resposta</td><td>10</td><td>8.06%</td></tr>
+<tr><td>Não exibido</td><td>0</td><td>0.00%</td></tr>
+</table>
+
+Foi eleita a Lista A por 91,94% dos votos.
+
+####Ponto 2 - Tomada de posse dos novos corpos sociais
+
+Tomaram posse os corpos sociais compostos por:
+
+######Mesa da Assembleia Geral
+
+Presidente - José Alberto Gonçalves
+
+Secretário - Pedro Pereira
+
+Secretário - André Mano
+
+######Direção
+
+Presidente - Victor Ferreira
+
+Vice-Presidente - Hugo Santos
+
+Tesoureiro - António José Silva
+
+######Conselho Fiscal
+
+Presidente - Artur Gil
+
+Vogal - Giovanni Manghi
+
+Vogal - Duarte Carreira
+
+####Ponto 3 - Outros assuntos
+Não foram abordados outros assuntos, sendo encerrada a assembleia geral.
+
+
+
+A Mesa da Assembleia
+
+Mário Rui Gomes
+
+Maria Teresa Folgôa Batista
+
+Jorge Rocha
+
+
+Lisboa, 18 de Setembro de 2014
