@@ -6,6 +6,7 @@ author: OSGeo-PT
 categories:
 - atas
 ---
+
 ####Eleição 2014
 Aos dezoito dias do mês de Setembro de 2014 pelas 14:30 horas, de acordo com convocatória remetida para a lista portugal@lists.osgeo.org, teve lugar a assembleia da OSGEOPT no Centro de Informática da Faculdade de Arquitetura da Universidade de Lisboa, com a seguinte ordem de trabalhos:
 
@@ -17,6 +18,8 @@ Aos dezoito dias do mês de Setembro de 2014 pelas 14:30 horas, de acordo com co
 
 Houve lugar à participação presencial e via online (lista de presenças em anexo).
 <!--more-->
+
+
 ##### Ponto 1 – Apresentaram-se resultados das votações eletrónicas para eleição dos Corpos Sociais da Osgeo-pt.
 Foram enviados convites para votação aos 453 inscritos na lista de email (até à véspera de início da votação).
 Foram registados 124 votos, sendo 114 a favor da lista A, e 10 "sem resposta" (sendo equivalente a votar "em branco").
@@ -42,9 +45,11 @@ Os resultados foram:
 
 Foi eleita a Lista A por 91,94% dos votos.
 
+
 ####Ponto 2 - Tomada de posse dos novos corpos sociais
 
 Tomaram posse os corpos sociais compostos por:
+
 
 ######Mesa da Assembleia Geral
 
@@ -54,6 +59,7 @@ Secretário - Pedro Pereira
 
 Secretário - André Mano
 
+
 ######Direção
 
 Presidente - Victor Ferreira
@@ -61,6 +67,7 @@ Presidente - Victor Ferreira
 Vice-Presidente - Hugo Santos
 
 Tesoureiro - António José Silva
+
 
 ######Conselho Fiscal
 
@@ -70,8 +77,10 @@ Vogal - Giovanni Manghi
 
 Vogal - Duarte Carreira
 
+
 ####Ponto 3 - Outros assuntos
 Não foram abordados outros assuntos, sendo encerrada a assembleia geral.
+
 
 
 
