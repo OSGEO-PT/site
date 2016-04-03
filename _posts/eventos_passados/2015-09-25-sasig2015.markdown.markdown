@@ -18,40 +18,40 @@ Lisboa - ISTAR-IUL (ISCTE)
 OSGeo-PT, ISTAR-IUL (ISCTE)
 
 #### Comissão Científica: 
-Carlos Costa, ISCTE
-Victor Ferreira, FA da U. Lisboa
-Artur Gil, Universidade dos Açores
-José Alberto Gonçalves, Univ. Porto
-André Mano, ITC, Holanda
-Paulo Fernandez, IPCB
-Rita Anastácio, IPT 
-Jorge Rocha - Univ. do Minho
-Marco Paínho, ISEGI - UNL
-Cristina Catita, FCUL
-Teresa Batista, Univ. Évora 
-Francisco Gutierres, IGOT - UL 
+Carlos Costa, ISCTE<br>
+Victor Ferreira, FA da U. Lisboa<br>
+Artur Gil, Universidade dos Açores<br>
+José Alberto Gonçalves, Univ. Porto<br>
+André Mano, ITC, Holanda<br>
+Paulo Fernandez, IPCB<br>
+Rita Anastácio, IPT <br>
+Jorge Rocha - Univ. do Minho<br>
+Marco Paínho, ISEGI - UNL<br>
+Cristina Catita, FCUL<br>
+Teresa Batista, Univ. Évora <br>
+Francisco Gutierres, IGOT - UL <br>
  
 #### Site:
-[http://www.osgeopt.pt/sasig2015](http://wwww.osgeopt.pt/2015){:target="_blank"}
+[http://www.osgeopt.pt/sasig2015](http://wwww.osgeopt.pt/sasig2015){:target="_blank"}
 
 #### Oradores Convidados:
-Mário Caetano, Subdiretor-Geral do Território
-Jeroen Ticheler, Inventor do GeoNetwork e Empresário Open Source (GeoCat)
-Suchith Anand, Promotor do Ensino Aberto e Fundador do GeoForAll (University of Nottingham)
-Joana Simões, Data Scientist no Centro Tecnológico da Catalunya
-Pedro Henriques, Programador de SIG na Câmara Municipal de Ourém
-Jorge Mendes de Jesus, Webdeveloper no ISRIC - World Soil Information
-Jorge Sanz, Solutions Engineer - CartoDB
-Marc Vloemans, Director EMEA - Boundless
+Mário Caetano, Subdiretor-Geral do Território<br>
+Jeroen Ticheler, Inventor do GeoNetwork e Empresário Open Source (GeoCat)<br>
+Suchith Anand, Promotor do Ensino Aberto e Fundador do GeoForAll (University of Nottingham)<br>
+Joana Simões, Data Scientist no Centro Tecnológico da Catalunya<br>
+Pedro Henriques, Programador de SIG na Câmara Municipal de Ourém<br>
+Jorge Mendes de Jesus, Webdeveloper no ISRIC - World Soil Information<br>
+Jorge Sanz, Solutions Engineer - CartoDB<br>
+Marc Vloemans, Director EMEA - Boundless<br>
  
 #### Workshops:
-PostGIS 
-Serviços de dados geográficos INSPIRE (GEOSERVER)
-QGIS Server (WMS, WFS, WCS) e Webmapping
-Aquisição e Processamento de Dados com UAV
+PostGIS <br>
+Serviços de dados geográficos INSPIRE (GEOSERVER)<br>
+QGIS Server (WMS, WFS, WCS) e Webmapping<br>
+Aquisição e Processamento de Dados com UAV<br>
 
 #### Patrocinadores:
-XLM - Innovations &amp; Technology
+XLM - Innovations &amp; Technology<br>
 gison3dmap - Projecção de informação geográfica sobre mapas 3D
 
 
