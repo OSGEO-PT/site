@@ -8,16 +8,16 @@ categories:
 img: sasig_5.png
 thumb: thumb_sasig_5.png
 ---
-####Local:
+#### Local:
 Faro
 
-####Datas:
+#### Datas:
 15 a 17 de Novembro de 2012
 
-####Organização:
+#### Organização:
 Universidade do Algarve e OSGeo-PT
 
-####Comissão Científica: 
+#### Comissão Científica: 
 José Rodrigues
 Joaquim Luís
 Manuela Rosa
@@ -25,7 +25,7 @@ Jorge Gustavo Rocha
 Pedro Cabral
 Teresa Baptista
  
-####Comissão Organizadora:
+#### Comissão Organizadora:
 José Rodrigues
 Ricardo Sena
 Frederic Lehodey
@@ -37,7 +37,7 @@ Victor Ferreira
 Miguel Tavares
 Cristina Veiga Pires
  
-####Workshops:
+#### Workshops:
 Postgres/Postgis avançado (Fredric Lehodey, Ricardo Sena)
 Biblioteca Proj4 para transformações de coordenadas (José Alberto Gonçalves)
 QGis: Desktop, Server e Web client (Giovanni Manghi, Vania Neves)
@@ -45,5 +45,5 @@ OpenLayers/Geoext (Ricardo Sena, Fredric Lehodey)
 gvSIG (Sara Madeira, Carla Rebelo)
 Routing sobre dados OpenStreetMap (Jorge Rocha)
 
-####Patrocinadores:
+#### Patrocinadores:
 Advantis Solutions e Novageo Solutions
