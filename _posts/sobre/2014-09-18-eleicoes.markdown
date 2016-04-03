@@ -7,7 +7,7 @@ categories:
 - atas
 ---
 
-####Eleição 2014
+#### Eleição 2014
 Aos dezoito dias do mês de Setembro de 2014 pelas 14:30 horas, de acordo com convocatória remetida para a lista portugal@lists.osgeo.org, teve lugar a assembleia da OSGEOPT no Centro de Informática da Faculdade de Arquitetura da Universidade de Lisboa, com a seguinte ordem de trabalhos:
 
 1. Apresentação dos resultados da eleição;
@@ -46,12 +46,12 @@ Os resultados foram:
 Foi eleita a Lista A por 91,94% dos votos.
 
 
-####Ponto 2 - Tomada de posse dos novos corpos sociais
+#### Ponto 2 - Tomada de posse dos novos corpos sociais
 
 Tomaram posse os corpos sociais compostos por:
 
 
-######Mesa da Assembleia Geral
+###### Mesa da Assembleia Geral
 
 Presidente - José Alberto Gonçalves
 
@@ -60,7 +60,7 @@ Secretário - Pedro Pereira
 Secretário - André Mano
 
 
-######Direção
+###### Direção
 
 Presidente - Victor Ferreira
 
@@ -69,7 +69,7 @@ Vice-Presidente - Hugo Santos
 Tesoureiro - António José Silva
 
 
-######Conselho Fiscal
+###### Conselho Fiscal
 
 Presidente - Artur Gil
 
@@ -78,7 +78,7 @@ Vogal - Giovanni Manghi
 Vogal - Duarte Carreira
 
 
-####Ponto 3 - Outros assuntos
+#### Ponto 3 - Outros assuntos
 Não foram abordados outros assuntos, sendo encerrada a assembleia geral.
 
 
