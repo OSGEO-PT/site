@@ -6,7 +6,7 @@ author: OSGeo-PT
 categories:
 - atas
 ---
-####Assembleia Geral 2015
+#### Assembleia Geral 2015
 Aos 25 dias do mês de Setembro de 2015 pelas 18 horas e 30 minutos, teve lugar a reunião da Associação OSGeoPT, no Auditório do ISTAR-IUL (ISCTE - Instituto Universitário de Lisboa), com a seguinte ordem de trabalhos:
 
 1. Inscrição de sócios com pagamento de cotas e definição de regalias associadas
@@ -16,17 +16,19 @@ Aos 25 dias do mês de Setembro de 2015 pelas 18 horas e 30 minutos, teve lugar 
 
 Na reunião estiveram presentes 28 participantes. Todos os tópicos foram discutidos e votados por unanimidade de acordo com o apresentado de seguida.
 <!--more-->
-Ponto 1 - Inscrição de sócios com pagamento de cotas pelo valor anual de 12 euros. A inscrição dá direito a desconto na participação em eventos da associação (no SASIG por exemplo), podendo inclusive implicar a eventual gratuitidade da inscrição caso esteja previamente assegurada a sustentabilidade económica do evento.
 
-Ponto 2 - A conferência SASIG irá ser organizada com uma periodicidade mínima de dois anos, com eventos locais, regionais ou nacionais intercalares, apoiados ou organizados pela OSGEO-PT. Foram sugeridas as seguintes tipologias de eventos a privilegiar, preferencialmente de carácter local/regional com o objectivo de terem um relevante impacto nos locais de realização: workshops, mapping parties, hackathons. 
+##### Ponto 1 - Inscrição de sócios com pagamento de cotas pelo valor anual de 12 euros. A inscrição dá direito a desconto na participação em eventos da associação (no SASIG por exemplo), podendo inclusive implicar a eventual gratuitidade da inscrição caso esteja previamente assegurada a sustentabilidade económica do evento.
+
+##### Ponto 2 - A conferência SASIG irá ser organizada com uma periodicidade mínima de dois anos, com eventos locais, regionais ou nacionais intercalares, apoiados ou organizados pela OSGEO-PT. Foram sugeridas as seguintes tipologias de eventos a privilegiar, preferencialmente de carácter local/regional com o objectivo de terem um relevante impacto nos locais de realização: workshops, mapping parties, hackathons. 
 Um dos presentes sugeriu que a OSGEO-PT pudesse estudar formas de promoção e dinamização de formação técnica dirigida a professores do ensino básico e secundário, nomeadamente em centros de formação das escolas (por exemplo em estreita colaboração/sinergia com o Projecto Global Geo4all).
 
-Ponto 3 - Ir-se-á proceder ao convite para inscrição como sócio da associação, a todos os inscritos na lista de discussão da OSGEO-PT (portugal@osgeo.org). Irão também ser convidados todos os inscritos na SASIG 2015.
+##### Ponto 3 - Ir-se-á proceder ao convite para inscrição como sócio da associação, a todos os inscritos na lista de discussão da OSGEO-PT (portugal@osgeo.org). Irão também ser convidados todos os inscritos na SASIG 2015.
 
 
+&nbsp;
+&nbsp;
 
 A Mesa da Assembleia
-
 Pedro Pereira
 
 Direção
