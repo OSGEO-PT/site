@@ -1,7 +1,7 @@
 ---
 layout: ata
 title:  "2015-09-25 AG SASIG 2015"
-date:   2015-09-25 18:30:00
+date:   2015-09-25 19:30:00
 author: OSGeo-PT
 categories:
 - atas
