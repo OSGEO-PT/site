@@ -31,8 +31,7 @@ a todos os inscritos na lista de discussão da OSGEO-PT (portugal@osgeo.org). Ir
 &nbsp;
 &nbsp;
 
-A Mesa da Assembleia
-
+A Mesa da Assembleia<br>
 Pedro Pereira
 
 Direção
