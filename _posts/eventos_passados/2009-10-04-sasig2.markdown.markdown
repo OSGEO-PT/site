@@ -9,16 +9,16 @@ img: sasig_2.png
 thumb: thumb_sasig_2.png
 ---
 
-####Local:
+#### Local:
 Évora - Universidade de Évora
 
-####Datas:
+#### Datas:
 2 a 4 de Novembro de 2009
 
-####Organização:
+#### Organização:
 Faunália, Universidade de Èvora, AMDE, OSGeo-PT
 
-####Workshops:
+#### Workshops:
 NASA World Wind; PostgreSQL/Postgis I e II
 QGis/GRASS I e II
 SIG & GNU/Linux
@@ -28,8 +28,8 @@ Mapserver
 Iniciação ao GISVM
 Openlayers
 
-####Patrocinadores:
+#### Patrocinadores:
 Instituto Geográfico Português, Municípia, Novageo, MediaPrimer
 
-####Media Partner:
+#### Media Partner:
 sapo.pt
