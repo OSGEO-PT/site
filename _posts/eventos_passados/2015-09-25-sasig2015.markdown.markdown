@@ -32,7 +32,7 @@ Teresa Batista, Univ. Évora <br>
 Francisco Gutierres, IGOT - UL <br>
  
 #### Site:
-[http://www.osgeopt.pt/sasig2015](http://wwww.osgeopt.pt/sasig2015){:target="_blank"}
+[http://osgeopt.pt/sasig2015](http://osgeopt.pt/sasig2015){:target="_blank"}
 
 #### Oradores Convidados:
 Mário Caetano, Subdiretor-Geral do Território<br>
