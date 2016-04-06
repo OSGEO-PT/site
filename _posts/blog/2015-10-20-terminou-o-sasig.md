@@ -19,7 +19,7 @@ thumb: thumb_sasig.jpg
 
 E que grande conferência foi! Queremos agradecer a todos: aos organizadores, aos oradores e aos participantes. Agradecer ao ISCTE-IUL que tão bem nos recebeu. E claro, uma palavra também aos nossos patrocinadores. Todos juntos fizeram um SASIG 2015 vibrante, interessante, bem disposto, e que deixa a todos a vontade de fazer mais.
 
-Embora o título da SASIG fosse aberto ("De onde vimos e para onde vamos?"), a verdade é que nesta conferência estiveram 2 grandes temas subjacentes: o futuro da OSGeo e da SASIG, e como se pode fazer negócio respeitando o modelo Open Source.
+Embora o título da SASIG fosse aberto ("De onde vimos e para onde vamos?"), a verdade é que nesta conferência estiveram 2 grandes temas subjacentes: o futuro da OSGeo e da SASIG, e como se pode fazer negócio respeitando o modelo Open Source. <!--more-->
 
 ### Saldo Final da SASIG 2015
 
