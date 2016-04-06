@@ -1,4 +1,19 @@
-# Terminou a SASIG 2015
+---
+layout: post
+title:  "Terminou a SASIG 2015"
+date:   2015-10-20 14:00:00
+author: osgeo
+categories: 
+- blog
+- SASIG
+- osgeo
+- evento
+img: logo_sasig.png
+thumb: thumb_sasig.jpg
+---
+
+
+
 
 É com enorme satisfação que escrevemos estas linhas: com o esforço de toda a comunidade, a SASIG 2015 aconteceu.
 
