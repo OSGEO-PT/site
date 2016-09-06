@@ -1,86 +1,1730 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>SASIG 2015 a caminho</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/soon.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OSGEO-PT - SASIG 2015, Setembro Lisboa </title>
+    <meta name="description" content="O SASIG é um evento português, sobre software aberto para sistemas de informação geográfica">
+    <meta name="keywords" content="evento, geo, geografia, foss4g, 2015, SIG, sistemas de informação geográfica, SASIG, osgeo, osgeopt, osgeo-pt, software aberto, opensource, qgis, grass, qgispt">
+    <meta name="author" content="osgeopt.pt">
     
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"  href="css/bubble.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <!-- START BODY -->
-  <body class="nomobile">
+  <body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SASIG 2015</a>
+          <!--<p class="navbar-text navbar-right">Voltar a <a href="http://osgeopt.pt" class="navbar-link">OSGeo-PT</a></p>-->
+        </div>
 
-    <!-- START HEADER -->
-    <section id="header">
-        <div class="container">
-            <header>
-                <!-- HEADLINE -->
-                <h1 data-animated="GoIn"><b>SASIG 2015</b>...novidades fresquinhas sobre o evento...</h1>
-            </header>
-            <!-- START TIMER -->
-            <div id="timer" data-animated="FadeIn">
-                <p id="message"></p>
-                <div id="days" class="timer_box"></div>
-                <div id="hours" class="timer_box"></div>
-                <div id="minutes" class="timer_box"></div>
-                <div id="seconds" class="timer_box"></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll">Página Principal</a></li>
+            <li><a href="#tf-about" class="page-scroll">Sobre o evento</a></li>
+            <li><a href="#tf-team" class="page-scroll">Oradores</a></li>
+            <li><a href="#tf-services" class="page-scroll">Programa</a></li>
+            <li><a href="#tf-works" class="page-scroll">Novidades</a></li>
+            <li><a href="#tf-clients" class="page-scroll">Patrocinadores</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Inscrição</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Inicio
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+              <div class="row" style="margin-right: 0px;">
+                <div class="col-md-5"><h1><strong><span class="color">SASIG </span></strong>2015</h1>
+                <p class="lead"><strong>24 e 25 de Setembro</strong> em <strong> Lisboa</strong></p></div>
+                <div class="col-md-2"></div>
+                  <div class="col-md-5"><h1><strong><span class="color">SIG </span></strong>open-source</h1>
+                <p class="lead"><strong>De onde vimos e para onde vamos<strong>?</strong></p></div>
+              </div>
+                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
-            <!-- END TIMER -->
-            <div class="col-lg-4 col-lg-offset-4 mt centered">
-            	<h4>Queres saber quando é que o site vai ficar live, adiciona o teu mail</h4>
-				<form class="form-inline" role="form">
-				  <div class="form-group">
-				    <label class="sr-only" for="exampleInputEmail2">Email</label>
-				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
-				  </div>
-				  <button type="submit" class="btn btn-info">Submeter</button>
-				</form>            
-			</div>
             
         </div>
-        <!-- LAYER OVER THE SLIDER TO MAKE THE WHITE TEXTE READABLE -->
-        <div id="layer"></div>
-        <!-- END LAYER -->
-        <!-- START SLIDER -->
-        <div id="slider" class="rev_slider">
-            <ul>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/compass-on-map.jpg">
-                <img src="assets/img/slider/compass-on-map.jpg">
-            </ul>
-        </div>
-        <!-- END SLIDER -->
-    </section>
-    <!-- END HEADER -->
+    </div>
 
-    <!-- Bootstrap core JavaScript
+    <!-- Sobre o evento
+    ==========================================-->
+
+			
+	<div id="tf-acabou">
+        <div class="container"> <!-- Container -->
+            <div class="section-title text-center center">
+        <div class="container"> <!-- Container -->
+
+			
+
+
+                          <h3 class="head text-center">Terminou a SASIG 2015</h3>
+                          <p class="narrow text-center">
+                            É com enorme satisfação que escrevemos estas linhas: com o esforço de toda a comunidade, a 
+							SASIG 2015 aconteceu.
+                            </p>
+                          <p class="narrow text-center">E que grande conferência foi! Queremos agradecer a todos: aos organizadores, aos oradores e aos participantes. Agradecer ao ISCTE-IUL que tão bem nos recebeu. E claro, uma palavra também aos nossos patrocinadores. Todos juntos fizeram um SASIG 2015 vibrante, interessante, bem disposto, e que deixa a todos a vontade de fazer mais.</p>
+						  <p class="narrow text-center">Embora o título da SASIG fosse aberto ("De onde vimos e para onde vamos?"), a verdade é que nesta conferência estiveram 2 grandes temas subjacentes: o futuro da OSGeo e da SASIG, e como se pode fazer negócio respeitando o modelo Open Source.</p>
+						  <p> No nosso programa podem descarregar as apresentações e documentação acerca dos WS </p>
+						  <p> Foi publicado ainda o livro de actas que pode ser descarregado nos seguintes links:</p>
+						  <a href="https://repositorio.iscte-iul.pt/handle/10071/10301">Repositório do ISCTE</a>
+						  <br>
+						  <a href="http://osgeopt.pt/sasig2015/files/Atas_SASIG2015_v06_COMPLETO.pdf">Página do SASIG2015</a>
+						  
+						  
+                      </div>
+
+ 
+                          </div>                          
+</div>
+</div>
+
+
+
+
+
+
+    <!-- Sobre o evento
+    ==========================================-->
+<div id="tf-about">
+<section style="background:#efefe9;">
+    <div class="container">    	
+            <div class="row">
+                <div class="board">
+                   <div class="board-inner">
+                    <ul class="nav nav-tabs" id="myTab">
+                    <div class="liner"></div>
+                     <li class="active">
+                     <a href="#tab_home" data-toggle="tab" title="welcome">
+                      <span class="round-tabs one">
+                              <i class="fa fa-question"></i><h3 class="head text-center">O nosso SASIG</h3>
+                      </span> 
+                  </a></li>
+
+                  <li><a href="#tab_onde" data-toggle="tab" title="profile">
+                     <span class="round-tabs two">
+                         <i class="fa fa-map-marker"></i><h3 class="head text-center">Onde será o SASIG?</h3>
+                     </span> 
+           </a>
+                 </li>
+                 <li><a href="#tab_participar" data-toggle="tab" title="bootsnipp goodies">
+                     <span class="round-tabs three">
+                          <i class="fa fa-quote-right"></i><h3 class="head text-center">Como posso participar?</h3>
+                     </span> </a>
+                     </li>
+
+                     <li><a href="#tab_sponsor" data-toggle="tab" title="blah blah">
+                         <span class="round-tabs four">
+                              <i class="fa fa-group"></i><h3 class="head text-center">Organização</h3>
+                         </span> 
+                     </a></li>
+
+                     <li><a href="#tab_help" data-toggle="tab" title="completed">
+                         <span class="round-tabs five">
+                              <i class="fa fa-support"></i><h3 class="head text-center">Ajuda ou Posso ajudar?</h3>
+                         </span> </a>
+                     </li>
+                     
+                     </ul></div>
+
+                     <div class="tab-content">
+                      <div class="tab-pane fade in active" id="tab_home" style="padding-bottom: 200px;">
+
+                          <h3 class="head text-center">O nosso SASIG <span style="color:#f48260;">♥</span> está de volta</h3>
+                          <p class="narrow text-center">
+                            Em 2015 acontece a 6ª edição da SASIG - conferência nacional de software aberto para Sistemas de informação geográfica - organizada pelo Capítulo Português da OSGeo - Open Source Geospatial Foundation em colaboração com o ISCTE-IUL.
+                            </p>
+                            <!-- <p class="narrow text-center">O SASIG é essencialmente um espaço de partilha de experiências onde todos - mais ou menos experientes - os que querem conhecer e aprender mais sobre software aberto para Sistemas de Informação Geográfica são bem vindos.
+                          </p> -->
+                          <p class="narrow text-center">O SASIG é essencialmente um espaço de partilha de experiências onde todos - mais ou menos experientes - os que 
+                          querem conhecer e aprender mais sobre software aberto para Sistemas de Informação Geográfica são bem vindos.</p>
+                      </div>
+                      <div class="tab-pane fade" id="tab_onde" style="padding-bottom: 200px;">
+                          <h3 class="head text-center" style="
+   						  margin-top: -70px;">lisboa iscte</h3>
+                          <p class="narrow text-center">
+                          </p>
+                          
+                          <iframe width="100%" height="400px" frameBorder="0" src="https://umap.openstreetmap.fr/pt/map/sasig-2015_42191?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=none&captionBar=false" style="
+   						  margin-top: -17px;"></iframe>
+                          
+                                                
+                      </div>
+                      <div class="tab-pane fade" id="tab_participar" style="padding-bottom: 200px;">
+                          <h3 class="head text-center">Como posso participar?</h3>
+                          <p class="narrow text-center">
+                              Participa com uma comunicação e/ou poster do trabalho que desenvolveste em software aberto, para isso basta descarregar os templates para a submissão de comunicações no link em baixo.
+                          </p>
+                          
+                          <p class="text-center">
+                    <a href="https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing" target="_blank" class="btn btn-success btn-outline-rounded green">Templates para a submissão de comunicações.</a>
+                    <!-- [link](https://drive.google.com/file/d/0B495G9xDT1s9QnpWS2FEdkVCZWM/view?usp=sharing){:target="_blank"} -->
+                </p>
+                        <p class="narrow text-center">
+                        Mais informações sobre a submisão de comunicações e/ou posters na <a href="alt_datas_sasig.html">página</a>
+                          </p>
+                
+                        </div>
+                      <div class="tab-pane fade" id="tab_sponsor" style="padding-bottom: 200px;">
+                          <h3 class="head text-center" style=" margin-top: -30px;">A equipa do SASIG 2015</h3>
+                          <div class="col-md-5"><h3 class="head text-center">Comissão Organizadora:</h3>
+                		  <p class="narrow text-center">• OSGeo-PT - Associação de Software Aberto para Sistemas de Informação Geográfica<br>
+                		  • ISTAR-IUL (ISCTE - Instituto Universitário de Lisboa) <br> <br>
+                          <a href="http://istar.iscte-iul.pt" target="_blank"><img src="img/client/ISTAR_2.png" align="center"></a>
+						  </p>
+						  </div>
+                		  <div class="col-md-2"></div>
+                  		  <div class="col-md-5"><h3 class="head text-center">Comissão Científica:</h3>
+                		  <p class="narrow text-center">• Presidente: Carlos Costa, ISCTE<br>• Victor Ferreira, FA da U. Lisboa<br>• Artur Gil, Universidade dos Açores<br>• José Alberto Gonçalves, Univ. Porto<br>• André Mano, ITC, Holanda<br>• Paulo Fernandez, IPCB<br>• Rita Anastácio, IPT <br>• Jorge Rocha - Univ. do Minho<br>• Marco Paínho, ISEGI - UNL<br>• Cristina Catita, FCUL<br>• Teresa Batista, Univ. Évora <br>• Francisco Gutierres, IGOT - UL<br>
+                          </p></div>
+              </div>
+
+                      <div class="tab-pane fade" id="tab_help" style="padding-bottom: 200px;">
+  					<div class="text-center">
+   					 <i class="img-intro icon-checkmark-circle"></i>
+				</div>
+				<h3 class="head text-center">Precisas ajuda? Alguma dúvida? O site não foi esclarecedor? </h3>
+				<p class="narrow text-center">
+				  Envia um email para a OSGeoPT (SASIG2015) - <a href="mailto:sasig2015@osgeopt.pt?Subject=SASIG2015%20-%20Ajuda" target="_top">Enviar Email</a></p>
+				  <br>
+				  <br>
+				  <h3 class="head text-center">Também Precisamos da tua ajuda!</h3>
+                          <p class="narrow text-center">
+                              Ajuda a divulgar o evnto pelo facebook, google+, listas de email da osgeopt.
+                          </p>    <p class="narrow text-center">
+                              Ajuda-nos...porque o SASIG é de todos para todos....
+                          </p> 
+                          </div>                          
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+</div>
+
+    <!-- Speaker section
+    ==========================================-->
+    <div id="tf-team" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>Oradores <strong>convidados</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="team" class="owl-carousel owl-theme row">
+				
+                    <div class="item">
+                        <div class="thumbnail">
+                            <a href="#aboutModal" data-toggle="modal" data-target="#mariocaetano"><img src="img/team/Mario_Caetano.png" alt="..." class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Mário Caetano</h3>
+                                <p>Subdiretor-Geral do Território</p><br>
+                               </div>
+                        </div>
+                    </div>				
+				
+                    <div class="item">
+                        <div class="thumbnail">
+                            <a href="#aboutModal" data-toggle="modal" data-target="#Jeroen"><img src="img/team/Jeroen_Ticheler.jpg" alt="..." class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Jeroen Ticheler</h3>
+                                <p>Inventor do GeoNetwork e Empresário Open Source</p></div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <a href="#aboutModal" data-toggle="modal" data-target="#Suchith"><img src="img/team/Suchith_Anand.jpg" alt="..." class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Suchith Anand</h3>
+                                <p>Promotor do Ensino Aberto e Fundador do GeoForAll</p></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumbnail">
+                            <a href="#aboutModal" data-toggle="modal" data-target="#Joana"><img src="img/team/joana_simoes.png" alt="..." class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Joana Simões</h3>
+                                <p>Data Scientist no Centro Tecnológico da Catalunya</p></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumbnail">
+                             <a href="#aboutModal" data-toggle="modal" data-target="#pedrohenriques"><img src="img/team/pedro_henriques.png" alt="" class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Pedro Henriques</h3>
+                                <p>Programador de SIG na Câmara Municipal de Ourém</p></div>
+                        </div>
+                    </div>				
+					<div class="item">
+                        <div class="thumbnail">
+                             <a href="#aboutModal" data-toggle="modal" data-target="#jorgejesus"><img src="img/team/jorge_jesus.png" alt="" class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Jorge Mendes de Jesus</h3>
+                                <p>Webdeveloper no ISRIC - World Soil Information</p></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumbnail">
+                             <a href="#aboutModal" data-toggle="modal" data-target="#jorgesanz"><img src="img/team/jorge_sanz.jpg" alt="" class="img-circle team-img"></a>
+                            <div class="caption">
+                                <h3>Jorge Sanz</h3>
+                                <p>Solutions Engineer - CartoDB</p></div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+	<!-- Modal -->
+	<div class="modal fade" id="mariocaetano" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre Mário Cateano</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/Mario_Caetano.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Mário Caetano <small>PT</small></h3>
+                    <!--<span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-info">Adobe CS 5.5</span>
+                        <span class="label label-info">Microsoft Office</span>
+                        <span class="label label-success">Windows XP, Vista, 7</span>-->
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>Mário Caetano é investigador principal da Direção Geral do Território (DGT) e exerce atualmente o cargo de Subdiretor-Geral nesta entidade.</p>
+						<p>O seu percurso profissional tem-se desenvolvido em três eixos estruturantes: (1) investigação e desenvolvimento (I&D), (2) docência universitária, e (3) definição, coordenação e monitorização da implementação de programas, estratégias e políticas. Estes três eixos estão interligados pela linha tecnológica e temática em que se tem focado ao longo do seu percurso profissional, i.e. gestão e produção de informação geográfica com base em novas tecnologias, nomeadamente processamento digital de imagens de satélite e análise espacial em Sistemas de Informação Geográfica (SIG). Desde 2000 que a docência se tem centrado na NOVA Information and Managment School (NOVA IMS) (Instituto Superior de Estatística e Gestão de Informação – ISEGI) mas também tem sido exercida em outras universidades nacionais e estrangeiras. Mário Caetano é autor de cerca de 150 publicações em livros, revistas e atas de conferências e já orientou mais de 50 teses e dissertações de doutoramento e mestrado.</p>
+						 </a>                                
+                    <br>
+                    </center>
+                </div>
+                <!--<div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                    </center>
+                </div>-->
+             </div>
+        </div>
+        </div>
+	
+	<div class="modal fade" id="Jeroen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre o Jeroen</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/Jeroen_Ticheler.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Jeroen Ticheler <small>NL</small></h3>
+                    <!--<span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-info">Adobe CS 5.5</span>
+                        <span class="label label-info">Microsoft Office</span>
+                        <span class="label label-success">Windows XP, Vista, 7</span>-->
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>Inventor do GeoNetwork e Empresário Open Source</p>
+                                <p>Com um percurso notável, iniciando-se na FAO, criou o projecto GeoNetwork, provavelmente o software open source de catalogação de dados geográficos mais utilizado no mundo, e o Bolsena Code Sprint, uma semana dedicada à programação de software SIG open source num convento em Itália. Criou e gere uma empresa de sucesso com base em Open Source. Venha partilhar da sua experiência!</p>
+                                Mais informação no <a target="_blank" href="https://nl.linkedin.com/in/ticheler">LinkedIn do Jeroen.</a>
+                                <br/>Pode também ler uma entrevista sua na <a target="_blank" href="http://geonetwork-opensource.org/_static/Articles/Revista_FOSSGIS_Brazil_Ed_04_Janeiro_Special_2012_small.pdf">Revista FOSSGIS Brazil</a>.
+                    <br>
+                    </center>
+                </div>
+                <!--<div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                    </center>
+                </div>-->
+             </div>
+        </div>
+        </div>
+    
+    <div class="modal fade" id="Suchith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre o Suchith</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/Suchith_Anand.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Suchith Anand <small>UK</small></h3>
+                    <!-- <span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-info">Adobe CS 5.5</span>
+                        <span class="label label-info">Microsoft Office</span>
+                        <span class="label label-success">Windows XP, Vista, 7</span> -->
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>Investigador na Universidade de Nothingham e Fundador do GeoForAll</p>
+                         <p>Suchith é um dos grandes impulsionadores do Ensino Aberto em SIG, sendo fundador do projecto GeoForAll e outras iniciativas para a Educação Aberta, como o GIS Open Lab de Nothingham.Tem interesse em educar ou em educar-se? Venha ouvi-lo!</p></p>
+                         Mais informação na <a target="_blank" href="http://www.nottingham.ac.uk/~lgzwww/contacts/staffPages/SuchithAnand/Suchith%20Anand.htm">Biografia do Suchith Anand</a>
+                         <br/>Leia mais sobre a <a target="_blank" href="http://www.geoforall.org/about/">iniciativa GeoForAll</a> e sobre a rede de laboratórios de ensino aberto em SIG que está a ser criada em todo o mundo.
+                    <br>
+                    </center>
+                </div>
+                <!--<div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                    </center>
+                	</div>-->
+            </div>
+        </div>
+        </div>
+    </div>
+
+      <div class="modal fade" id="Joana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre a Joana</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/joana_simoes.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Joana Simões<small> PT</small></h3>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>Data Scientist no Centro Tecnológico da Catalunya - Big Data no contexto das Smart Cities</p>
+                                <p>A Joana Simões tem tido uma trajetória profissional variada, passando pelo mundo académico, empresarial e também por uma organização intergovernamental. Passando por áreas tão diversas como a gestão de pescas, a modelação espacial de epidemias ou análise de dados de redes sociais. Mantendo sempre um enfoque na área do desenvolvimento de software, nomeadamente ligado aos sistemas de informação geográfica e tecnologias livres e de código aberto.</p>
+								<p>Depois de um doutoramento no CASA (onde ainda é colaboradora), passou por Roma a trabalhar como consultora para a FAO, onde se empenhou em implementar tecnologias open source dentro desta organização.
+                                Atualmente vive e trabalha em Barcelona, como data scientist no Centro Tecnológico da Catalunya, focando-se sobretudo em problemas de Big Data no contexto das Smart Cities. Quando faz bom tempo (o que é frequente), podem encontra-la a correr pelo Parc de Collserola ou a andar de bicicleta pela cidade ;)<br></p>
+                                Mais informação no <a target="_blank" href="https://careers.stackoverflow.com/doublebyte">Stack Overflow</a>, no <a target="_blank" href="https://github.com/doublebyte1">GitHub</a>, e no seu <a target="_blank" href="http://doublebyte.net">blog</a>.
+                    <br>
+                    </center>
+                </div>
+                </p>
+                </center>
+                </div>
+                </div>
+             </div>
+
+      	<div class="modal fade" id="pedrohenriques" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre O Pedro</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/pedro_henriques.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Pedro Henriques<small> PT</small></h3>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>Programador de SIG na Câmara Municipal de Ourém</p>
+                                <p>Com a sua carreira iniciada no Município de Ourém em 2007, onde durante vários anos todo o trabalho se baseou na utilização de software proprietário, na implementação de portais geográficos e a consequente disponibilização de informação geográfica aos serviços e munícipes.</p>
+
+								<p>Participou como orador em diversos eventos de SIG, como exemplo, EUE 2011 e 2014 e nas 7ª Jornadas de GT – IPT.</p>
+
+                                <p>Em 2013 foi necessário alterar o paradigma existente no município, assim encabeçou a migração das soluções proprietárias para OpenSource, nomeadamente a migração das BD de MSQL Server/ArcSDE para PostgreSQL\PostGIS, mantendo a interoperabilidade da BD face às soluções SIG, desenvolvendo a funcionalidade para a edição de dados em PostGIS nas soluções ESRI e foi o responsável pelo desenvolvimento da solução <a target="_blank" href="http://websig.cm-ourem.pt/websig">websig</a> utilizada atualmente pelo município, recorrendo para isso ao stack “GeoServer + OpenLayers + GeoExt”, solução que foi disponibilizada aos municípios da CIMT.<br></p>
+                                Mais informação no <a target="_blank" href="https://www.linkedin.com/pub/pedro-henriques/1a/8a9/a31">Linkedin</a>, no <a target="_blank" href="https://github.com/henriquespedro">GitHub</a>, e na sua <a target="_blank" href="http://zoomto.pt/">página</a>.
+                    <br>
+                    </center>
+                </div>
+             </p>
+             </center>
+             </div>
+             </div>
+             </div>
+			 
+      	<div class="modal fade" id="jorgejesus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre o Jorge Jesus</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/jorge_jesus.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Jorge Mendes de Jesus<small> PT</small></h3>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>Jorge Samuel Mendes de Jesus trabalha no ISRIC - World Soil Information (Wageningen, Holanda) como webdeveloper no apoio do backoffice do projecto soilgrids.</p>
+                                <p>O seu percurso profissional começou na Universidade do Algarve onde se licenciou em Engenharia Agronómica, em seguida obteve uma bolsa do FCT que permitiu-lhe obter o grau de Doutor da Universidade de Ben Gurion of the Negev (Israel) com a tese no campo da geoestatística e agricultura de precisão integrada no campo de investigacao do grupo de Earth and Planetary Image Facility do Departamento de Geografia e Desenvolvimento Sustentado. Em Israel obteve formação em detecção remota (sensores ópticos e radar de abertura sintética), GIS (open source), IT managment e programação em C/C++,PHP. Posteriormente participou nos projectos NETMAR, EuroGEOSS e DOPA durante a sua estadia no Joint Research Center (JRC) em Ispra, como parte to seu trabalho ele teve a oportunidade de participar activamente em projectos de implementação do standard WPS (Web Processing Service) e desenvolvimento da implementação em Python do WPS. O seu trabalho no campo do WPS e web-service orchestration continou em Inglaterra no Plymouth Marine Laboratory no projecto NETMAR. Em 2012 o seu percurso profissional levou-lhe a Holanda e a trabalhar para ISRIC inicialmente como PostGIS manager da base de dados de solos WOSIS e posteriormente como IT admin, web service developer do projecto de mapeamento digital de solos soilgrids1km e soilgrids250mt.</p>
+                                
+                                Mais informação no <a target="_blank" href="https://nl.linkedin.com/in/jorgedejesus">Linkedin</a>, e no <a target="_blank" href="https://www.researchgate.net/profile/Jorge_Mendes_De_Jesus">researchgate</a>.
+                    <br>
+                    </center>
+                </div>
+             </p>
+             </center>
+             </div>
+             </div>
+             </div>
+
+             <div class="modal fade" id="jorgesanz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Mais sobre o Jorge Sanz</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="img/team/jorge_sanz.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Jorge Sanz<small> ES</small></h3>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                         <p>O Jorge Sanz é um espanhol que vive entre Aldaia (Valência) e Madrid, trabalha na <a target="_blank" href="http://www.cartodb.com">CartoDB</a>, como Solutions Engineer, onde ajuda o clientes e parceiros da empresa a melhorar o produto.<br>
+                         <br>
+                         É um sério fã, promotor e entusiasta do software livre e da cultura Open Source e isso é refletido no seu percurso, desde do envolvimento na Fundação OSGeo, como “charter member” e como membro do Board of Directors da OSGeo, bem como do capítulo espanhol da OSGeo e numa outra comunidade relacionada com o conhecimento livre.<br>
+                         <br>
+                         O Jorge era consultor de tecnologias geoespaciais na Prodevelop desde 2006, mas em 2015 mudou para enfrentar novos projetos e desafios, um deles o CartoDB do qual vem falar.<br>
+                         <br>      
+                       	 Mais informação na sua <a target="_blank" href="http://jorgesanz.net/">página pessoal</a>, e no <a target="_blank" href="http://www.linkedin.com/in/jsanz">Linkedin</a>.
+                    <br>
+                    </center>
+                </div>
+             </p>
+             </center>
+             </div>
+             </div>
+             </div>				 
+			 
+             </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <!-- Programa do evento
+    ==========================================-->
+       <section style="background:#efefe9;">
+       <div id="tf-services" class="text-center">
+       <div class="container">
+            <div class="section-title center">
+                <h2>Programa do <strong>SASIG</strong></h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <p>O programa do SASIG 2015, ainda é o programa provisório, mas esperamos que no final da semana,<br> conseguir ter todo o programa definido e devidamente preenchido para consulta!<br><br>
+                Os Workshop's serão realizados no dia 23 de Setembro.</p>
+                <!--<p>Temas a abordar no SASIG:</p>
+                <div class="info text-center">- Novos desenvolvimentos em software aberto para SIG;<br>
+                - Transição de software SIG proprietário para aberto;<br>
+                - Interoperabilidade e standards;<br>
+                - Formação e suporte em software SIG aberto;<br>
+                - Modelos de negócio para software SIG aberto;<br>
+                - Dados, conteúdos e arquiteturas abertas;<br>
+                - Casos de estudo de software aberto aplicados às mais diversas áreas;<br>
+                - Informação geográfica voluntária na produção de cartografia;<br>
+                - Infraestruturas de dados espaciais suportadas por software aberto;<br>
+                - Outros temas multidisciplinares transversais à temática do software aberto para SIG.</div>
+                <p class="text-center">-->
+            </div>
+            <div class="container" style="padding-top: 25px">
+            <div class="row">
+                <div class="board responsive">
+                   <div class="board-inner">
+                    <ul class="nav nav-tabs" id="myTab" style="margin-top: 10px; margin-left: 300px; margin-right: 200px;">
+                    <div class="liner" style="left: -200; margin-left: -93.594; margin-left: -90px;"></div>
+                     <li class="active">
+                     <a href="#ws" data-toggle="tab" title="workshops" >
+                      <span class="round-tabs one">
+                              <h3 class="head text-center" style="margin-top: 15px;">Work<br>shops</h3>
+                      </span> </a>
+                      </li>
+                  <li><a href="#d24" data-toggle="tab" title="profile">
+                     <span class="round-tabs two">
+                        <h3 class="head text-center" style="margin-top: 15px;">Dia<br>24</h3>
+                     </span></a>
+                 </li>
+                 <li><a href="#d25" data-toggle="tab" title="bootsnipp goodies">
+                     <span class="round-tabs three">
+                          <h3 class="head text-center" style="margin-top: 15px;">Dia<br>25</h3>
+                     </span> </a>
+                     </li>               
+                     </ul></div>
+                <div class="tab-content">
+                <div class="tab-pane active fade in" id="ws" style="padding-top: 35px; padding-bottom: 200px;">             
+                        <table class="table table-bordered table-striped prog">
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horário</th>
+                                    <th width="57%">
+                                        Workshop</th>
+                                    <th width="17%">
+                                        Formador(s)</th>
+                                    <th width="15%">
+                                        Sala</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                    <td>
+                                        9h00 - 09h30</td>
+                                    <td>
+                                        <span class="title">Recepção do participantes dos workshops</span><a href="" target="_blank"></a>
+                                    </td>
+                                    <td>
+                                        ...</td>
+                                    <td>
+                                        <a href="" target="_blank">...</a></td>
+                                </tr>
+                                <tr data-target="#ws1" data-toggle="collapse">
+                                     <td rowspan="2">   
+                                        9h30 <br>-<br> 13h00</td>
+                                    <td>
+                                        <span class="title">PostGIS<small>  (saber mais)</small></span><a href="../sasig2015/files/workshop_postgis.zip" target="_blank"><i class="fa fa-file-archive-o "></i></a>
+                                        <div class="panel collapse" id="ws1">
+                                            <small class="abs"><b>Objetivos e plano do WS:</b><br>
+                                                <small>Como usar o PostgreSQL e as suas funções de banco de dados e o PostGIS que adiciona funcionalidades espaciais ao PostgreSQL</br>
+												</small>
+                                                </p>
+                                                Requisitos e conhecimentos para o WS:<br>
+                                                <u>- Computador com instalação do PostgreSQL + PostGIS e o QGIS (dispensável se for utilizado o <a href="http://live.osgeo.org/" target="_blank">OSGeo-Live</a>)</br>
+                                                - Noções básicas de SQL</u></small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Pedro Henriques - CM Ourém</td>
+                                    <td>
+                                        Sala a designar</td>
+                                </tr>
+                                    <tr data-target="#ws2" >
+                                     <td>
+                                        <span class="title">Serviços de dados geográficos INSPIRE (GEOSERVER)<small>  (saber mais)</small></span><a href="../sasig2015/files/SASIG2015-workshopDGT.zip" target="_blank"><i class="fa fa-file-archive-o "></i></a>
+                                        <div class="panel collapse" id="ws2">
+                                            <small class="abs"><b>Objetivos e plano do WS:</b><br>
+                                                <small>1. “A implementação da Diretiva INSPIRE em Portugal: ponto de situação e perspetivas futuras” </br>
+												2. Introdução a serviços INSPIRE</br>
+												3. Fundamentos sobre Serviços de Dados Geográficos</br>
+												4. Ferramentas Open Source para Serviços de Rede</br>
+												5. Alguns exemplos prá́ticos</br>
+												6. Considerações finais</br></small>
+                                                </p>
+                                                Requisitos e conhecimentos para o WS:<br>
+                                                <u>- Computador com instalação do PostGIS e do GeoServer (dispensável se for usado o <a href="http://live.osgeo.org/" target="_blank">OSGeo-Live</a>)</u></br></small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Danilo Furtado, Alexandra Fonseca e Mário Caetano - DGT</td>
+                                    <td>
+                                        Sala a designar</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        13h00 <br>-<br> 14h30</td>
+                                    <td colspan="3" height="60px" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA PARA<br>
+                                        ALMOÇO</td>
+                                </tr>
+								<tr data-target="#ws3" data-toggle="collapse">
+                                     <td rowspan="2">   
+                                        14h30 <br>-<br> 18h00</td>
+                                    <td>
+                                        <span class="title">QGIS Server (WMS, WFS, WCS) e Webmapping<small>  (saber mais)</small></span><a href="" target="_blank"></a>
+                                        <div class="panel collapse" id="ws3">
+                                            <small class="abs"><b>Objetivos e plano do WS:</b><br>
+                                                <small>Como usar o QGIS Server com os vários serviços OGC (WMS, WFS e WCS)</br>
+												</small>
+                                                </p>
+                                                Requisitos e conhecimentos para o WS:<br>
+                                                <u>- Computador<br>
+                                                - Conhecimento do ambiente de trabalho client/server<br>
+                                                - Conhecimento das bases de funcionamento de um web server e da arquitectura web</u></small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Giovanni Manghi - NaturalGIS</td>
+                                    <td>
+                                        Sala a designar</td>
+                                </tr>
+                      
+								<tr data-target="#ws4" data-toggle="collapse">
+                                     <td>
+                                        <span class="title">Aquisição e Processamento de Dados com UAV</span><a href="" target="_blank"></a>
+                                        <div class="panel collapse" id="ws4">
+                                            <small class="abs"><b>Objetivos e plano do WS:</b><br>
+                                                <small>simulação de voo - se o tempo o permitir - com DJI phantom ou Inspire</br>
+												</small>
+                                                </p>
+                                                Requisitos e conhecimentos para o WS:<br>
+                                                <u>- Computador<br>
+                                                </u></small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Victor Ferreira</td>
+                                    <td>
+                                        Sala a designar</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                      <div class="tab-pane fade" id="d24" style="padding-top: 25px;padding-bottom: 100px;">
+                          <div class="tab-pane fade active in" id="d24" style="padding-top: 10px;">
+                        <table class="table table-bordered table-striped prog">
+
+                            <thead>
+                                <tr>
+                                    <th width="10%">
+                                        Horas</th>
+                                    <th width="5%">
+                                    	Painel</th>
+                                    <th width="55%">
+                                        Título</th>
+                                    <th width="15%">
+                                        Orador</th>
+                                    <th width="15%">
+                                        Entidade(s)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        9h00 - 9h30</td>
+                                    <td>
+                                    	</td>
+                                    <td>
+                                        Abertura e recepção de participantes</td>
+                                    <td>
+                                        </td>
+                                    <td>
+                                        <a href="http://osgeopt-pt" target="_blank">OSGeo-PT</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk1">
+                                    <td>
+                                        9h30 - 10h00</td>
+                                    <td>
+                                    	</td>
+                                    <td>
+                                        <span class="titl insp">Apresentação da OSGeo-PT + IceBreaker</span><a href="../sasig2015/files/keynotes/hugo/sasig_2015.html" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk1">
+                                            <small class="abs">
+                                                Apresentação sobre o estado do software open-source para os sistemas de informação geográfica e a sua utilização no nosso país em conjunto com o um momento de boa disposição.</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        </td>
+                                    <td>
+                                        <a href="http://www.osgeopt.pt" target="_blank">OSGeo-PT</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk2">
+                                	<td>
+                                        10h00 - 10h30</td>
+                                    <td>
+                                    	Convidados</td>
+                                	<td>
+                                        <span class="titl insp">From an open source software model to an open business model</span>
+                                        <div class="panel collapse" id="tlk2">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                       Jeroen Ticheler</td>
+                                    <td>
+                                        <a href="https://www.geocat.net/" target="_blank">Geocat</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk3" >
+                                	<td>
+                                        10h30 - 11h00</td>
+                                    <td>
+                                    	Convidados</td>
+                                    <td>
+                                        <span class="titl insp">Mapeamento digital de solos @ ISRIC - A historia do projecto soilgrids</span><a href="http://isric.org/presentations/SASIG2015" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk3">
+                                            <small class="abs">
+                                                </small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Jorge Mendes de Jesus</td>
+                                    <td>
+                                        <a href="http://www.isric.org/" target="_blank">ISRIC</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        11h00 - 11h30</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk4">
+                                	<td>
+                                        11h30 - 12h00</td>
+                                    <td>
+                                		Convidados</td>
+                                    <td>
+                                        <span class="titl insp">Projetos da DGT</span><a href="../sasig2015/files/keynotes/SASIG-OS-DGT-final.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk4">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                       Mário Caetano </td>
+                                    <td>
+                                        <a href="http://www.dgterritorio.pt/" target="_blank">DGT</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk5" data-toggle="collapse">
+                                	<td>
+                                        12h00 - 12h30</td>
+                                    <td>
+                                		Debates</td>
+                                    <td>
+                                        <span class="titl insp">Mesa Redonda / Debate - Como viver do Open-Source?</span>
+                                        <div class="panel collapse" id="tlk5">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        </td>
+                                    <td>
+                                        <a href="" target="_blank"></a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12h30 <BR>-<BR> 14h00</td>
+                                    <td colspan="4" height="100px" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        <br>PAUSA PARA<br>
+                                        ALMOÇO</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk6">
+                                	<td>
+                                        14h00 - 14h30</td>
+                                    <td>
+                                		Convidados</td>
+                                    <td>
+                                        <span class="titl insp">Openness in GeoEducation: the "Geo For All" global initiative</span><a href="../sasig2015/files/keynotes/suchith_GeoforAllslides.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk6">
+                                            <small class="abs">
+                                                Suchith como fundador do projecto GeoForAll, vem falar das iniciativas e potencialidades do Ensino Aberto em SIG</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Suchith Anand</td>
+                                    <td>
+                                        <a href="http://www.nottingham.ac.uk/" target="_blank">Universidade de Nottingham</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk7">
+                                	<td>
+                                        14h35 - 14h55</td>
+                                    <td>
+                                		Desenvolvimento</td>
+                                    <td>
+                                        <span class="titl insp">QGIS: ajuda, suporte, desenvolvimento</span><a href="../sasig2015/files/naturalgis_sasig2015.pdf" target="_blank"><i class="fa fa-bullhorn"></i></a>
+                                        <div class="panel collapse" id="tlk7">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                   	<td>Giovanni Manghi</td>
+                                    <td>
+                                        <a href="http://www.naturalgis.pt/" target="_blank">NaturalGIS</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk8">
+                                	<td>
+                                        15h00 - 15h15</td>
+                                    <td>
+                                		Desenvolvimento</td>
+                                    <td>
+                                        <span class="titl insp">IPSENTINEL: Infraestrutura De Armazenamento e Disseminação de Imagens de Satélite Sentinel Para Portugal</span><a href="../sasig2015/files/keynotes/SASIG_JoseSantos.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/06_Jose_Santos_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk8">
+                                            <small class="abs">
+                                               A IPSentinel enquadra-se na política do Segmento Colaborativo de Solo (CollGS) e é parte integrante da plataforma global coordenada pela Agência Espacial Europeia (ESA) e pela Comissão Europeia (CE).
+                                               Permitirá o armazenamento de imagens obtidas pelos diferentes satélites Sentinel para a área geográfica de Portugal, criando um acesso privilegiado a um vasto conjunto de dados de Observação da Terra (OT).</small>
+                                        </div>
+                                    </td>
+                                   	<td>José Santos</td>
+                                    <td>
+                                        <a href="http://www.dgterritorio.pt/" target="_blank">Direção Geral do Território</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15h20 - 15h35</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk9">
+                                	<td>
+                                        15h40 - 15h55</td>
+                                    <td>
+                                		Recursos Naturais - I</td>
+                                    <td>
+                                        <span class="titl insp">Modelos espacialmente explícitos de análise de dinâmicas locais: o caso da vegetação natural potencial no apoio ao planeamento e ordenamento territorial</span><a href="../sasig2015/files/keynotes/Gutierres_et_al_SASIG_2015.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/09_Francisco_Gutierres_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk15">
+                                            <small class="abs">
+                                               A definição da Vegetação Natural Potencial (VNP) reveste-se de grande utilidade no apoio aos processos de decisão no âmbito do ordenamento territorial. Em territórios classificados em que a vegetação apresenta elevada perturbação, como se verifica em algumas áreas dos Sítios da Rede Natura 2000 “Comporta/Galé” e “Estuário do Sado”, a expressão cartográfica da VNP tem a necessidade de se apoiar num conjunto de elementos que vão além das condições da vegetação atual. </small>
+                                        </div>
+                                    </td>
+                                   	<td>Francisco Gutierres</td>
+                                    <td>
+                                        <a href="http://www.igot.ulisboa.pt/" target="_blank">IGOT</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk10">
+                                	<td>
+                                        16h00 - 16h15</td>
+                                    <td>
+                                		Recursos Naturais - I</td>
+                                    <td>
+                                        <span class="titl insp">Susceptibilidade à invasão por Acacia dealbata Mill. na bacia do rio Mondego: proposta metodológica para avaliação de suscetibilidade em áreas extensas</span><a href="../sasig2015/files/keynotes/Presentation_SASIG_JOrgepereira.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/02_Jorge_Pereira_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk10">
+                                            <small class="abs">
+                                             Este ensaio baseia-se na estratégia de projeção espacial de um modelo que apresente bom desempenho para uma área reduzida do território. A criação deste modelo suporta-se na utilização de um método de modelação baseado no princípio da máxima entropia, um método identificado como um dos mais robustos no âmbito de modelação preditiva de base correlativa.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Jorge Pereira</td>
+                                    <td>
+                                        <a href="http://www.uc.pt/fluc" target="_blank">FLUC</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk11">
+                                	<td>
+                                        16h20 - 16h35</td>
+                                    <td>
+                                		Recursos Naturais - I</td>
+                                    <td>
+                                        <span class="titl insp">GISWATER – uma solução integrada para gestão de redes de abastecimento de água. um caso de estudo na Quinta do Lago</span><a href="../sasig2015/files/keynotes/ivo_silvestre/sasig2015.html" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/01_Ivo_Silvestre_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk11">
+                                            <small class="abs">
+                                                Apresentação de uma solução integrada para a gestão da rede de abastecimento de água da Quintado Lago baseado no GISWater, um software de código aberto que permite a integração do PostgreSQL (com extensão PostGIS) entre o EPANET e o QGIS</small>
+                                        </div>
+                                    </td>
+                                   	<td>Ivo Silvestre</td>
+                                    <td>
+                                        <a href="http://www.infraquinta.pt/" target="_blank">Infraquinta</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk16">
+                                	<td>
+                                        16h40 - 16h55</td>
+                                    <td>
+                                		Recursos Naturais - I</td>
+                                    <td>
+                                        <span class="titl insp">Geração de mapas dinâmicos para monitorizar a evolução temporal da temperatura de uma escombreira de carvão em auto-combustão</span><a href="../sasig2015/files/keynotes/jgoncalves_Slides_escombreira.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/08_Lia_Duarte_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk16">
+                                            <small class="abs">
+                                                A monitorização e medição de temperaturas de materiais geológicos em auto-combustão são fundamentais para estudo da evolução das áreas afetadas por este processo. A necessidade de monitorizar, de forma contínua, escombreiras de carvão em auto-combustão de forma a determinar a dinâmica do processo e estabelecer prováveis cenários evolutivos.</small>
+                                        </div>
+                                    </td>
+                                   	<td>José Gonçalves</td>
+                                    <td>
+                                         <a href="http://sigarra.up.pt/fcup/pt/web_page.inicial" target="_blank">FCUP</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        17h00 - 17h15</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk12">
+                                	<td>
+                                        17h20 - 17h35</td>
+                                    <td>
+                                		Drones & Detecção</td>
+                                    <td>
+                                        <span class="titl insp">MICMAC: uma alternativa open source para fotogrametria</span><a href="../sasig2015/files/keynotes/micmac.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/03_Oscar_Moutinho_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk12">
+                                            <small class="abs">
+                                               Apresenta uma alternativa Open Source, o MicMac. Os resultados obtidos permitem concluir que esta ferramenta é comparável às soluções comerciais mais utilizadas para os mesmos fins, permitindo, também, grande controlo e personalização na produção de informação geográfica.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Óscar Moutinho</td>
+                                    <td>
+                                        <a href="http://sigarra.up.pt/fcup/pt/web_page.inicial" target="_blank">FCUP</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk13">
+                                	<td>
+                                        17h40 - 17h55</td>
+                                    <td>
+                                		Drones & Detecção</td>
+                                    <td>
+                                        <span class="titl insp">Workflow Open Source de Fotogrametria Aérea, desde a aquisição ao processamento de imagens provenientes de RPAS</span><a href="../sasig2015/files/keynotes/ana_rodrigues.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/04_Ana_Rodrigues_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk13">
+                                            <small class="abs">
+                                               A fotogrametria aérea está atualmente em grande desenvolvimento, isto devido ao súbito interesse gerado por aparelhos voadores, cada vez mais acessíveis ao comprador, que permitem, de uma forma versátil e rápida, obter fotografias verticais do terreno. Esta curiosidade despelotou o aparecimento de comunidades Open Source e comerciais, tanto no desenvolvimento do hardware, como também nos softwares para processamento de imagem, </small>
+                                        </div>
+                                    </td>
+                                   	<td>Ana Rodrigues</td>
+                                    <td>
+                                        <a href="http://sigarra.up.pt/fcup/pt/web_page.inicial" target="_blank">FCUP</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk14">
+                                	<td>
+                                        18h00 - 18h15</td>
+                                    <td>
+                                		Drones & Detecção</td>
+                                    <td>
+                                        <span class="titl insp">Sistemas de Informação Geográfica na documentação de bens culturais: aplicabilidade a uma pintura do século XVI da colecção particular do seminário maior do Porto</span><a href="../sasig2015/files/keynotes/FREDERICO_HENRIQUES.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/20_SASIG2015_Frederico_HENRIQUES.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk14">
+                                            <small class="abs">
+                                               A apresentação irá foca na combinação no uso dos SIG, já que têm a particularidade de ter na sua matriz computacional a capacidade de conjugar a visualização da informação gráfica, a operação de bases de dados com informação alfanumérica, e outras funcionalidades (algoritmos) passíveis de utilizar na caracterização das superfícies pictóricas. </small>
+                                        </div>
+                                    </td>
+                                   	<td>Frederico Henriques</td>
+                                    <td>
+                                        <a href="www.porto.ucp.pt/" target="_blank">UCP</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        18h20 - 18h35</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                
+                                
+                                <tr class="accordion-toggle" data-target="#tlk17">
+                                	<td>
+                                        18h40 - 19h20</td>
+                                    <td>
+                                		OSGeo-PT</td>
+                                    <td>
+                                        <span class="titl insp">Assembleia Geral</span>
+                                        <div class="panel collapse" id="tlk17">
+                                            <small class="abs">
+                                                </small>
+                                        </div>
+                                    </td>
+                                   	<td></td>
+                                    <td>
+                                        <a href="" target="_blank"></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                          
+                                                
+                      </div>
+                      <div class="tab-pane fade" id="d25" style="padding-top: 35px; padding-bottom: 100px;">
+                                                  <table class="table table-bordered table-striped prog">
+
+                            <thead>
+                                <tr>
+                                    <th width="11%">
+                                        Horas</th>
+                                    <th width="15">
+                                    	Painel</th>
+                                    <th width="57%">
+                                        Título</th>
+                                    <th width="17%">
+                                        Orador</th>
+                                    <th width="15%">
+                                        Entidade(s)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        9h30</td>
+                                    <td>
+                                    	Abertura
+                                    	</td>
+                                    <td>
+                                        Abertura do 2º dia + Coffee Break</td>
+                                    <td>
+                                        OSGeo-pt</td>
+                                    <td>
+                                        <a href="http://osgeopt-pt" target="_blank">OSGeo-PT</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk26">
+                                	<td>
+                                        09h40 - 09h55</td>
+                                    <td>
+                                		Recursos Naturais - II</td>
+                                    <td>
+                                        <span class="titl insp">Aplicação do modelo de simulação hidráulica epanet integrado com sistemas de informação geográfica. Estudo de caso: sub-bloco do aproveitamento hidroagrícola da Cova da Beira</span><a href="../sasig2015/files/keynotes/luisa_vaz_SASIG.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/18_Luisa_Vaz_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk26">
+                                            <small class="abs">
+                                               Modelos de simulação hidráulica para a tomada de decisão. A utilização destes modelos beneficia da sua integração em Sistemas de Informação Geográfica (SIG), aumentando as potencialidades e funcionalidades da análise efetuada pelo modelo. Neste trabalho pretendeu-se integrar o modelo de simulação hidráulica EPANET no SIG QGIS para a simulação hidráulica de um sub-bloco de regadio do Aproveitamento Hidroagrícola da Cova da Beira.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Luísa Vaz</td>
+                                    <td>
+                                        <a href="http://www.ipcb.pt/ESA/" target="_blank">ESA - IPCB</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk25">
+                                	<td>
+                                        10h00 - 10h15</td>
+                                    <td>
+                                		Recursos Naturais - II</td>
+                                    <td>
+                                        <span class="titl insp">Influência da estrutura da paisagem nas comunidades de passeriformes no centro de Portugal</span>
+                                        <a href="../sasig2015/files/keynotes/2015_SASIG_Fernandez_v2.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/16_Luis_QuintaNova_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk25">
+                                            <small class="abs">
+                                                O presente trabalho tem como objetivo identificar a relação existente entre as comunidades de passeriformes que nidificam na região Centro de Portugal e a composição e estrutura da paisagem desse território. A informação referente à ocupação do solo foi processada no programa QGIS, com recurso ao plug-in LecoS. Os dados produzidos, juntamente com a informação referente à presença/ausência das espécies de aves, foram posteriormente submetidos a uma análise de estatística multivariada com o intuito de correlacionar a ocorrência das espécies com a estrutura da paisagem e topografia.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Luís Quinta-Nova</td>
+                                    <td>
+                                         <a href="http://www.ipcb.pt/ESA/" target="_blank">ESA - IPCB</a></td>
+                                
+                                <tr>
+                                <tr class="accordion-toggle" data-target="#tlk18" data-toggle="collapse">
+                                    <td>
+                                        10h20 - 10h50</td>
+                                    <td>
+                                    	Convidados</td>
+                                	<td>
+                                        <span class="titl insp">Autarquia-Livre: A história de uma migração</span><a href="../sasig2015/files/keynotes/pedro_henriques.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <small class="panel collapse" id="tlk18">
+                                            <p class="abs">
+                                                </small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                       Pedro Henriques</td>
+                                    <td>
+                                        <a href="www.cm-ourem.pt/" target="_blank">Câmara Municipal de Ourém</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        11h00 - 11h10</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk19">
+                                	<td>
+                                        11h15 - 11h45</td>
+                                    <td>
+                                    	Convidados</td>
+                                    <td>
+                                        <span class="titl insp">Open Geospatial Science</span><a href="../sasig2015/files/keynotes/suchith_OpenGeoScience.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk19">
+                                            <small class="abs">
+                                                </small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Suchith Anand</td>
+                                    <td>
+                                        <a href="http://www.nottingham.ac.uk/" target="_blank">Universidade de Nottingham</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk20">
+                                	<td>
+                                        11h45 - 12h15</td>
+                                    <td>
+                                		Convidados</td>
+                                    <td>
+                                        <span class="titl insp">Horizontes no Panorama da Ciência de Dados Espaciais</span><a href="../sasig2015/files/keynotes/joana_simoes_sasig.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk20">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Joana Simões</td>
+                                    <td>
+                                        <a href="http://eurecat.org/" target="_blank">Eurecat</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk21" data-toggle="collapse">
+                                	<td>
+                                        12h15</td>
+                                    <td>
+                                		Debates</td>
+                                    <td>
+                                        <span class="titl insp">Mesa Redonda ISCTE - Open Source e Modelos de Negócio</span>
+                                        <div class="panel collapse" id="tlk21">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        </td>
+                                    <td>
+                                        <a href="" target="_blank"></a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        12h45 <BR>-<BR> 14h00</td>
+                                    <td colspan="4" height="100px" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        <br>
+                                        PAUSA PARA<br>
+                                        ALMOÇO</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk19">
+                                	<td>
+                                        14h00 - 14h30</td>
+                                    <td>
+                                    	Convidados</td>
+                                    <td>
+                                        <span class="titl insp">Open Source Spatial IT: only a true mature alternative when there is regular commercial support</span><a href="../sasig2015/files/keynotes/Boundless_SASIG_2015.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk19">
+                                            <small class="abs">
+                                                </small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Marc Vloemans</td>
+                                    <td>
+                                        <a href="http://boundlessgeo.com/" target="_blank">Boundless</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk19">
+                                	<td>
+                                        14h30 - 15h00</td>
+                                    <td>
+                                    	Convidados</td>
+                                    <td>
+                                        <span class="titl insp">CartoDB from the inside out</span><a href="http://www.slideshare.net/xurxosanz/cartodb-inside-out" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk19">
+                                            <small class="abs">
+                                                Uma visão técnica de como CartoDB aproveita as capacidades do Postgis e do Mapnik para mapear os dados do mundo.</small>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Jorge Sanz</td>
+                                    <td>
+                                        <a href="https://cartodb.com/" target="_blank">CartoDB</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15h00 - 15h10</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk22">
+                                	<td>
+                                        15h15 - 15h30</td>
+                                    <td>
+                                		Administração Central / Local</td>
+                                    <td>
+                                        <span class="titl insp">Vetorização do cadastro geométrico da propriedade rústica do concelho de Aljustrel</span><a href="../sasig2015/files/keynotes/QGIS_CADASTRO_SASIG.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <a href="../sasig2015/files/10_Ines_Guerreiro_Sara_Santos_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk22">
+                                            <small class="abs">
+                                                Este trabalho teve como objetivo converter em formato digital o CGPR, do concelho de Aljustrel. Para este estudo foi necessário compreender a sua definição e assimilar vários conceitos ligados ao cadastro que se tornam fundamentais para a vectorização das secções cadastrais. É apresentada a metodologia que foi utilizada para a vectorização das secções cadastrais e as várias etapas percorridas até se conseguir o produto final.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Sara Santos</td>
+                                    <td>
+                                        <a href="http://www.mun-aljustrel.pt/default.aspx" target="_blank">CM Aljustrel</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk23">
+                                	<td>
+                                        15h35 - 15h50</td>
+                                    <td>
+                                		Administração Central / Local</td>
+                                    <td>
+                                        <span class="titl insp">Criação e implementação do SGRR – sistema de gestão de rede rodoviária para o Município de Rio Maior</span><a href="../sasig2015/files/keynotes/hugo/sgrr.html" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/15_Pedro_Simões_Hugo_Santos_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk23">
+                                            <small class="abs">
+                                                O presente artigo visa apresentar trabalho realizado no Município de Rio Maior, onde se procedeu a criação e implementação de um Sistema de Gestão da Rede Rodoviária (SGRR), a realização deste trabalho resultou de um conjunto de fatores, como a necessidade de avaliação da rede viária, as competências na gestão da rede viária municipal e as restrições financeiras das autarquias.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Hugo Santos</td>
+                                    <td>
+                                        <a href="http://www.cm-riomaior.pt/" target="_blank">CM Rio Maior</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk24">
+                                	<td>
+                                        15h55 - 16h10</td>
+                                    <td>
+                                		Administração Central / Local</td>
+                                    <td>
+                                        <span class="titl insp">A Administração Local na Cloud: uma transição inevitável</span><a href="http://prezi.com/_us5nm8qsct6/?utm_campaign=share&utm_medium=copy&rc=ex0share" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/11_Miguel_Tavares_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk24">
+                                            <small class="abs">
+                                                O suporte digital, o software open source e a cloud criaram um novo paradigma que pode suportar, mais do que nunca, uma nova forma de colaboração na administração local. Canalizando os investimentos para a colaboração, em vez de continuar a apostar em soluções próprias de software e de alojamento, os municípios poderão conseguir desenvolver  mais e melhores aplicações. Este racional tem vindo a ser ensaiado num projeto internacional denominado STORM Clouds, que é apresentado e discutido nesta comunicação.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Miguel Tavares</td>
+                                    <td>
+                                        <a href="https://www.cm-agueda.pt/" target="_blank">CM Águeda</a></td>
+                                <tr>
+                                    <td>
+                                        16h15 - 16h25</td>
+                                    <td colspan="4" style="background:#E0E0E0;color:#707070;text-align:center;">
+                                        PAUSA / COFFEE BREAK</td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk27">
+                                	<td>
+                                        16h30 - 16h45</td>
+                                    <td>
+                                		Case Studies</td>
+                                    <td>
+                                        <span class="titl insp">GISON3DMAP - Comunicação Geográfica sobre Modelos Físicos de Terreno com Recurso a Componenes OpenSource</span><a href="../sasig2015/files/keynotes/gison3dmap-SASIG2015.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a>
+                                        <div class="panel collapse" id="tlk27">
+                                            <small class="abs">
+                                               </small>
+                                        </div>
+                                    </td>
+                                   	<td>Carlos Coucelo</td>
+                                    <td>
+                                        <a href="http://www.cccgeo.com/" target="_blank">CCCGeomática</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk27" data-toggle="collapse">
+                                	<td>
+                                        16h50 - 17h05</td>
+                                    <td>
+                                		Case Studies</td>
+                                    <td>
+                                        <span class="titl insp">Vinhos que pensam: plataforma tecnológica</span><a href="../sasig2015/files/keynotes/jose_duarte_sasig2015.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/17_José_Duarte_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk27">
+                                            <small class="abs">
+                                               Este artigo detalha uma plataforma webSIG, onde cada empresário agrícola pode consultar informação detalhada das suas parcelas. Relatórios gerados de forma automática, onde os dados são apresentados de uma forma organizada e simples, permitem apoiar a tomada de decisão e facilitar a definição de estratégias de tratamento diferenciado das parcelas e respetivas culturas.</small>
+                                        </div>
+                                    </td>
+                                   	<td>José Duarte</td>
+                                    <td>
+                                        <a href="http://www.uevora.pt/" target="_blank">Universidade de Évora</a></td>
+                                </tr>
+                                <tr class="accordion-toggle" data-target="#tlk28">
+                                	<td>
+                                        17h10 - 17h25</td>
+                                    <td>
+                                		Case Studies</td>
+                                    <td>
+                                        <span class="titl insp">O sistema de indicadores OTALEX C – SIO: Laboratório de ideias na aplicação da tecnologia opensource à infraestruturas de dados espaciais</span><a href="../sasig2015/files/keynotes/SIOtalex_SASIG_TeresaBatista.pdf" target="_blank"><i class="fa fa-bullhorn "></i></a><a href="../sasig2015/files/19_20150817_OTALEX_SASIG2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+                                        <div class="panel collapse" id="tlk29">
+                                            <small class="abs">
+                                              O sistema de indicadores OTALEX C (SIO) é uma das componentes da Infraestrutura de Dados Espaciais (IDE) OTALEX C (www.ideotalex.eu). Foi criado a partir da conceção de um sistema de indicadores, territoriais, ambientais, sociais e económicos para as regiões do Alentejo, Extremadura e Centro, que permitisse a caracterização e monitorização do desenvolvimento destas regiões transfronteiriças, e incorporado na IDE-OTALEX (www.ideotalex.eu), integrando algumas funcionalidades não muito usuais nas IDE’s, tais como a componente temporal, com visualização de alterações ao longo do tempo, a criação de relatórios por área geográfica e espaço temporal, a filosofia do open data, entre outros.</small>
+                                        </div>
+                                    </td>
+                                   	<td>Teresa Batista</td>
+                                    <td>
+                                        <a href="https://www.cimac.pt/pt/P%C3%A1gina%20Inicial%20CIMAC.htm" target="_blank">CIMAC</a></td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                        17h30 - 17h40</td>
+                                    <td>
+                                		OSGeo-PT</td>
+                                    <td>
+                                        <span class="titl insp">Encerramento</span>
+                                        <div class="panel collapse" id="tlk30">
+                                            <p class="abs">
+                                                </p>
+                                        </div>
+                                    </td>
+                                   	<td></td>
+                                    <td>
+                                        <a href="" target="_blank"></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                        </div>
+                    
+
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+</section>
+    <!-- Portfolio Section
+    ==========================================-->
+    <div id="tf-works">
+        <div class="container"> <!-- Container -->
+            <div class="section-title text-center center">
+                <h2>as últimas<strong> sobre o SASIG</strong></h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <p>Aqui podes ficar com as últimas sobre o evento, desde de oradores convidados, workshops até aos patrocinadores do SASIG de 2015.</p>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="categories">
+                
+                <ul class="cat">
+                    <li class="pull-left"><h4>filtro:</h4></li>
+                    <li class="pull-right">
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">Todos</a></li>
+                            <li><a href="#" data-filter=".web">Oradores</a></li>
+                            <li><a href="#" data-filter=".sponsors">Patrocionadores</a></li>
+                            <li><a href="#" data-filter=".app" >Workshops</a></li>
+                            <li><a href="#" data-filter=".outros" >Outros</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="lightbox" class="row">
+
+            <div class="col-sm-6 col-md-3 col-lg-3 sponsors">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="pos_sasig.html">
+                                <div class="hover-text">
+                                    <h4>Pós SASIG 2015</h4>
+                                    <small>05/10/2015</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/pos_sasig.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-3 sponsors">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="xlm.html">
+                                <div class="hover-text">
+                                    <h4>Patrocinador Prata - XLM</h4>
+                                    <small>20/07/2015</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/xlm_thumb.png" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+             <div class="col-sm-6 col-md-3 col-lg-3 outros">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="alt_datas_sasig.html">
+                                <div class="hover-text">
+                                    <h4>Call 4 Papers - Nova data</h4>
+                                    <small>02/05/2015</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/02_.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="01.html">
+                                <div class="hover-text">
+                                    <h4>O Site do SASIG</h4>
+                                    <small>20/05/2015</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/01_.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <!-- Clients Section
+    ==========================================-->
+    <div id="tf-clients" class="text-center">
+        <div class="overlay">
+            <div class="container">
+
+                <div class="section-title center">
+                    <h2>Patrocionadores<strong> do sasig</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="clearfix"></div>
+                <p>Seja um dos nosso patrocinadores, acesse <a href="#aboutModal" data-toggle="modal" data-target="#patrocinadores">
+ 				 aqui </a> ao guia do patrocinador!</p>              
+
+<!-- Modal -->
+ <div id="tf-clients2" class="text-center">
+<div class="modal fade" id="patrocinadores" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Procuramos patrocinadores...</h4>
+      </div>
+      <div class="modal-body">...para um evento único no sector SIG e Open Source em Portugal.
+								Se é uma empresa que se dedica ao desenvolvimento de software e à prestação de serviços baseados em tecnologias Open Source, terá na SASIG uma excelente oportunidade de promoção e marketing.<br>
+								<p></p>
+								Se é uma organização pública ou privada que utiliza este tipo de tecnologia, tem na SASIG uma oportunidade de promover as suas iniciativas e de apoiar a tecnologia que utiliza – e a sua comunidade de utilizadores e programadores – tornando-a mais sustentável.</div> <br>
+								<p></p>
+								Quer saber mais? Acesse <a href="http://bit.ly/1AeSkiR" target="_blank" >aqui ao guia de patrocinador</a>
+								 <br>
+								<p></p>
+								 <br>
+								<p></p>
+				<div class="info">Contactos:</div>
+                <div class="info">email: sasig2015@osgeopt.pt</div>
+                <div class="info">web: www.osgeopt.pt</div>
+                <div class="info">Tel: 969570587</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-xs-12 col-md-3 col-sm-3 col-lg-12  ss-block">
+<h3 class="btn btn-default btn-lg">Prata</h3></div>
+
+<div class="row row-centered" style="margin-left: 210px">
+	
+	<div class="col-xs-6 col-md-5 col-sm-3 col-lg-3 col-centered " 
+	style="margin-top: 15px;">
+	<a href="" target="_blank"><img src="img/client/seja.png"></a>
+	</div>
+
+	<div class="col-xs-6 col-md-5 col-sm-3 col-lg-3 col-centered " 
+	style="margin-top: 15px;"><a href="http://www.xlm.pt" target="_blank"><img src="img/client/XLM.png"></a>
+	</div>
+
+	<div class="col-xs-6 col-md-5 col-sm-3 col-lg-3 col-centered " 
+	style="margin-top: 15px;">
+	<a href="" target="_blank"><img src="img/client/seja.png"></a>
+	</div>
+
+
+	
+                  
+    </div>
+    <h3 class="btn btn-sponsor btn-lg">Bronze</h3>
+
+                <div class="row row-centered" style="margin-left: 210px">
+				
+				<div class="col-xs-6 col-md-5 col-sm-3 col-lg-3 col-centered " 
+				style="margin-top: 15px;">
+				<a href="" target="_blank"><img src="img/client/seja.png"></a>
+				</div>
+
+				<div class="col-xs-6 col-md-5 col-sm-3 col-lg-3 col-centered " 
+				style="margin-top: 15px;"><a href="http://gison3dmap.com/" target="_blank"><img src="img/client/coucelo.png"></a>
+				</div>
+
+				<div class="col-xs-6 col-md-5 col-sm-3 col-lg-3 col-centered " 
+				style="margin-top: 15px;">
+				<a href="" target="_blank"><img src="img/client/seja.png"></a>
+				</div>
+
+            </div>
+
+      <h3 class="btn btn-success btn-lg">Apoios</h3>
+
+             <div>
+             	
+            <br>
+                <p>O SASIG 2015 seria muito mais difícil de realizar sem o apoio de:</p>
+
+                <div class="row row-centered" style="margin-left: 140px">
+				
+				<div class="col-xs-2 col-xs-15 col-centered " 
+				style="margin-top: 15px;">
+				<a href="http://www.dgterritorio.pt/" target="_blank"><img src="img/client/dgt.png"></a>
+				</div>
+
+				<div class="col-xs-2 col-xs-15 col-centered " 
+				style="margin-top: 15px;"><a href="http://www.iscte-iul.pt/home.aspx" target="_blank"><img src="img/client/iscte.png"></a>
+				</div>
+
+				<div class="col-xs-2 col-xs-15 col-centered " 
+				style="margin-top: 15px;">
+				<a href="http://geomati.co/" target="_blank"><img src="img/client/geomatico.png"></a>
+				</div>
+				<div class="col-xs-2 col-xs-15 col-centered " 
+				style="margin-top: 15px;">
+				<a href="http://www.naturalgis.pt/" target="_blank"><img src="img/client/ngis.png"></a>
+				</div>
+				<div class="col-xs-2 col-xs-15 col-centered " 
+				style="margin-top: 15px;">
+				<a href="http://metsa.pt/" target="_blank"><img src="img/client/metsa.png"></a>
+				</div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Inscrição
+    ==========================================-->
+    <div id="tf-contact" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="section-title center">
+                        <h2>Inscreve-te<strong> no sasig</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- <p>As inscrições para o SASIG, serão realizadas aqui, por isso fica atento!</p> -->
+                        <!-- <p>As inscrições para o SASIG, vão ficar disponíves no dia 22 de Junho, com uma pequena, mas boa surpresa!</p>
+-->
+                            <!-- inscrição -->
+<br>
+
+               <div class="col-md-8 col-md-offset-2">
+					
+                    <div class="panel panel-warning panel-pricing">
+                        <div class="panel-heading">
+                            <i class="fa fa-ticket"></i>
+                            <h3>Custos de Inscrição </h3>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p><strong>Reserva já o teu lugar!</strong></p>
+                        </div>
+                        <ul class="list-group text-center">
+                            <li class="list-group-item">0 <i class="fa fa-eur"></i> Orador</li>
+                            <li class="list-group-item">15 <i class="fa fa-eur"></i> Inscrição estudante  <small>(necessário envio de comprovativo)</small></li>
+                            <li class="list-group-item"><s>20 </s><i class="fa fa-eur"></i> <em><s>Early Bird</s></em> <small><s>(para as 1ªs 50 inscrições até 18 de Julho)</s></small></li>
+                            <li class="list-group-item">30 <i class="fa fa-eur"></i> <em>Inscrição Normal</em> <small>(inscrições abertas)</small></li>
+                            <li class="list-group-item">0 <i class="fa fa-eur"></i> <em>"Borlas" - Estudantes de Licenciatura</em> <small>(inscrições abertas) <br>(para as 1ºs 50 inscrições de estudantes de Licenciatura - obrigatório envio comprovativo da situação) </small></li>
+                            <li class="list-group-item">20 <i class="fa fa-eur"></i> <em>Workshop's</em> <small>(inscrições abertas - valor acresce ao da inscrição na conferência ) <br>Acesso a dois workshop's durante o dia 23 de setembro</small></li>							
+							</ul>
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-warning" href="inscricao.html">Inscreve-te!</a>
+                        </div>
+                    </div>
+                </div>
+				
+				         		  
+                  		  <div class="col-md-12"><h3 class="head text-center">Instruções para inscrição no SASIG:</h3>
+                		  <div class="col-md-3"><p class="narrow"><small>1.<br>Clicar em "Inscreve-te" e preencher o formulário<br><br></small></p></div>
+						  <div class="col-md-3"><p class="narrow"><small>2.<br>Efetuar pagamento - NIB para transferência - 0035 0823 00009639430 32<br><br></small></p></div>
+						  <div class="col-md-3"><p class="narrow"><small>3.<br>Enviar comprovativos, estudante e/ou pagamento - para sasig2015@osgeopt.pt<br><br></small></p></div>
+						  <div class="col-md-3"><p class="narrow"><small>4.<br>Irá receber um email com confirmação da inscrição após validação<br><br></small></p></div>
+				
+				
+            </div>
+        
+
+    <!-- /inscriçao -->
+
+                        
+                        <!-- 
+                        <p class="text-center">
+                        <a href="https://goo.gl/BxhBc5" target="_blank" class="btn btn-success btn-outline-rounded green">Inscrição.</a>
+                        <p>A inscrição no SASIG tem um custo de:</p>
+                        <p>       Inscrição normal - 20 Euros </p>
+                        <p>       Inscrição estudante - 10 Euros </p>
+                        <p>       Inscrição oradores - 0 Euros </p>
+                        <!-- LINK PARA INSCRIÇÃO
+                        
+                        http://bit.ly/1IIVqyi -->
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav">
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014 OSGEO-PT. Design adapted from <a href="https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template">Robert Berki</a> and Coded by <a href="https://dribbble.com/jennpereira">Jenn Pereira</a></p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/osgeopt"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://google.com/+OsgeoptPt1"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://twitter.com/OSGeoPT"><i class="fa fa-twitter"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-flickr"></i></a></li> -->
+                    <li><a href="http://github.com/osgeo-pt"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Javascripts
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/soon/plugins.js"></script>
-    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/soon/custom.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-63787579-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0];
+    	s.parentNode.insertBefore(ga, s);})();
+    </script>
   </body>
-  <!-- END BODY -->
 </html>

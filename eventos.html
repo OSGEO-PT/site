@@ -1,0 +1,31 @@
+---
+layout: blog
+title: Eventos Passados
+permalink: /eventos/
+---
+
+<div class="container mtb">
+    <div class="row">
+
+        <! -- BLOG POSTS LIST -->
+        <div class="col-lg-8">
+
+            {% for post in site.categories['eventos'] %}
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ "/assets/img/eventos_passados/" | prepend: site.baseurl }}{{ post.img }}">
+                </a> 
+                <a><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Ler mais]</a></p>
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar_sasigs.html %}
+
+    </div><! --/row -->
+</div><! --/container -->

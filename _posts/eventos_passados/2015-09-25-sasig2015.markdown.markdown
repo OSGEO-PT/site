@@ -1,0 +1,57 @@
+---
+layout: sasigs
+title:  "SASIG 2015  - 6ªs Jornadas de Software Aberto para Sistemas de Informação Geográfica"
+date:   2015-11-03 18:30:00
+author: OSGeo-PT
+categories:
+- eventos
+img: sasig_2015.png
+thumb: thumb_sasig_2015.png
+---
+#### Local:
+Lisboa - ISTAR-IUL (ISCTE)
+
+#### Datas:
+24 e 25 de Setembro de 2015
+
+#### Organização:
+OSGeo-PT, ISTAR-IUL (ISCTE)
+
+#### Comissão Científica: 
+Carlos Costa, ISCTE<br>
+Victor Ferreira, FA da U. Lisboa<br>
+Artur Gil, Universidade dos Açores<br>
+José Alberto Gonçalves, Univ. Porto<br>
+André Mano, ITC, Holanda<br>
+Paulo Fernandez, IPCB<br>
+Rita Anastácio, IPT <br>
+Jorge Rocha - Univ. do Minho<br>
+Marco Paínho, ISEGI - UNL<br>
+Cristina Catita, FCUL<br>
+Teresa Batista, Univ. Évora <br>
+Francisco Gutierres, IGOT - UL <br>
+ 
+#### Site:
+[http://osgeopt.pt/sasig2015](http://osgeopt.pt/sasig2015){:target="_blank"}
+
+#### Oradores Convidados:
+Mário Caetano, Subdiretor-Geral do Território<br>
+Jeroen Ticheler, Inventor do GeoNetwork e Empresário Open Source (GeoCat)<br>
+Suchith Anand, Promotor do Ensino Aberto e Fundador do GeoForAll (University of Nottingham)<br>
+Joana Simões, Data Scientist no Centro Tecnológico da Catalunya<br>
+Pedro Henriques, Programador de SIG na Câmara Municipal de Ourém<br>
+Jorge Mendes de Jesus, Webdeveloper no ISRIC - World Soil Information<br>
+Jorge Sanz, Solutions Engineer - CartoDB<br>
+Marc Vloemans, Director EMEA - Boundless<br>
+ 
+#### Workshops:
+PostGIS <br>
+Serviços de dados geográficos INSPIRE (GEOSERVER)<br>
+QGIS Server (WMS, WFS, WCS) e Webmapping<br>
+Aquisição e Processamento de Dados com UAV<br>
+
+#### Patrocinadores:
+XLM - Innovations &amp; Technology<br>
+gison3dmap - Projecção de informação geográfica sobre mapas 3D
+
+
