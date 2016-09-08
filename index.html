@@ -1,86 +1,247 @@
----
-layout: index
-title: Home
-permalink: /
----
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>OSGEO Portugal - HUB</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="refresh" content="20;url=http://www.osgeopt.pt/" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-				<h4>O que nos move?</h4>
-                <p>Nascemos do interesse comum na promoção do software livre para Sistemas de Informação Geográfica.</p>
-                <p>À semelhança da OSGeo internacional, a OSGeo-PT é uma associação sem fins lucrativos com o objectivo de suportar e promover o desenvolvimento e a utilização de tecnologias, padrões, e dados Livres.</p>
-                <p><br/><a href="/about" class="btn btn-theme">Saber mais...</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>O que fazemos?</h4>
-                <p>A OSGeo tenta fomentar a colaboração e partilha dos membros da comunidade SIG portuguesa, acreditando sempre no poder da colaboração e é assim que desde de 2010 que através da partilha de ferramentas, ideias e processos em torno do SIG open-source</p>
-                <p>Escolhe como participar na comunidade!</p>
-                <p><br/><a href="/about" class="btn btn-theme">Saber mais...</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-calendar"></i>
-               <h4>Eventos & Iniciativas</h4>
-                <div class="list-group">
-			<a href="http://www.cmcalheta.pt/pt/noticias/em-destaque/19541-vamos-mapear-calheta" class="list-group-item active">
-			<h4 class="list-group-item-heading">21 - 22 Novembro</h4>
-			<p class="list-group-item-text">III OpenStreetMap Party Madeira, Calheta</p>
-			</a>
-			<a href="http://softwarelivre.cm-agueda.pt/drupal/?q=node/86" class="list-group-item">
-			<h4 class="list-group-item-heading">30 - 31 Outubro</h4>
-			<p class="list-group-item-text">Oficina De Dados Abertos 30 - 31 De Outubro, Águeda</p>
-			</a>			
-			<a href="http://europe.foss4g.org/2015/" class="list-group-item">
-			<h4 class="list-group-item-heading">14 - 17 de Julho</h4>
-			<p class="list-group-item-text">FOSS4G-Europe 2015 - Como, Itália</p>
-			</a>
-				<a href="http://2015.foss4g.org/" class="list-group-item">
-			<h4 class="list-group-item-heading">14 - 17 de Setembro</h4>
-			<p class="list-group-item-text">FOSS4G 2015 - Seul, Coreia do Sul</p>
-			</a>
-			<a href="http://osgeopt.pt/sasig2015/index.html" class="list-group-item">
-			<h4 class="list-group-item-heading">24 - 25 de Setembro</h4>
-			<p class="list-group-item-text">SASIG 2015 - Lisboa, Portugal</p>
-			</a>
-			<!--<a href="http://www.jiide.org/" target="_blank" class="list-group-item">
-			<h4 class="list-group-item-heading">5 - 7 NOV.</h4>
-		<p class="list-group-item-text">V Jornadas Ibéricas de Infraestruturas de Dados Espaciais</p>
-		</a>-->
-</div>	 				
-        </div>
-    </div><! --/container -->
-</div><! --/service -->
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-{% include portfolio.html title="Projectos OSGeo-PT" limit=10 %}
+							<!-- Logo--> 
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo_osgeo_pt.png" alt="" /></span><span class="title"></span>
+								</a>
 
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-5 col-lg-offset-1">
-                        <h4>Últimas...</h4>
-                        <div class="hline"></div>
-                        {% for post in site.categories['blog'] limit:10 %} 
-                        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-                        {% endfor %}
-                    </div>
-            
+							<!-- Nav
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-        <div class="col-lg-5">
-            <h4>Últimas da mailing list</h4>
-            <!--<p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">Saber mais</a></p>-->
-            <!-- start feedwind code --><script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "http://osgeo-org.1560.x6.nabble.com/OSGeo-Portuguese-Local-Chapter-ft3731409.xml",rssmikle_frame_width: "400",rssmikle_frame_height: "300",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "off",scrolldirection: "up",scrollstep: "5",mcspeed: "20",sort: "Off",rssmikle_title: "on",rssmikle_title_sentence: "OSGeo - PT",rssmikle_title_link: "",rssmikle_title_bgcolor: "#9ACD32",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#404040",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "text",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; width:400px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code -->
-        </div>
+						</div>
+					</header>
 
-        <!--<div class="col-lg-3">
-            <h4>Perguntas</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>-->
+					Menu 
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+-->
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Sejam bem vindos ao hub da OSGEO-PT.</h1>
+								<p>Aqui vocês podem escolher para "onde" querem ir, se ao nosso site, mailing list/forum, IRC, último SASIG, ao sítio dos associados ou à OSGEO-PT nas redes sociais. Caso não cliquem em nada, serão reencaminhados para o nosso site dentro de poucos segundos...</p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic01_2.png" alt="" />
+									</span>
+									<a href="http://www.osgeopt.pt">
+										<h2>Site</h2>
+										<div class="content">
+											<p>Toda a informação sobre a OSGeo-PT, uma associação sem fins lucrativos com o objectivo de promover a utilização de tecnologias, padrões e dados Livres.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/pic02_2.png" alt="" />
+									</span>
+									<a href="http://www.osgeopt.pt/osgeo-pt-mailing-list/">
+										<h2>Mailing list / Forum</h2>
+										<div class="content">
+											<p>Fala, discute ou pergunta à comunidade OSGeo-PT.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic03_2.png" alt="" />
+									</span>
+									<a href="http://osgeopt.pt/sasig2015/">
+										<h2>SASIG 2015 (FOSS4G)</h2>
+										<div class="content">
+											<p>O último ou próximo SASIG (FOSS4G).</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic04_2.png" alt="" />
+									</span>
+									<a href="http://facebook.com/osgeopt">
+										<h2>OSGeo-PT no Facebook</h2>
+										<div class="content">
+											<p>O Facebook da OSGeo-PT.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic05_2.png" alt="" />
+									</span>
+									<a href="https://twitter.com/OSGeoPT">
+										<h2>O Twitter da OSGeo-PT</h2>
+										<div class="content">
+											<p>A OSGeo-PT no Twitter.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic06_2.png" alt="" />
+									</span>
+									<a href="#">
+										<h2>O Canal da OSGeo-PT</h2>
+										<div class="content">
+											<p>O canal de youtube da OSGeo-PT, para muito breve e com muitas novidades.</p>
+										</div>
+									</a>
+								</article>
+								<!--<article class="style2">
+									<span class="image">
+										<img src="images/pic07.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ipsum</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic08.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Dolor</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic09.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Nullam</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic10.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ultricies</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic11.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Dictum</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic12.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Pretium</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>-->
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
 
-    </div><! --/row -->
-</div><! --/container -->
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<!--<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+								</ul>
+							</section>-->
+
+							<ul class="copyright">
+								<li>&copy; OSGeo-PT. All rights reserved</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
