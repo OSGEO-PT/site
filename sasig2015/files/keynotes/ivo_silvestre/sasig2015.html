@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GISWater na InfraQuinta</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      body {
+        font-family: 'Yanone Kaffeesatz';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #3E87D1;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2{
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 0em;
+        font-size:1.5em;
+      }
+      .right-column li { padding-bottom: 1.5em; }
+
+      .right-column img{
+          display: block;
+          margin: auto;
+          padding-top: 1em;
+      }
+    </style>
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: left, middle, inverse
+
+# GISWATER
+### Uma Solução Integrada para Gestão de Redes de Abastecimento de Água.
+### Um Caso de Estudo na Quinta do Lago.
+---
+
+.left-column[
+  ## Índice
+]
+.right-column[
+- A InfraQuinta
+- Cadastro da Rede de Distribuição de Água
+- GISWATER
+- O caso de estudo na Quinta do Lago
+- Conclusão e Trabalhos Futuros
+]
+---
+
+.left-column[
+  ## InfraQuinta
+]
+.right-column[
+- Entidade gestora das infraestruturas na Quinta do Lago
+
+ - Rede viária e espaços públicos
+ - Rede de distribuição de água
+ - Rede de drenagem de águas residuais e pluviais
+<img src="./images/logoInfraquinta2.png" width="40%"/>
+]
+---
+
+.left-column[
+  ## Cadastro da Rede de Distribuição de Água
+]
+.right-column[
+- Os SIG e o cadastro da rede de águas
+- Rede com topologia arco-nó (tubagens-acessórios)
+- Informação alfanumérica
+- Metadados
+
+]
+---
+
+.left-column[
+  ## Cadastro da Rede de Distribuição de Água
+]
+.right-column[
+<img src="./images/cadastro.jpg" width="100%"/>
+]
+---
+
+.left-column[
+  ## GISWATER
+]
+.right-column[
+- Software de código aberto desenvolvido pela associação GISWATER - Universidade Politécnica da Catalunha (BarcelonaTech) e a empresa BGEO
+- Fornecer à comunidade uma solução aberta para a gestão de infraestruturas de águas, águas residuais e pluviais
+- Comunicar programas de simulação hidráulica com bases de dados geográficos através de um SIG desktop
+<img src="./images/giswater_01.jpg" width="70%"/>
+]
+---
+
+.left-column[
+  ## GISWATER
+  v. 1.1.225 (29 Julho,  2015)
+
+  Código fonte disponível em: https://github.com/Giswater
+]
+.right-column[
+- Interligação entre o PostgreSQL+PostGIS / EPANET / QGIS
+- Principais vantagens:
+
+ - Gestão e organização de dados
+ - Integração com outros sistemas (telemetria SCADA, software de facturação e gestão de clientes)
+ - GUI intuitivo para gerar projectos QGIS e modelos EPANET
+]
+---
+
+.left-column[
+  ### GUI GISWATER
+]
+.right-column[
+<img src="./images/giswater_04.jpg" width="50%"/>
+
+- Conecção a bases de dados PostgreSQL
+- Criação de projectos QGIS
+- Gestão de schemas (projectos EPANET)
+]
+---
+
+.left-column[
+  ### GUI GISWATER
+]
+.right-column[
+<img src="./images/giswater_03.jpg" width="55%"/>
+
+Facilidade em isolar sectores:
+ - Geração de modelos hidráulicos de zonas especificas
+ - Bastante útil no processo de calibração de modelos
+]
+---
+
+class: center, middle, inverse
+
+<img src="./images/qdl.jpg" width="80%"/>
+# O caso de estudo na Quinta do Lago
+---
+
+.left-column[
+  ### Processo de migração
+]
+.right-column[
+<img src="./images/migracao.jpg" width="80%"/>
+
+ - Maior velocidade no acesso aos dados
+ - BD GISWater com modelo de dados EPANET
+ - Queries a "tabelas EPANET" e queries espaciais PostGIS
+ - Facilidade de manipulação de ficheiros INP com GISWater
+]
+---
+
+.left-column[
+  ### Ficheiro INP (EPANET)
+]
+.right-column[
+<img src="./images/inp_file.jpg" width="110%"/>
+]
+---
+
+.left-column[
+  ### Arquitectura da base de dados
+]
+.right-column[
+<img src="./images/giswater_02.jpg" width="70%"/>
+
+- Alteração da estrutura para introdução de dados de consumo horários
+]
+---
+
+class: middle
+
+<img src="./images/ambienteTrabalho.jpg" width="100%"/>
+
+Ambiente de trabalho
+---
+
+.left-column[
+  ##Conclusão
+]
+.right-column[
+- Organização de dados (dados geográficos e dados de consumos horários)
+- Gestão mais eficiente de dados
+- Facilidade em gerar ficheiros INP para o EPANET
+- Ferramenta de suporte e apoio à decisão
+]
+---
+
+.left-column[
+  ##Trabalhos futuros
+]
+.right-column[
+- Criação de modelos hidráulicos em tempo real --> Planeamento diário
+- Disponibilização de informação interna e externamente através de aplicações Web (WebSIG e epanet.js)
+- Apoio à manutenção e operação da rede de distribuição de água
+- Aplicação em redes de drenagem de águas residuais domésticas e pluviais (EPA SWMM e HEC-RAS)
+]
+---
+
+class: center, middle, inverse
+
+# Obrigado!
+<br></br>
+## Ivo Silvestre
+#### ivo.silvestre@infraquinta.pt
+
+<img src="./images/logoInfraquinta.png" width="20%"/>
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
