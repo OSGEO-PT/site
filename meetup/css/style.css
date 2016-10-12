@@ -228,7 +228,9 @@ a span.ti-twitter-alt {
 	margin-top: 4em;
 }
 .schedule .media-object {
-	max-width: 100px;
+	max-width: 95px;
+    border: 4px solid #efefef;
+    border-radius: 50%;
 }
 .schedule .media-heading {
 	font-weight: 600;
