@@ -160,6 +160,20 @@
 							$menu._hide();
 
 				});
+				
+				var geocatAnim = document.getElementById("geocaticon").animate(
+				  [
+					{ transform: 'translate3D(75%, 0, 0)', opacity: '0' },
+					{ transform: 'translate3D(0, 0, 0)', opacity: '1' }
+				  ], {
+					delay: 2500,
+					duration: 800,
+					iterations: 1
+				  }
+				);
+				geocatAnim.onfinish = function() {
+					document.getElementById("geocaticon").style.opacity = 1;
+				}
 
 	});
 
