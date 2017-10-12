@@ -148,7 +148,7 @@
 
 					event.stopPropagation();
 					event.preventDefault();
-h
+
 					// Toggle.
 						$menu._toggle();
 
