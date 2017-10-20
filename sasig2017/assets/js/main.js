@@ -161,6 +161,7 @@
 
 				});
 				
+				/*
 				var geocatAnim = document.getElementById("geocaticon").animate(
 				  [
 					{ transform: 'translate3D(75%, 0, 0)', opacity: '0' },
@@ -174,6 +175,7 @@
 				geocatAnim.onfinish = function() {
 					document.getElementById("geocaticon").style.opacity = 1;
 				}
+				**/
 
 	});
 
